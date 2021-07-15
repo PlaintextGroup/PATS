@@ -1,0 +1,4437 @@
+author_name,neurips_2019_affil
+Risto Vuorio,University of Michigan
+Shao-Hua Sun,University of Southern California
+Hexiang Hu,University of Southern California
+Joseph Lim,University of Southern California
+Jiasen Lu,Georgia Tech
+Dhruv Batra,Georgia Tech / Facebook AI Research (FAIR)
+Devi Parikh,Georgia Tech / Facebook AI Research (FAIR)
+Stefan Lee,Georgia Institute of Technology
+Liwei Wu,"University of California, Davis"
+Shuqing Li,"University of California, Davis"
+Cho-Jui Hsieh,UCLA
+James Sharpnack,UC Davis
+Jiawang Bian,The University of Adelaide
+Zhichao Li,Tusimple
+Naiyan Wang,Hong Kong University of Science and Technology
+Huangying Zhan,The University of Adelaide
+Chunhua Shen,University of Adelaide
+Ming-Ming Cheng,Nankai University
+Ian Reid,University of Adelaide
+Hyeonwoo Yu,Seoul National University
+Beomhee Lee,Seoul National University
+Brian Lubars,University of Colorado Boulder
+Chenhao Tan,University of Colorado Boulder
+Niki Parmar,Google
+Prajit Ramachandran,Google Brain
+Ashish Vaswani,Google Brain
+Irwan Bello,Google Brain
+Anselm Levskaya,Google
+Jon Shlens,Google Research
+Ruben Villegas,Adobe Research / U. Michigan
+Arkanath Pathak,Google
+Harini Kannan,Google Brain
+Dumitru Erhan,Google Brain
+Quoc V Le,Google
+Honglak Lee,Google Brain
+Matthias Minderer,Google Research
+Chen Sun,Google Research
+Forrester Cole,Google Research
+Kevin Murphy,Google
+Yanping Huang,Google Brain
+Youlong Cheng,Google
+Ankur Bapna,Google
+Orhan Firat,Google
+Dehao Chen,Google
+Mia Chen,Google Brain
+HyoukJoong Lee,Google
+Jiquan Ngiam,Google Brain
+Yonghui Wu,Google
+zhifeng Chen,Google Brain
+Aravind Rajeswaran,University of Washington
+Chelsea Finn,Stanford University
+Sham Kakade,University of Washington
+Sergey Levine,UC Berkeley
+Andrew Ilyas,MIT
+Shibani Santurkar,MIT
+Dimitris Tsipras,MIT
+Logan Engstrom,MIT
+Brandon Tran,Massachusetts Institute of Technology
+Aleksander Madry,MIT
+Vineet Kosaraju,Stanford University
+Amir Sadeghian,Stanford University
+Roberto Martín-Martín,Stanford University
+Hamid Rezatofighi,Stanford University // University of Adelaide
+Silvio Savarese,Stanford University
+Xiaosong Zhang,University of Chinese Academy of Sciences
+Fang Wan,University of Chinese Academy of Sciences
+Chang Liu,University of Chinese Academy of Sciences
+Rongrong Ji,"Xiamen University, China"
+Qixiang Ye,"University of Chinese Academy of Sciences, China"
+Mark Bun,Boston University
+Gautam Kamath,University of Waterloo
+Thomas Steinke,IBM -- Almaden
+Steven Wu,University of Minnesota
+Or Sheffet,University of Alberta
+Vikrant Singhal,Northeastern University
+Jonathan Ullman,Northeastern University
+Paroma Varma,Stanford University
+Frederic Sala,Stanford
+Shiori Sagawa,Stanford University
+Jason Fries,Stanford University
+Daniel Fu,Stanford University
+Saelig Khattar,Stanford University
+Ashwini Ramamoorthy,Stanford University
+Ke Xiao,Stanford University
+Kayvon  Fatahalian,Stanford
+James Priest,Stanford University
+Christopher Ré,Stanford
+Tam Nguyen,Freiburg Computer Vision Lab
+Maximilian Dax,Bosch GmbH
+Chaithanya Kumar Mummadi,Bosch Center for Artificial Intelligence
+Nhung Ngo,Bosch Center for Artificial Intelligence
+Thi Hoai Phuong Nguyen,Karlsruhe Institute of Technology (KIT)
+Zhongyu Lou,Robert Bosch Gmbh
+Thomas Brox,University of Freiburg
+Vladimir V. Kniaz,IEEE
+Vladimir Knyaz,State Research Institute of Aviation Systems
+Fabio Remondino,"""Fondazione Bruno Kessler, Italy"""
+Dinghuai Zhang,Peking University
+Tianyuan Zhang,Peking University
+Yiping  Lu,Peking University
+Zhanxing Zhu,Peking University
+Bin Dong,Peking University
+Chao Yang,Tsinghua University
+Xiaojian Ma,"University of California, Los Angeles"
+Wenbing Huang,Tsinghua University
+Fuchun Sun,Tsinghua
+Huaping Liu,Tsinghua University
+Junzhou Huang,University of Texas at Arlington / Tencent AI Lab
+Chuang Gan,MIT-IBM Watson AI Lab
+Kimia Nadjahi,Télécom ParisTech
+Alain Durmus,ENS Paris Saclay
+Umut Simsekli,Institut Polytechnique de Paris/ University of Oxford
+Roland Badeau,Télécom ParisTech
+Soheil Kolouri,HRL Laboratories LLC
+Gustavo Rohde,University of Virginia
+Thanh Huy Nguyen,Telecom ParisTech
+Mert Gurbuzbalaban,Rutgers
+Gaël RICHARD,Télécom ParisTech
+Sefi Bell-Kligler,Weizmann Istitute of Science
+Assaf Shocher,Weizmann Institute of Science
+Michal Irani,Weizmann Institute of Science
+Alex Lamy,Columbia University
+Ziyuan Zhong,Columbia University
+Aditya Menon,Google
+Nakul Verma,Columbia University
+Bingzhe Wu,Peeking University
+Shiwan Zhao,IBM Research - China
+Haoyang Xu,Peking University
+Chaochao Chen,Ant Financial
+Li Wang,Ant Financial
+Xiaolu Zhang,Ant Financial Services Group
+Guangyu Sun,Peking University
+Jun Zhou,Ant Financial
+Xueting Li,"University of California, Merced"
+Sifei Liu,NVIDIA
+Shalini De Mello,NVIDIA
+Xiaolong Wang,CMU
+Jan Kautz,NVIDIA
+Ming-Hsuan Yang,Google / UC Merced
+Justin Domke,"University of Massachusetts, Amherst"
+Daniel Sheldon,University of Massachusetts Amherst
+David Rolnick,UPenn
+Arun Ahuja,DeepMind
+Jonathan Schwarz,"DeepMind & Gatsby Unit, UCL"
+Timothy Lillicrap,DeepMind & UCL
+Gregory Wayne,Google DeepMind
+Boris Hanin,Texas A&M
+Peter Anderson,Georgia Tech
+Ayush Shrivastava,Georgia Institute of Technology
+Yu Sun,Washington University in St. Louis
+Jiaming Liu,Washington University in St. Louis
+Ulugbek Kamilov,Washington University in St. Louis
+Tatjana Chavdarova,DeepMind & Mila & Idiap & EPFL
+Gauthier Gidel,Mila
+François Fleuret,Idiap
+Simon Lacoste-Julien,"Mila, Université de Montréal"
+Zihan Li,National University of Singapore
+Matthias Fresacher,University of Adelaide
+Jonathan Scarlett,National University of Singapore
+Hisham Husain,The Australian National University
+Richard Nock,"Data61, the Australian National University and the University of Sydney"
+Robert Williamson,Australian National University & Data61
+Congchao Wang,Virginia Polytechnic Institute and State University
+Yizhi Wang,Virginia Tech
+Yinxue Wang,Virginia Tech
+Chiung-Ting Wu,Virginia Tech
+Guoqiang Yu,Virginia Tech
+Qiming ZHANG,University of Sydney
+Jing Zhang,The University of Sydney
+Wei Liu,Tencent AI Lab
+Dacheng Tao,University of Sydney
+Patrick Putzky,University of Amsterdam
+Max Welling,University of Amsterdam / Qualcomm AI Research
+Nikolaos Tziavelis,Northeastern University
+Ioannis Giannakopoulos,National Technical University of Athens
+Katerina Doka,NTUA
+Nectarios Koziris,NTUA
+Panagiotis Karras,Aarhus University
+Maxime Bucher,Valeo.ai
+Tuan-Hung VU,Valeo.ai
+Matthieu Cord,Sorbonne University
+Patrick Pérez,Valeo.ai
+Chengzhi Mao,Columbia University
+Junfeng Yang,Columbia University
+Carl Vondrick,Columbia University
+Baishakhi Ray,Columbia University
+Qiangeng Xu,USC
+Weiyue Wang,Waymo
+Duygu Ceylan,Adobe Research
+ Radomir Mech,Adobe Systems Incorporated
+Ulrich Neumann,USC
+Zijun Gao,Stanford University
+Yanjun Han,Stanford University
+Zhimei Ren,Stanford University
+Zhengqing Zhou,Stanford University
+Fan-Yun Sun,National Taiwan University
+Meng Qu,Mila
+Jordan Hoffmann,Harvard University/Mila
+Chin-Wei Huang,MILA
+Jian Tang,Mila
+Garrett Bernstein,University of Massachusetts Amherst
+Yitian Yuan,Tsinghua University
+Lin Ma,Tencent AI Lab
+Jingwen Wang,Tencent AI Lab
+Wenwu Zhu,Tsinghua University
+Bichuan Guo,Tsinghua University
+Yuxing Han,South China Agriculture University
+Jiangtao Wen,Tsinghua University
+Changqing Zhang,Tianjin University
+Zongbo Han,Tianjin University
+yajie cui,tianjin university
+Huazhu Fu,Inception Institute of Artificial Intelligence
+Joey Tianyi Zhou,"IHPC, A*STAR"
+Qinghua Hu,Tianjin University
+Xihui Liu,The Chinese University of Hong Kong
+Guojun Yin,University of Science and Technology of China
+Jing Shao,Sensetime
+Xiaogang Wang,The Chinese University of Hong Kong
+hongsheng Li,cuhk
+Andrey Kolobov,Microsoft Research
+Yuval Peres,N/A
+Cheng Lu,Microsoft
+Eric Horvitz,Microsoft Research
+Nikolas Ioannou,IBM Research
+Celestine Mendler-Dünner,UC Berkeley
+Thomas Parnell,IBM Research
+Artem Sobolev,Samsung AI Center Moscow
+Dmitry Vetrov,"Higher School of Economics, Samsung AI Center, Moscow"
+Robert Gower,"Institut Polytechnique de Paris, Telecom Paris"
+Dmitry Koralev,KAUST
+Felix Lieder,Heinrich-Heine-Universität Düsseldorf
+Peter Richtarik,KAUST
+Yuhui Wang,Nanjing University of Aeronautics and Astronautics
+Hao He,Nanjing University of Aeronautics and Astronautics
+Xiaoyang Tan,"Nanjing University of Aeronautics and Astronautics, China"
+Yaozhong Gan,"Nanjing University of Aeronautics and Astronautics, China"
+Dina Bashkirova,Boston University
+Ben Usman,Boston University
+Kate Saenko,Boston University
+Othmane Sebbouh,Télécom ParisTech
+Nidham Gazagnadou,Télécom Paris
+Samy Jelassi,Princeton University
+Francis Bach,INRIA - Ecole Normale Superieure
+Armin Lederer,Technical University of Munich
+Jonas Umlauft,Technical University of Munich
+Sandra Hirche,Technische Universitaet Muenchen
+Chunjin Song,Shenzhen University
+Zhijie Wu,Shenzhen University
+Yang Zhou,Shenzhen University
+Minglun Gong,Memorial Univ
+Hui Huang,Shenzhen University
+Max Vladymyrov,Google Research
+Shaojie Bai,Carnegie Mellon University
+J. Zico Kolter,Carnegie Mellon University / Bosch Center for AI
+Vladlen Koltun,Intel Labs
+Gamaleldin Elsayed,"Google Research, Brain Team"
+Simon Kornblith,Google Brain
+Miaoyan Wang,University of Wisconsin - Madison
+Yuchen Zeng,University of Wisconsin - Madison
+Wang Chi Cheung,"Department of Industrial Systems Engineering and Management, National University of Singapore"
+Yong Guo,South China University of Technology
+Yin Zheng,"WeChat, Tencent"
+Mingkui Tan,South China University of Technology
+Qi Chen,South China University of Technology
+Jian Chen,"""South China University of Technology, China"""
+Peilin Zhao,Tencent AI Lab
+Ruidi Chen,Boston University
+Ioannis Paschalidis,Boston University
+Xuanyi Dong,University of Technology Sydney
+Yi Yang,UTS
+Junbang Liang,"University of Maryland, College Park"
+Ming Lin,University of Maryland - College Park
+Aaron Schein,UMass Amherst
+Scott Linderman,Stanford University
+Mingyuan Zhou,University of Texas at Austin
+David Blei,Columbia University
+Hanna Wallach,MSR NYC
+Gengshan Yang,Carnegie Mellon University
+Deva Ramanan,Carnegie Mellon University
+Adrian Dalca,"MIT, HMS"
+Marianne Rakic,MIT/ETH Zürich
+John Guttag,Massachusetts Institute of Technology
+Mert Sabuncu,Cornell
+Han Liu,Tsinghua University
+Zhizhong Han,"University of Maryland, College Park"
+Yu-Shen Liu,Tsinghua University
+Ming Gu,Tsinghua University
+Zhao Song,UT-Austin
+Ruosong Wang,Carnegie Mellon University
+Lin Yang,Johns Hopkins University
+Hongyang Zhang,TTIC
+Peilin Zhong,Columbia University
+Remi Cadene,Sorbonne University - LIP6
+Corentin Dancette,Sorbonne Université
+Hedi Ben younes,Université Pierre & Marie Curie / Heuritech
+Jinwoo Choi,Virginia Tech
+Chen Gao,Virginia Tech
+Joseph C. E. Messou,Virginia Tech
+Jia-Bin Huang,Virginia Tech
+Yichao Zhou,UC Berkeley
+Haozhi Qi,UC Berkeley
+Jingwei Huang,Stanford University
+Yi Ma,UC Berkeley
+Jianlong Chang,"National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences"
+xinbang zhang,"Institute of Automation,Chinese  Academy of Science"
+Yiwen Guo,Bytedance AI Lab
+GAOFENG MENG,"Institute of Automation, Chinese Academy of Sciences"
+SHIMING XIANG,"Chinese Academy of Sciences, China"
+Chunhong Pan,"Institute of Automation, Chinese Academy of Sciences"
+Tingting Qiao,Zhejiang University
+Duanqing Xu,Zhejiang University
+Miao Zhang,Dalian University of Technology
+Jingjing Li,Dalian University of Technology
+Wei Ji,Dalian University of Technology
+Yongri Piao,Dalian University of Technology
+Huchuan Lu,Dalian University of Technology
+Xuesong Niu,"Institute of Computing Technology, CAS"
+Hu Han,"ICT, CAS"
+Shiguang Shan,Chinese Academy of Sciences
+Xilin Chen,"Institute of Computing Technology, Chinese Academy of Sciences"
+Natalia Neverova,Facebook AI Research
+David Novotny,Facebook AI Research
+Andrea Vedaldi,Facebook AI Research and University of Oxford
+Chris Wendler,ETH Zurich
+Markus Püschel,ETH Zurich
+Dan Alistarh,IST Austria & NeuralMagic
+Arsenii Vanunts,Yandex
+Alexey Drutsa,Yandex
+Hadrien Hendrikx,INRIA - PSL
+Laurent Massoulié,Inria
+Zhijian Liu,MIT
+Haotian Tang,Shanghai Jiao Tong University
+Yujun Lin,MIT
+Song Han,MIT
+Mohamed Akrout,University of Toronto
+Collin Wilson,University of Toronto
+Peter Humphreys,Deepmind
+Douglas B Tweed,University of Toronto
+Aadirupa Saha,Indian Institute of Science
+Aditya Gopalan,Indian Institute of Science
+Tao Sun,National university of defense technology
+Yuejiao Sun,"University of California, Los Angeles"
+Dongsheng Li,"School of Computer Science, National University of Defense Technology"
+Qing Liao,Harbin Institute of Technology (Shenzhen)
+Leonidas J Guibas,stanford.edu
+Qixing Huang,The University of Texas at Austin
+Zhenxiao Liang,The University of Texas at Austin
+Nicki Skafte,Technical University of Denmark
+Søren Hauberg,Technical University of Denmark
+Hedi Hadiji,"Laboratoire de Mathematiques d’Orsay, Univ. Paris-Sud,"
+LU LIU,University of Technology Sydney
+Tianyi Zhou,"University of Washington, Seattle"
+Guodong Long,University of Technology Sydney (UTS)
+Jing Jiang,University of Technology Sydney
+Chengqi Zhang,University of Technology Sydney
+Sepehr Assadi,Princeton University
+Eric Balkanski,Harvard University
+Renato Leme,Google Research
+Siqi Liu,University of Pittsburgh
+Milos Hauskrecht,University of Pittsburgh
+Chi Zhang,"University of California, Los Angeles"
+Baoxiong Jia,UCLA
+Feng Gao,UCLA
+Yixin Zhu,"University of California, Los Angeles"
+HongJing Lu,UCLA
+Song-Chun Zhu,UCLA
+Yu-Chia Chen,University of Washington
+Marina Meila,University of Washington
+Zhengyang Shen,University of North Carolina at Chapel Hill
+Francois-Xavier Vialard,University Paris-Est
+Marc Niethammer,UNC Chapel Hill
+Chengguang Xu,Northeastern University
+Ehsan Elhamifar,Northeastern University
+Vincent Sitzmann,Stanford University
+Michael Zollhoefer,Facebook Reality Labs
+Gordon Wetzstein,Stanford University
+Brett Daley,Northeastern University
+Christopher Amato,Northeastern University
+Fengxiang He,The University of Sydney
+Tongliang Liu,The University of Sydney
+Max Simchowitz,Berkeley
+Kevin Jamieson,U Washington
+Mitsuru Kusumoto,"Preferred Networks, Inc."
+Takuya Inoue,University of Tokyo
+Gentaro Watanabe,"Preferred Networks, Inc."
+Takuya Akiba,"Preferred Networks, Inc."
+Masanori Koyama,Preferred Networks Inc. 
+Paul Hongsuck Seo,POSTECH
+Geeho Kim,Seoul National University
+Bohyung Han,Seoul National University
+Chao Qu,Ant Financial Services Group
+Shie Mannor,Technion
+Huan Xu,Georgia Inst. of Technology
+Yuan Qi,Ant Financial Services Group
+Le Song,Georgia Institute of Technology
+Junwu Xiong,Ant Financial Services Group
+Shuang Wu,Tsinghua University
+Guanrui Wang,Tsinghua University
+Pei Tang,Tsinghua University
+Feng Chen,Tsinghua University
+Luping Shi,Tsinghua University
+Dong Liu,University of Science and Technology of China
+Haochen Zhang,University of Science and Technology of China
+Zhiwei Xiong,University of Science and Technology of China
+Dominic Richards,University of Oxford
+Patrick Rebeschini,University of Oxford
+Holden Lee,Princeton
+Oren Mangoubi,Worcester Polytechnic Institute
+Nisheeth Vishnoi,Yale University
+Maria-Florina Balcan,Carnegie Mellon University
+Travis Dick,TTIC
+Ritesh Noothigattu,Carnegie Mellon University
+Ariel Procaccia,Carnegie Mellon University
+Jack Serrino,MIT
+Max Kleiman-Weiner,Harvard/MIT
+David Parkes,Harvard University
+Josh Tenenbaum,MIT
+Anton Obukhov,ETH Zurich
+Stamatios Georgoulis,ETH Zurich
+Dengxin Dai,ETH Zurich
+Luc V Gool,"Computer Vision Lab, ETH Zurich"
+Shupeng Gui,University of Rochester
+Haotao N Wang,Texas A&M University
+Haichuan Yang,University of Rochester
+Chen Yu,Indiana University
+Zhangyang Wang,TAMU
+Ji Liu,"University of Rochester, Tencent AI lab"
+Jianwei Yang,Georgia Tech
+Zhile Ren,Georgia Tech
+Hongyuan Zhu,Astar
+Ji Lin,MIT
+Brandon Yang,Google Brain
+Gabriel Bender,Google Brain
+Danfei Xu,Stanford University
+De-An Huang,Stanford University
+Yuke Zhu,Stanford University
+Li Fei-Fei,Stanford University
+Mingming Gong,University of Melbourne
+Yanwu Xu,University of Pittsburgh
+Chunyuan Li,Microsoft Research
+Kun Zhang,CMU
+Kayhan Batmanghelich,University of Pittsburgh
+Carl Yang,"University of Illinois, Urbana Champaign"
+Peiye Zhuang,UIUC
+Wenhan Shi,UIUC
+Alan Luu,UIUC
+Pan Li,Stanford
+Chen Tessler,Technion
+Guy Tennenholtz,Technion
+Edith Cohen,Google
+Ofir Geri,Stanford University
+Pei Wang,UC San Diego
+Nuno Nvasconcelos,UC San Diego
+Eugene Ndiaye,Riken AIP
+Ichiro Takeuchi,Nagoya Institute of Technology
+Stephan Rabanser,AWS AI Labs
+Stephan Günnemann,Technical University of Munich
+Zachary Lipton,Carnegie Mellon University
+Siyuan Li,Tsinghua University
+Rui Wang,Stanford University
+Minxue Tang,Tsinghua University
+Chongjie Zhang,Tsinghua University
+Minne Li,University College London
+Lisheng Wu,UCL
+Jun WANG,UCL
+Thang Vu,KAIST
+Hyunjun Jang,KAIST
+Trung X. Pham,KAIST
+Chang Yoo,KAIST
+Jian Sun,"Megvii, Face++"
+Zongben Xu,Xi'an Jiaotong University
+Mete Ozay,Independent Researcher (N/A)
+Magauiya Zhussip,UNIST
+Shakarim Soltanayev,Ulsan National Institute of Science and Technology
+Se Young Chun,UNIST
+Chris Russell,The Alan Turing Institute/ The University of Surrey
+Matteo Toso,University of Surrey
+Neill Campbell,University of Bath
+Pascal Mettes,University of Amsterdam
+Elise van der Pol,University of Amsterdam
+Cees Snoek,University of Amsterdam
+Ivan Glasser,Max Planck Institute of Quantum Optics
+Ryan Sweke,Freie Universitaet Berlin
+Nicola Pancotti,Max Planck Institute of Quantum Optics
+Jens Eisert,Freie Universitaet Berlin
+Ignacio Cirac,Max-Planck Institute of Quantum Optics
+Naganand Yadati,Indian Institute of Science
+Madhav Nimishakavi,Indian Institute of Science
+Prateek Yadav,Indian Institute of Science
+Vikram Nitin,Indian Institute of Science
+Anand Louis,"Indian Institute of Science, Bengaluru"
+Partha Talukdar,"Indian Institute of Science, Bangalore"
+Zhize Li,King Abdullah University of Science and Technology (KAUST)
+Pan Zhou,National University of Singapore
+Xiaotong Yuan,Nanjing University of Information Science & Technology
+Shuicheng Yan,National University of Singapore
+Jiashi Feng,National University of Singapore
+Antoine Wehenkel,ULiège
+Gilles Louppe,University of Liège
+Chundi Liu,Layer6 AI
+Guangwei Yu,Layer6
+Maksims Volkovs,Layer6 AI
+Cheng Chang,Layer6 AI
+Himanshu Rai,Layer6 AI
+Junwei Ma,Layer6 AI
+Satya Krishna Gorti,Layer6 AI
+Kaidi Cao,Stanford University
+Colin Wei,Stanford University
+Adrien Gaidon,Toyota Research Institute
+Nikos Arechiga,Toyota Research Institute
+Tengyu Ma,Stanford University
+Yuan Deng,Duke University
+Jon Schneider,Google Research
+Balasubramanian Sivan,Google Research
+Muhan Zhang,Washington University; Facebook (now)
+Shali Jiang,Washington University in St. Louis
+Zhicheng Cui,Washington University in St. Louis
+Roman Garnett,Washington University in St. Louis
+Yixin Chen,UCLA
+Mikhail Yurochkin,"IBM Research, MIT-IBM Watson AI Lab"
+Sebastian Claici,MIT
+Edward Chien,Massachusetts Institute of Technology
+Farzaneh Mirzazadeh,"MIT-IBM Watson AI Lab, IBM Research"
+Justin M Solomon,MIT
+Rui Li,Rochester Institute of Technology
+Boyi Li,Cornell University
+Felix Wu,Cornell University
+Kilian Weinberger,Cornell University / ASAPP Research
+Serge Belongie,Cornell University
+Shengyuan Hu,Cornell University
+Tao Yu,Cornell University
+Chuan Guo,Cornell University
+Wei-Lun Chao,Cornell University          Ohio State University (OSU)
+Xiangyu Xu,Carnegie Mellon University
+Li Siyao,SenseTime Research
+Wenxiu Sun,SenseTime Research
+Qian Yin,Beijing Normal University
+Bao Wang,UCLA
+Zuoqiang  Shi,zqshi@mail.tsinghua.edu.cn
+Stanley Osher,UCLA
+Benjamin Planche,Siemens Corporate Technology
+Xuejian Rong,City University of New York
+Ziyan Wu,United Imaging Intelligence
+Srikrishna Karanam,United Imaging Intelligence
+Harald Kosch,PASSAU
+YingLi Tian,City University of New York
+Jan Ernst,Siemens Research
+ANDREAS HUTTER,"Siemens Corporate Technology, Germany"
+Shikun Liu,Imperial College London
+Andrew Davison,Imperial College London
+Edward Johns,Imperial College London
+Zongsheng Yue,Xi'an Jiaotong University
+Hongwei Yong,The Hong Kong Polytechnic University
+Qian Zhao,Xi'an Jiaotong University
+Deyu Meng,Xi'an Jiaotong University
+Lei Zhang,The Hong Kong Polytechnic Univ
+Yasutoshi Ida,NTT
+Yasuhiro Fujiwara,NTT Communication Science Laboratories
+Hisashi Kashima,Kyoto University/RIKEN Center for AIP
+Lin Song,Xi'an Jiaotong University
+Yanwei Li,"Institute of Automation, Chinese Academy of Sciences"
+Zeming Li,Megvii(Face++) Inc
+Gang Yu,Megvii Inc
+Hongbin Sun,Xi'an Jiaotong University
+Nanning Zheng,Xi'an Jiaotong University
+Yuki Yoshida,The University of Tokyo
+Masato Okada,The University of Tokyo
+Talfan Evans,University College London
+Neil Burgess,University College London
+Hao Zheng,East China Normal University
+Faming Fang,East China Normal University
+Guixu Zhang,East China Normal University
+Aaron Defazio,Facebook AI Research
+Leon Bottou,Facebook AI Research
+Jiezhang Cao,South China University of Technology
+Langyuan Mo,South China University of Technology
+Yifan   Zhang,South China University of Technology
+Kui Jia,South China University of Technology
+Kamil Ciosek,Microsoft
+Quan Vuong,University of California San Diego
+Robert Loftin,Microsoft Research
+Katja Hofmann,Microsoft Research
+Matthew Schlegel,University of Alberta
+Wesley Chung,McGill University
+Daniel Graves,Huawei Technologies Canada
+Jian Qian,University of Alberta
+Martha White,University of Alberta
+Songbai Yan,"University of California, San Diego"
+Kamalika Chaudhuri,UCSD
+Tara Javidi,University of California San Diego
+Khurram Javed,University of Alberta
+Haichao Zhang,Horizon Robotics
+Jianyu Wang,Baidu USA
+Scott Gigante,Yale University
+Adam S Charles,Princeton University
+Smita Krishnaswamy,Yale University
+Gal Mishne,UC San Diego
+Alex Lu,University of Toronto
+Amy Lu,University of Toronto/Vector Institute
+Wiebke Schormann,Sunnybrook Research Institute
+David Andrews,Sunnybrook Research Institute
+Alan Moses,University of Toronto
+Changxiao Cai,Princeton University
+Gen Li,Tsinghua University
+H. Vincent Poor,Princeton University
+Yuxin Chen,Caltech
+Gautam Goel,Caltech
+Yiheng Lin,"Institute for Interdisciplinary Information Sciences, Tsinghua University"
+Haoyuan Sun,California Institute of Technology
+Adam Wierman,California Institute of Technology
+Weizhe Hua,Cornell University
+Yuan Zhou,Indiana University Bloomington
+Christopher De Sa,Cornell
+Zhiru Zhang,Cornell Univeristy
+G. Edward Suh,Cornell University
+Guruprasad Raghavan,California Institute of Technology
+Matt Thomson,California Institute of Technology
+Xinyang Chen,Tsinghua University
+Sinan Wang,Tsinghua University
+Bo Fu,Tsinghua University
+Mingsheng Long,Tsinghua University
+Jianmin Wang,Tsinghua University
+Jun Shu,Xi'an Jiaotong University
+Qi Xie,Xi'an Jiaotong University
+Lixuan Yi,Xi'an Jiaotong University
+Sanping Zhou,Xi'an Jiaotong University
+Fuhai Chen,Xiamen University
+Jiayi Ji,Xiamen University
+Xiaoshuai Sun,Xiamen University
+Baochang Zhang,Beihang University
+Xuri Ge,Xiamen University
+Yongjian Wu,"Tencent Technology (Shanghai) Co.,Ltd"
+Feiyue Huang,Tencent
+Yan Wang,Microsoft
+Zhiao Huang,University of California San Diego
+Hao Su,University of California San Diego
+Fangchen Liu,"University of California, San Diego"
+Ximei Wang,Tsinghua University
+Ying Jin,Tsinghua University
+Michael Jordan,UC Berkeley
+Giacomo De Palma,MIT
+Bobak Kiani,Massachusetts Institute of Technology
+Seth Lloyd,MIT
+Niv Nayman,Alibaba Group
+Asaf Noy,Alibaba
+Tal Ridnik,MIIL Alibaba
+Itamar Friedman,Alibaba
+Rong Jin,Alibaba
+Lihi Zelnik,Alibaba
+Wei-Da Chen,National Tsing Hua University
+Shan-Hung,Brandon) Wu (National Tsing Hua University
+Shangtong Zhang,University of Oxford
+Wendelin Boehmer,University of Oxford
+Shimon Whiteson,University of Oxford
+Matan Atzmon,Weizmann Institute Of Science
+Niv Haim,Weizmann Institute of Science
+Lior Yariv,Weizmann Institute of Science
+Ofer Israelov,Weizmann Institute of Science
+Haggai Maron,NVIDIA Research
+Yaron Lipman,Weizmann Institute of Science
+Cyrille Combettes,Georgia Institute of Technology
+Sebastian Pokutta,Zuse Institute Berlin
+Difan Zou,"University of California, Los Angeles"
+Quanquan Gu,UCLA
+Bowen Li,University of Oxford
+Xiaojuan Qi,University of Oxford
+Thomas Lukasiewicz,University of Oxford
+Philip Torr,University of Oxford
+Wenlin Wang,Citadel
+Chenyang Tao,Duke University
+Zhe Gan,Microsoft
+Guoyin Wang,Duke University
+Liqun Chen,Duke University
+Xinyuan Zhang,Duke University
+Ruiyi Zhang,Duke University
+Qian Yang,Duke University
+Ricardo Henao,Duke University
+Lawrence Carin,Duke University
+Yuchen Mo,Columbia University
+Chang Xiao,Columbia University
+Pengyu Chen,Columbia University
+Changxi Zheng,Columbia University
+Ruoqi Shen,University of Washington
+Yin Tat Lee,UW
+Su Young Lee,KAIST
+Choi Sungik,KAIST
+Sae-Young Chung,KAIST
+Takahiro Omi,The University of Tokyo & RIKEN AIP
+naonori ueda,RIKEN AIP
+Kazuyuki Aihara,The University of Tokyo
+Zhonghui You,Peking University
+Kun Yan,Peking University
+Jinmian Ye,SMILE Lab
+Meng Ma,Peking University
+Ping Wang,Peking University
+Faidra Georgia Monachou,Stanford University
+Itai Ashlagi,Stanford
+Heli Ben-Hamu,Weizmann Institute of Science
+Hadar Serviansky,Weizmann Institute of Science
+Arsalan Sharifnassab,Sharif University of Technology
+Saber Salehkaleybar,Sharif University of Technology
+S. Jamaloddin Golestani,Sharif University of Technology
+Jie Hu,Xiamen University
+ShengChuan Zhang,Xiamen University
+Chia-Wen Lin,National Tsing Hua University
+Qi Tian,Huawei Noah’s Ark Lab
+Soeren Laue,Friedrich Schiller University Jena / Data Assessment Solutions
+Matthias Mitterreiter,Friedrich Schiller University Jena
+Joachim Giesen,Friedrich-Schiller-Universitat Jena
+Alexis Bellot,University of Cambridge / Alan Turing Institute
+Mihaela van der Schaar,"University of Cambridge, Alan Turing Institute and UCLA"
+Aviv Rosenberg,Tel Aviv University
+Yishay Mansour,Tel Aviv University / Google
+Xiangyu Zheng,Peking University
+Song Xi Chen,Peking University
+Xindian Ma,Tianjin University
+Peng Zhang,Tianjin University
+Shuai Zhang,Tianjin University
+Nan Duan,Microsoft Research Asia
+Yuexian Hou,Tianjin University
+Ming Zhou,Microsoft Research
+Dawei Song,Beijing Institute of Technology
+Jen Ning Lim,Max Planck Institute for Intelligent Systems
+Makoto Yamada,Kyoto University / RIKEN AIP
+Bernhard Schölkopf,MPI for Intelligent Systems
+Wittawat Jitkrittum,Max Planck Institute for Intelligent Systems
+Amir Dezfouli,"Data61, CSIRO"
+Hassan Ashtiani,McMaster University
+Omar Ghattas,The University of Texas at Austin
+Peter Dayan,Max Planck Institute for Biological Cybernetics
+Cheng Soon Ong,Data61 and Australian National University
+Quanfu Fan,MIT-IBM Watson AI Lab
+Chun-Fu,Richard) Chen (IBM Research
+Hilde Kuehne,University of Bonn
+Marco Pistoia,IBM Research
+David Cox,MIT-IBM Watson AI Lab
+Dror Simon,Technion
+Michael Elad,Technion
+Weishi Shi,Rochester Institute of Technology
+Qi Yu,Rochester Institute of Technology
+Deepak Pathak,"UC Berkeley, FAIR, CMU"
+Christopher Lu,UC Berkeley and Covariant.ai
+Trevor Darrell,UC Berkeley
+Phillip Isola,Massachusetts Institute of Technology
+Alexei Efros,UC Berkeley
+Kristof Meding,University Tübingen
+Dominik Janzing,Amazon
+Felix A. Wichmann,University of Tübingen
+Ofir Nachum,Google Brain
+Yinlam Chow,Google Research
+Bo Dai,Google Brain
+Lihong Li,Google Brain
+Eliya Nachmani,Tel Aviv University and Facebook AI Research
+Lior Wolf,Facebook AI Research
+Adrian Rivera Cardoso,Georgia Tech
+He Wang,Georgia Institute of Technology
+Srinath Sridhar,Stanford University
+Davis Rempe,Stanford University
+Julien Valentin,Google
+Bouaziz Sofien,
+Virag Shah,Stanford
+Ramesh Johari,Stanford University
+Jose Blanchet,Stanford University
+Alan Kuhnle,Florida State University
+Rebekka Burkholz,Harvard University
+Alina Dubatovka,ETH Zurich
+Jie Ding,University of Minnesota
+Robert Calderbank,Duke University
+Vahid Tarokh,Duke University
+Zhe Wang,Ohio State University
+Kaiyi Ji,The Ohio State University
+Yi Zhou,IBM Almaden Research Center
+Yingbin Liang,The Ohio State University
+Xiyang Liu,University of Washington
+Sewoong Oh,University of Washington
+Ayan Chakrabarti,Washington University in St. Louis
+Benjamin Moseley,Carnegie Mellon University
+Zhihao Xia,Washington University in St. Louis
+Lisha Chen,Rensselaer Polytechnic Institute
+Hui Su,IBM
+Qiang Ji,Rensselaer Polytechnic Institute
+Xiuyuan Lu,Stanford University
+Benjamin Van Roy,Stanford University
+Atsutoshi Kumagai,NTT
+Tomoharu Iwata,NTT
+Huaian Diao,Northeast Normal University
+David Woodruff,Carnegie Mellon University
+Xin Yang,University of Washington
+Hongzi Mao,MIT
+Parimarjan Negi,MIT CSAIL
+Akshay Narayan,MIT CSAIL
+Hanrui Wang,Massachusetts Institute of Technology
+Jiacheng Yang,MIT CSAIL
+Haonan Wang,MIT CSAIL
+Ryan Marcus,MIT CSAIL
+ravichandra addanki,Massachusetts Institute of Technology
+Mehrdad Khani Shirkoohi,MIT
+Songtao He,Massachusetts Institute of Technology
+Vikram Nathan,MIT
+Frank Cangialosi,MIT CSAIL
+Shaileshh Venkatakrishnan,MIT
+Wei-Hung Weng,MIT
+Tim Kraska,MIT
+Dr.Mohammad Alizadeh,Massachusetts institute of technology
+Claudia Shi,Columbia University
+Victor Veitch,Columbia University
+Hanjun Dai,Georgia Institute of Technology
+Yujia Li,DeepMind
+Chenglong Wang,University of Washington
+Rishabh Singh,Google Brain
+Po-Sen Huang,DeepMind
+Pushmeet Kohli,DeepMind
+Rina Foygel Barber,University of Chicago
+Emmanuel Candes,Stanford University
+Aaditya Ramdas,Carnegie Mellon University
+Ryan Tibshirani,Carnegie Mellon University
+Chen Dan,Carnegie Mellon University
+Hong Wang,Massachusetts Institute of Technology
+Yuchen Zhou,"University of Wisconsin, Madison"
+Pradeep Ravikumar,Carnegie Mellon University
+Haowei He,Tsinghua University
+Gao Huang,Tsinghua
+Yang Yuan,Cornell University
+Yixing Xu,Huawei Noah's Ark Lab
+Yunhe Wang,Huawei Noah's Ark Lab
+Jia Zeng,Huawei Noah's Ark Lab
+Kai Han,Huawei Noah's Ark Lab
+Chunjing XU,Huawei Technologies
+Chang Xu,University of Sydney
+Boxin Zhao,UChicago
+Y. Samuel Wang,U of Chicago
+Mladen Kolar,University of Chicago
+Chenri Ni,The University of Tokyo
+Nontawat Charoenphakdee,The University of Tokyo / RIKEN
+Junya Honda,The Univerisity of Tokyo / RIKEN
+Masashi Sugiyama,RIKEN / University of Tokyo
+Pratyusha Sharma,Carnegie Mellon University/MIT
+Abhinav Gupta,Facebook AI Research/CMU
+Zhuoning Yuan,University of Iowa
+Yan Yan,the University of Iowa
+Tianbao Yang,The University of Iowa
+Takuya Hiraoka,NEC / AIST / RIKEN-AIP
+Takahisa Imagawa,National Institute of Advanced Industrial Science and Technology
+Tatsuya Mori,"NEC, AIST, RIKEN-AIP"
+Takashi Onishi,NEC / AIST
+Yoshimasa Tsuruoka,The University of Tokyo
+Yi Xu,University of Iowa
+Lili Su,MIT
+Pengkun Yang,Princeton University
+Fuwen Tan,University of Virginia
+Paola Cascante-Bonilla,University of Virginia
+Xiaoxiao Guo,IBM Research
+Hui Wu,Tsinghua University
+Song Feng,IBM Research
+Vicente Ordonez,University of Virginia
+JIELIN QIU,Shanghai Jiao Tong University
+Ge Huang,Carnegie Mellon University
+Tai Sing Lee,Carnegie Mellon University
+Chaoyou Fu,"Institute of Automation, Chinese Academy of Sciences"
+Xiang Wu,ByteDance
+Yibo Hu,"Institute of Automation, Chinese Academy of Sciences"
+Huaibo Huang,"Institute of Automation, Chinese Academy of Science"
+Ran He,"NLPR, CASIA"
+Mitchell Wortsman,"University of Washington, Allen Institute for Artificial Intelligence"
+Ali Farhadi,"University of Washington, Allen Institute for Artificial Intelligence"
+Mohammad Rastegari,XNOR.AI- AI2
+Baekjin Kim,University of Michigan
+Ambuj Tewari,University of Michigan
+Jaemin Yoo,Seoul National University
+Minyong Cho,Seoul National University
+Taebum Kim,Seoul National University
+U Kang,Seoul National University
+Matthew Holland,Osaka University
+Ting-I Hsieh,National Tsing Hua University
+Yi-Chen Lo,National Tsing Hua University
+Hwann-Tzong Chen,National Tsing Hua University
+Tyng-Luh Liu,Academia Sinica
+SHUAI ZHANG,University of New South Wales
+Yi Tay,Nanyang Technological University
+Lina Yao,UNSW
+Qi Liu,University of Oxford
+Yuxian Meng,Shannon.AI
+Wei Wu,Shannon.AI
+Fei Wang,Shannon.AI
+Xiaoya Li,Shannon.AI
+Ping Nie,Shannon.AI
+Fan Yin,Shannon.AI
+Muyu Li,Shannon.AI
+Qinghong  Han,Shannon.AI
+Jiwei Li,Shannon.AI
+Yihan Jiang,University of Washington Seattle
+Hyeji Kim,Samsung AI Center Cambridge
+Himanshu Asnani,"University of Washington, Seattle"
+Sreeram Kannan,University of Washington
+Pramod Viswanath,UIUC
+Weijiang Yu,Sun Yat-sen University
+Jingwen Zhou,Sun Yat-sen University
+Weihao Yu,Sun Yat-sen University
+Xiaodan Liang,Sun Yat-sen University
+Nong Xiao,Sun Yat-sen University
+Enrique Fita Sanmartin,Heidelberg University
+Sebastian Damrich,Heidelberg University
+Fred Hamprecht,Heidelberg University
+Sascha Saralajew,Dr. Ing. h.c. Porsche AG
+Lars Holdijk,Radboud University Nijmegen
+Maike Rees,Dr. Ing. h.c. F. Porsche AG
+Ebubekir Asan,Dr. Ing. h.c. F. Porsche AG
+Thomas Villmann,University of Applied Sciences Mittweida
+Santtu Tikka,University of Jyväskylä
+Antti Hyttinen,University of Helsinki
+Juha Karvanen,University of Jyvaskyla
+Wang-Zhou Dai,Imperial College London
+Qiuling Xu,Purdue University
+Yang Yu,Nanjing University
+Zhi-Hua Zhou,Nanjing University
+Zihan Zhang,Fudan University
+Xiangyang Ji,Tsinghua University
+Belhal Karimi,Ecole Polytechnique
+Hoi-To Wai,The Chinese University of Hong Kong
+Eric Moulines,Ecole Polytechnique
+Marc Lavielle,Inria & Ecole Polytechnique
+Sulaiman Alghunaim,UCLA
+Kun Yuan,Alibaba Inc.
+Ali H Sayed,Ecole Polytechnique Fédérale de Lausanne
+Rinu Boney,Aalto University
+Norman Di Palo,-
+Mathias Berglund,Curious AI
+Alexander Ilin,Aalto University
+Juho Kannala,Aalto University
+Antti Rasmus,The Curious AI Company
+Harri Valpola,Curious AI
+Alexej Klushyn,Volkswagen Group
+Nutan Chen,Volkswagen Group
+Richard Kurle,Volkswagen Group
+Botond Cseke,Volkswagen Group
+Patrick van der Smagt,Volkswagen Group
+Sivan Sabato,Ben-Gurion University of the Negev
+Matteo Turchetta,ETH Zurich
+Felix Berkenkamp,ETH Zurich
+Andreas Krause,ETH Zurich
+Charles Corbière,Valeo.ai / CNAM
+Nicolas THOME,Cnam (Conservatoire national des arts et métiers)
+Avner Bar-Hen,"CNAM, Paris"
+Changyong Oh,University of Amsterdam
+Jakub Tomczak,Qualcomm AI Research
+Efstratios Gavves,University of Amsterdam
+Juyeon Heo,Sungkyunkwan University
+Sunghwan Joo,Sungkyunkwan University
+Taesup Moon,Sungkyunkwan University (SKKU)
+Lénaïc Chizat,CNRS
+Edouard Oyallon,CentraleSupelec
+KANCHARLA PARIMALA,"Indian Institute of Technology, Hyderabad"
+Sumohana Channappayya,Indian Institute of Technology Hyderabad
+Marcel Hirt,University College London
+Petros Dellaportas,"University College London, Athens University of Economics and Alan Turing Institute"
+Tomas Vaskevicius,University of Oxford
+Varun Kanade,University of Oxford
+Matthew Joseph,University of Pennsylvania
+Janardhan Kulkarni,"MSR, Redmond"
+Jieming Mao,Google Research
+Xiaoming Yu,Peking University
+Yuanqi Chen,"SECE, Peking University"
+Shan Liu,Tencent
+Thomas Li,"Shenzhen Graduate School, Peking University"
+Ge Li,Peking University
+Yusuke Tanaka,NTT
+Toshiyuki Tanaka,Kyoto University
+Takeshi Kurashima,NTT Corporation
+Maya Okawa,NTT
+Yasunori Akagi,"NTT Service Evolution Laboratories, NTT Corporation"
+Hiroyuki Toda,"NTT Service Evolution Laboratories, NTT Corporation, Japan"
+Zhiqing Sun,Carnegie Mellon University
+Zhuohan Li,UC Berkeley
+Haoqing Wang,Peking University
+Di He,Peking University
+Zi Lin,Peking University
+Zhihong Deng,Peking University
+Gedas Bertasius,Facebook Research
+Christoph Feichtenhofer,Facebook AI Research
+Du Tran,Facebook AI
+Jianbo Shi,University of Pennsylvania
+Lorenzo Torresani,Facebook
+Sindy Löwe,University of Amsterdam
+Peter O'Connor,Brain Corporation
+Bastiaan Veeling,AMLab - University of Amsterdam
+Hongteng Xu,Infinia ML and Duke University
+Dixin Luo,Duke University
+Satoshi Tsutsui,Indiana University
+Yanwei Fu,"Fudan University, Shanghai;"
+David Crandall,Indiana University
+Simon Ramstedt,Mila
+Chris Pal,"MILA, Polytechnique Montréal, Element AI"
+Alexander Peysakhovich,Facebook
+Christian Kroer,Columbia University
+Adam Lerer,Facebook AI Research
+Mohammad Emtiyaz Khan,RIKEN
+Alexander Immer,"EPFL, RIKEN"
+Ehsan Abedi,EPFL
+Maciej Korzepa,Technical University of Denmark
+Patrick Kidger,University of Oxford
+Patric Bonnier,University of Oxford
+Imanol Perez Arribas,University of Oxford
+Cristopher Salvi,University of Oxford
+Terry Lyons,University of Oxford
+Yogev Bar-On,Tel-Aviv University
+Ming Yu,"The University of Chicago, Booth School of Business"
+Zhuoran Yang,Princeton University
+Zhaoran Wang,Northwestern University
+Emilien Dupont,Oxford University
+Arnaud Doucet,Oxford
+Yee Whye Teh,"University of Oxford, DeepMind"
+Min-hwan Oh,Columbia University
+Garud Iyengar,Columbia
+Wei Wang,EPFL
+Zheng Dang,Xi'an Jiaotong University
+Yinlin Hu,EPFL
+Pascal Fua,"EPFL, Switzerland"
+Mathieu Salzmann,EPFL
+Yi Ren,Zhejiang University
+Yangjun Ruan,Zhejiang University
+Xu Tan,Microsoft Research
+Tao Qin,Microsoft Research
+Sheng Zhao,Microsoft
+Zhou Zhao,Zhejiang University
+Tie-Yan Liu,Microsoft Research
+Giovanni Chierchia,ESIEE Paris
+Benjamin Perret,ESIEE/PARIS
+Hanrui Zhang,Duke University
+Yu Cheng,Duke University
+Vincent Conitzer,Duke University
+Yan Zhang,University of Southampton
+Jonathon Hare,University of Southampton
+Adam Prugel-Bennett,apb@ecs.soton.ac.uk
+Zelda Mariet,MIT
+Yaniv Ovadia,Princeton University
+Jasper Snoek,Google Brain
+Sai Qian Zhang,Harvard University
+Qi  Zhang,Amazon
+Jieyu Lin,University of Toronto
+Ya-Chien Chang,"University of California, San Diego"
+Nima Roohi,University of California San Diego
+Sicun Gao,"University of California, San Diego"
+Vincent Cohen-Addad,CNRS & Sorbonne Université
+Niklas Oskar D Hjuler,University of Copenhagen
+Nikos Parotsidis,University of Copenhagen
+David Saulpic,Ecole normale supérieure
+Chris Schwiegelshohn,"Sapienza, University of Rome"
+Alex Wang,New York University
+Yada Pruksachatkun,New York University
+Nikita Nangia,NYU
+Amanpreet Singh,Facebook
+Julian Michael,University of Washington
+Felix Hill,Google Deepmind
+Omer Levy,Facebook
+Samuel Bowman,New York University
+Jiaqi Ma,University of Michigan
+Weijing Tang,University of Michigan
+Ji Zhu,University of Michigan
+Qiaozhu Mei,University of Michigan
+Georgios Detorakis,"University of California, Irvine"
+Sourav Dutta,Univ. Notre Dame
+ Abhishek Khanna,Univ. Notre Dame
+Matthew Jerry,Univ. Notre Dame
+Suman Datta,Univ. Notre Dame
+Emre Neftci,UC Irvine
+Su Jia,CMU
+viswanath  nagarajan,"Univ Michigan, Ann Arbor"
+Fatemeh Navidi,University of Michigan
+R Ravi,CMU
+Eunbyung Park,UNC Chapel Hill / Nuro
+Junier Oliva,UNC - Chapel Hill
+Nathan Kallus,Cornell University
+Masatoshi Uehara,Harvard University
+Zhen Zhang,WASHINGTON UNIVERSITY IN ST.LOUIS
+Yijian Xiang,Washington University in St. Louis
+Lingfei Wu,IBM Research AI
+Bing Xue,Washington University in St. Louis
+Arye Nehorai,WASHINGTON UNIVERSITY IN ST.LOUIS
+Maithra Raghu,Cornell University and Google Brain
+Chiyuan Zhang,Google Brain
+Jon Kleinberg,Cornell University
+Samy Bengio,"Google Research, Brain Team"
+Ali Shafahi,University of Maryland
+Mahyar Najibi,University of Maryland
+Mohammad Amin Ghiasi,University of Maryland
+Zheng Xu,Google AI
+John Dickerson,University of Maryland
+Christoph Studer,Cornell University
+Larry Davis,University of Maryland
+Gavin Taylor,US Naval Academy
+Tom Goldstein,University of Maryland
+Jun Sun,Zhejiang University
+Tianyi Chen,Rensselaer Polytechnic Institute
+Georgios Giannakis,University of Minnesota
+Zaiyue  Yang,Southern University of Science and Technology
+Vaishak Belle,University of Edinburgh & Alan Turing Institute
+Brendan Juba,Washington University in St. Louis
+Kevin Liang,Duke University
+Yitong Li,Duke University
+Yongkai Wu,University of Arkanasa
+Lu Zhang,University of Arkansas
+Xintao Wu,University of Arkansas
+Hanghang Tong,University of Illinois at Urbana-Champaign
+Jianchun Chen,New York University
+Lingjing Wang,New York University
+Xiang Li,Peking University
+Yi Fang,New York University
+Angela Zhou,Cornell University
+Sharon Zhou,Stanford University
+Mitchell Gordon,Stanford University
+Ranjay Krishna,Stanford University
+Austin Narcomey,Stanford University
+Michael Bernstein,Stanford University
+Pierre Bellec,Rutgers
+Arun Kuchibhotla,Wharton Statistics
+Jacob Imola,UCSD
+Ashwin Machanavajjhala,Duke
+Trevor Campbell,UBC
+Xinglong Li,The University of British Columbia
+Dimitris Kalimeris,Harvard
+Gal Kaplun,Harvard University
+Preetum Nakkiran,Harvard
+Benjamin Edelman,Harvard University
+Tristan Yang,Harvard University
+Boaz Barak,Harvard University
+Haofeng Zhang,Harvard University
+Shuang Li,Colorado School of Mines
+Gongguo Tang,Colorado School of Mines
+Michael B Wakin,Colorado School of Mines
+Antonio Ginart,Stanford University
+Melody Guan,Stanford University
+Gregory Valiant,Stanford University
+James Zou,Stanford University
+David Durfee,Georgia Tech
+Ryan Rogers,LinkedIn
+Yaniv Romano,Stanford University
+Evan Patterson,Stanford University
+Seungki Min,Columbia Business School
+Costis Maglaras,Columbia Business School
+Ciamac C Moallemi,Columbia University
+Andrew Bennett,Cornell University
+Tobias Schnabel,Microsoft Research
+Ben Lengerich,Carnegie Mellon University
+Bryon Aragam,Carnegie Mellon University
+Eric Xing,Petuum Inc. /  Carnegie Mellon University
+Hsin-Ying Lee,"University of California, Merced"
+Xiaodong Yang,QCraft
+Ming-Yu Liu,Nvidia Research
+Ting-Chun Wang,NVIDIA
+Yu-Ding Lu,UC Merced
+Hattie Zhou,Uber
+Janice Lan,Uber AI
+Rosanne Liu,Uber AI Labs
+Jason Yosinski,Uber AI; Recursion
+Yilun Du,MIT
+Igor Mordatch,OpenAI
+Christopher Thomas,University of Pittsburgh
+Adriana Kovashka,University of Pittsburgh
+Lingyu Liang,South China University of Technology
+LianWen Jin,South China University of Technology
+Yong Xu,South China University of Technology
+Tavor Baharav,Stanford University
+David Tse,Stanford University
+PHUONG_HA NGUYEN,University of Connecticut (UCONN)
+Lam Nguyen,"IBM Research, Thomas J. Watson Research Center"
+Marten van Dijk,University of Connecticut
+Edgar Dobriban,University of Pennsylvania
+Sifan Liu,Stanford University
+Xue Bin Peng,UC Berkeley
+Michael Chang,"University of California, Berkeley"
+Grace Zhang,UC Berkeley
+Pieter Abbeel,UC Berkeley & covariant.ai
+Kevin Bello,Purdue University
+Jean Honorio,Purdue University
+Cheng Fu,"University of California, San Diego"
+Huili Chen,UCSD
+Haolan Liu,UCSD
+Xinyun Chen,UC Berkeley
+Yuandong Tian,Facebook AI Research
+Farinaz Koushanfar,UCSD
+Jishen Zhao,UCSD
+Gunpil Hwang,KAIST
+Seohyeon Kim,KAIST
+Hyeon-Min Bae,KAIST
+Sharan Vaswani,"Mila, Université de Montréal"
+Aaron Mishkin,University of British Columbia
+Issam Laradji,University of British Columbia
+Mark Schmidt,University of British Columbia
+Dominik Linzner,Technische Universität Darmstadt
+Michael Schmidt,TU Darmstadt
+Heinz Koeppl,Technische Universität Darmstadt
+Devin Reich,University of Washington Tacoma
+Ariel Todoki,University of Washington Tacoma
+Rafael Dowsley,Bar-Ilan University
+Martine De Cock,University of Washington Tacoma
+anderson nascimento,UW
+Adam Sealfon,UC Berkeley
+Qianli Ma,South China University of Technology
+Jiawei Zheng,South China University of Technology
+Sen Li,South China University of Technology
+Gary W Cottrell,UCSD
+Ananya Kumar,Stanford University
+Percy Liang,Stanford University
+Wenhao Zhang,Carnegie Mellon & U. of Pittsburgh
+Si Wu,Peking University
+Brent Doiron,University of Pittsburgh
+Yunji Kim,Yonsei University
+Seonghyeon Nam,Yonsei University
+In Cho,Yonsei University
+Seon Joo Kim,Yonsei University / Facebook
+Ziang Yan,Tsinghua University
+Changshui Zhang,Tsinghua University
+Pan Xu,"University of California, Los Angeles"
+Qitian Wu,Shanghai Jiao Tong University
+Zixuan Zhang,Shanghai Jiao Tong University
+Xiaofeng Gao,Shanghai Jiao Tong University
+Junchi Yan,Shanghai Jiao Tong University
+Guihai Chen,Shanghai Jiao Tong University
+Xing Yan,City University of Hong Kong
+Qi Wu,City University of Hong Kong
+Wen Zhang,JD Finance
+Yujia Jin,Stanford University
+Aaron Sidford,Stanford
+Jonathan Ho,UC Berkeley
+Evan Lohn,"University of California, Berkeley"
+Rob Brekelmans,University of Southern Caifornia
+Daniel Moyer,USC Information Sciences Institute
+Aram Galstyan,USC Information Sciences Institute
+Greg Ver Steeg,USC Information Sciences Institute
+Qianqian Xu,"Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences"
+Xinwei Sun,MSRA
+Zhiyong Yang,"SKLOIS, Institute of Information Engineering, Chinese Academy of Sciences; SCS, University of Chinese Academy of Sciences"
+Xiaochun Cao,"Institute of Information Engineering, Chinese Academy of Sciences"
+Qingming Huang,University of Chinese Academy of Sciences
+Yuan Yao,Hong Kong Univ. of Science & Technology
+Aleksis Pirinen,Lund University
+Erik Gärtner,Lund University
+Cristian Sminchisescu,Google Research
+Shangyu Chen,"Nanyang Technological University, Singapore"
+Wenya Wang,Nanyang Technological University
+Sinno Jialin Pan,"Nanyang Technological University, Singapore"
+Tuomas Kynkäänniemi,NVIDIA; Aalto University
+Tero Karras,NVIDIA
+Samuli Laine,NVIDIA
+Jaakko Lehtinen,NVIDIA Research; Aalto University
+Timo Aila,NVIDIA
+JIAJIN LI,The Chinese University of Hong Kong
+SEN HUANG,The Chinese University of Hong Kong
+Anthony Man-Cho So,CUHK
+Yikang LI,The Chinese University of Hong Kong; Sensetime
+Tao Ma,Northwestern Polytechnical University
+Yeqi Bai,Nanyang Technological University
+Sining Wei,Microsoft Research
+Quentin Bertrand,INRIA
+Mathurin Massias,Inria
+Alexandre Gramfort,INRIA
+Joseph Salmon,Université de Montpellier
+Han Zhu,Alibaba Group
+Daqing Chang,Alibaba Group
+Ziru Xu,Alibaba Group
+Pengye Zhang,Alibaba Group
+Jie He,Alibaba Group
+Han Li,Alibaba Group
+Jian Xu,Alibaba Group
+Kun Gai,Alibaba Group
+Shaileshh Bojja Venkatakrishnan,Massachusetts Institute of Technology
+Shreyan Gupta,MIT
+Mohammad Alizadeh,Massachusetts Institute of Technology
+Ritsugen Jo,UCL
+Gang Niu,RIKEN
+Ruibing Hou,Institute of Computing Technology，Chinese Academy
+Hong Chang,"Institute of Computing Technology, Chinese Academy of Sciences"
+Bingpeng MA,University of Chinese Academy of Sciences
+Qing Qu,New York University
+Xiao Li,"University of California, Berkeley"
+Zhihui Zhu,Johns Hopkins University
+Linfeng Zhang,Tsinghua University
+Zhanhong Tan,Tsinghua University
+Jiebo Song,Institute for Interdisciplinary Information Core Technology
+Jingwei Chen,Tsinghua University
+Chenglong Bao,Tsinghua university
+Kaisheng Ma,Tsinghua University
+Lorenzo Dall'Amico,GIPSA lab
+Romain Couillet,CentralSupélec
+Nicolas Tremblay,CNRS
+Anette Hunziker,ETH Zurich
+Oisin Mac Aodha,California Institute of Technology
+Manuel Gomez Rodriguez,Max Planck Institute for Software Systems
+Pietro Perona,California Institute of Technology
+Yisong Yue,Caltech
+Adish Singla,MPI-SWS
+Frank Ban,UC Berkeley / Google
+Richard Zhang,UC Berkeley
+Paul Rubenstein,MPI for IS
+Olivier Bousquet,Google Brain (Zurich)
+Josip Djolonga,"Google Research, Brain Team"
+Carlos Riquelme,Google Brain
+Ilya Tolstikhin,MPI for Intelligent Systems
+Ryoma Sato,Kyoto University
+Tianbo Li,Nanyang Technological University
+Yiping Ke,Nanyang Technological University
+Maxim Kuznetsov,Insilico Medicine
+Daniil Polykovskiy,Insilico Medicine
+Alex Zhebrak,Insilico Medicine
+Mikko Heikkilä,University of Helsinki
+Joonas Jälkö,Aalto University
+Onur Dikmen,Halmstad University
+Antti Honkela,University of Helsinki
+Suraj Srinivas,Idiap Research Institute & EPFL
+Iordanis Kerenidis,Université Paris Diderot
+Jonas Landman,Université Paris Diderot
+Alessandro Luongo,Institut de Recherche en Informatique Fondamentale
+Anupam Prakash,Université Paris Diderot
+Sebastian Tschiatschek,Microsoft Research
+Ahana Ghosh,MPI-SWS
+Luis Haug,ETH Zurich
+Rati Devidze,MPI-SWS
+Frederik Kunstner,EPFL
+Philipp Hennig,University of Tübingen and MPI for Intelligent Systems Tübingen
+Lukas Balles,University of Tuebingen
+Ruho Kondo,"Toyota Central R&D Labs., Inc."
+Keisuke Kawano,"Toyota Central R&D Labs., Inc"
+Satoshi Koide,Toyota Central R&D Labs.
+Takuro Kutsuna,Toyota Central R&D Labs. Inc.
+Alhussein Fawzi,DeepMind
+Mateusz Malinowski,DeepMind
+Hamza Fawzi,University of Cambridge
+Omar Fawzi,ENS Lyon
+Vincent LE GUEN,"CNAM, Paris, France"
+Boris Knyazev,University of Guelph
+Graham W Taylor,University of Guelph
+Mohamed Amer,RobustAI
+Satoshi Hara,Osaka University
+Atsushi Nitanda,The University of Tokyo / RIKEN
+Takanori Maehara,RIKEN AIP
+Shuo Chen,Nanjing University of Science and Technology
+Lei Luo,Pitt
+Jian Yang,Nanjing University of Science and Technology
+Chen Gong,Nanjing University of Science and Technology
+Jun Li,MIT
+Heng Huang,University of Pittsburgh
+Xie Yaqi,National University of Singapore
+Ziwei Xu,National University of Singapore
+Kuldeep S Meel,National University of Singapore
+Mohan Kankanhalli,"National University of Singapore,"
+Harold Soh,National University of Singapore (NUS)
+Raanan Yehezkel Rohekar,Intel AI Lab
+Yaniv Gurwicz,Intel AI Lab
+Shami Nisimov,Intel AI Lab
+Gal Novik,Intel AI Lab
+Renjie Liao,University of Toronto
+Yang Song,Stanford University
+Shenlong Wang,University of Toronto
+Will Hamilton,McGill
+David Duvenaud,University of Toronto
+Raquel Urtasun,Uber ATG
+Richard Zemel,Vector Institute/University of Toronto
+Mahesh Chandra Mukkamala,Saarland University
+Peter Ochs,Saarland University
+Heliang Zheng,University of Science and Technology of China
+Jianlong Fu,Microsoft Research
+Zheng-Jun Zha,University of Science and Technology of China
+Jiebo Luo,U. Rochester
+Kazuki Osawa,Tokyo Institute of Technology
+Siddharth Swaroop,University of Cambridge
+Anirudh Jain,"Indian Institute of Technology (ISM), Dhanbad"
+Runa Eschenhagen,University of Osnabrueck
+Richard E Turner,University of Cambridge
+Rio Yokota,"Tokyo Institute of Technology, AIST- Tokyo Tech Real World Big-Data Computation Open Innovation Laboratory (RWBC- OIL), National Institute of Advanced Industrial Science and Technology (AIST)"
+Cyprien de Masson d'Autume,Google DeepMind
+Shakir Mohamed,DeepMind
+Mihaela Rosca,Google DeepMind
+Jack Rae,"DeepMind, UCL"
+Christopher Nemeth,Lancaster University
+Fredrik Lindsten,Linköping University
+Maurizio Filippone,EURECOM
+James Hensman,PROWLER.io
+James Jordon,University of Oxford
+Jinsung Yoon,"University of California, Los Angeles"
+Alberto Maria Metelli,Politecnico di Milano
+Amarildo Likmeta,Politecnico di Milano
+Marcello Restelli,Politecnico di Milano
+Christopher Beckham,Mila
+Sina Honari,"Mila, EPFL"
+Alex Lamb,UMontreal (MILA)
+Vikas Verma,Aalto University
+Farnoosh Ghadiri,École Polytechnique de Montréal
+R Devon Hjelm,Microsoft Research
+Yoshua Bengio,Mila
+Marc Bellemare,Google Brain
+Will Dabney,DeepMind
+Robert Dadashi,Google Brain
+Adrien Ali Taiga,Google
+Pablo Samuel Castro,Google
+Nicolas Le Roux,Google Brain
+Dale Schuurmans,Google Inc.
+Tor Lattimore,DeepMind
+Clare Lyle,University of Oxford
+Joshua Lee,MIT
+Prasanna Sattigeri,IBM Research
+Gregory Wornell,MIT
+Jingjing Xu,Peking University
+Xu Sun,Peking University
+Zhiyuan Zhang,Peking University
+Guangxiang Zhao,Peking University
+Junyang Lin,Alibaba Group
+Hongjoon Ahn,Sunkyunkwan University
+Donggyu Lee,Sungkyunkwan university
+Sungmin Cha,Sungkyunkwan University
+Yali Du,University of Technology Sydney
+Lei Han,Rutgers University
+Meng Fang,Tencent
+Tianhong Dai,Imperial College London
+Mathias Perslev,University of Copenhagen
+Michael Jensen,University of Copehagen
+Sune Darkner,"University of Copenhagen, Denmark"
+Poul Jørgen Jennum,"Danish Center for Sleep Medicine, Rigshospitalet"
+Christian Igel,University of Copenhagen
+Jason Altschuler,MIT
+Alessandro Rudi,"INRIA, Ecole Normale Superieure"
+Jonathan Niles-Weed,NYU
+Yue Yu,Tsinghua University
+Jiaxiang Wu,Tencent AI Lab
+Longbo Huang,"IIIS, Tsinghua Univeristy"
+Arash Amini,UCLA
+Qing Zhou,UCLA
+Ivana Balazevic,University of Edinburgh
+Carl Allen,University of Edinburgh
+Timothy Hospedales,University of Edinburgh
+Philip Paquette,Université de Montréal - MILA
+Yuchen Lu,University of Montreal
+SETON STEVEN BOCCO,MILA
+Max Smith,University of Michigan
+Satya O.-G.,MILA
+Jonathan K. Kummerfeld,University of Michigan
+Joelle Pineau,Facebook
+Satinder Singh,DeepMind
+Aaron Courville,U. Montreal
+Yaqi Duan,Princeton University
+Tracy Ke,Harvard University
+Mengdi Wang,Princeton University
+Charles Marx,Haverford College
+Richard Phillips,Cornell University
+Sorelle Friedler,Haverford College
+Carlos  Scheidegger,The University of Arizona
+Suresh Venkatasubramanian,University of Utah
+David Janz,University of Cambridge
+Jiri Hron,University of Cambridge
+Przemysław Mazur,Wayve
+José Miguel Hernández-Lobato,University of Cambridge
+Théo Ryffel,"ENS, CNRS, PSL University, INRIA Paris"
+David Pointcheval,École Normale Supérieure
+Edouard Dufour-Sans,Carnegie Mellon University
+Romain Gay,UC Berkeley
+David Martínez-Rubio,University of Oxford
+Gonzalo Mena,Harvard
+Shirin Jalali,Nokia Bell Labs
+Carl Nuzman,Nokia Bell Labs
+Iraj Saniee,Nokia Bell Labs
+Yifan Sun,Carnegie Mellon University
+Hao Gong,Princeton University
+Xu Wang,Shenzhen University
+Jingming He,Shenzhen University
+Creighton Heaukulani,No Affiliation
+Mark van der Wilk,PROWLER.io
+Rahul Singh,MIT
+Maneesh Sahani,"Gatsby Unit, UCL"
+Arthur Gretton,"Gatsby Unit, UCL"
+Hugo Caselles-Dupré,Flowers Laboratory (ENSTA ParisTech & INRIA) & Softbank Robotics Europe
+Michael Garcia Ortiz,SoftBank Robotics Europe
+David Filliat,ENSTA
+Supratik Paul,University of Oxford
+Vitaly Kurin,University of Oxford
+Ian Char,Carnegie Mellon University
+Youngseog Chung,Carnegie Mellon University
+Willie Neiswanger,Carnegie Mellon University
+Kirthevasan Kandasamy,Carnegie Mellon University
+Oak Nelson,Princeton Plasma Physics Lab
+Mark Boyer,Princeton Plasma Physics Lab
+ Egemen Kolemen,Princeton Plasma Physics Lab
+Jeff Schneider,Carnegie Mellon University
+Candice Schumann,University of Maryland
+Zhi Lang,"University of Maryland, College Park"
+Jeffrey Foster,Tufts University
+Jean-Yves Franceschi,Sorbonne Université
+Aymeric Dieuleveut,"Ecole Polytechnique, IPParis"
+Martin Jaggi,EPFL
+Tao Tu,Columbia University
+John Paisley,Columbia University
+Stefan Haufe,Charité – Universitätsmedizin Berlin
+Paul Sajda,Columbia University
+Bryan Wilder,
+Eric Ewing,University of Southern California
+Bistra Dilkina,University of Southern California
+Milind Tambe,USC
+Fan Yang,Carnegie Mellon University
+Liu Leqi,Carnegie Mellon University
+Yifan Wu,Carnegie Mellon University
+Tom M Mitchell,Carnegie Mellon University
+William Cohen,Google AI
+Rafael Müller,Google Brain
+Geoffrey E Hinton,Google & University of Toronto
+Harsh Gupta,University of Illinois at Urbana-Champaign
+R. Srikant,University of Illinois at Urbana-Champaign
+Lei Ying,ASU
+Lixin Fan,WeBank AI Lab
+Kam Woh Ng,University of Malaya
+Chee Seng Chan,University of Malaya
+Cole Hurwitz,University of Edinburgh
+Kai Xu,University of Ediburgh
+Akash Srivastava,MIT–IBM Watson AI Lab
+Alessio Buccino,"CINPLA, University of Oslo"
+Matthias Hennig,University of Edinburgh
+Rajesh Jayaram,Carnegie Mellon University
+Wen Sun,Microsoft Research NYC
+Ilias Diakonikolas,UW Madison
+Themis Gouleakis,Max Planck Institute for Informatics
+Christos Tzamos,UW Madison
+Basri Ronen,Weizmann Inst.
+David Jacobs,"University of Maryland, USA"
+Yoni Kasten,Weizmann Institute
+Shira Kritchman,Weizmann Institute
+Xingyu Lin,Carnegie Mellon University
+Harjatin Baweja,CMU
+George Kantor,CMU
+David Held,CMU
+Soumya Basu,University of Texas at Austin
+Rajat Sen,Amazon
+Sujay Sanghavi,UT-Austin
+Sanjay Shakkottai,University of Texas at Austin
+Wei Qian,Cornell Univeristy
+Yuqian Zhang,Cornell University
+Yudong Chen,Cornell University
+Taewan Kim,Amazon
+Joydeep Ghosh,UT Austin
+Hsiang-Fu Yu,Amazon
+Inderjit S Dhillon,UT Austin & Amazon
+Chen Xing,Montreal Institute of Learning Algorithms
+Negar Rostamzadeh,Elemenet AI
+Boris Oreshkin,Element AI
+Pedro O. Pinheiro,Element AI
+Ioannis Koutis,New Jersey Institute of Technology
+Huong Le,NJIT
+Zhitao Ying,Stanford University
+Ines Chami,Stanford University
+Jure Leskovec,Stanford University and Pinterest
+Jian QIAN,INRIA Lille - Sequel Team
+Ronan Fruit,Inria Lille
+Matteo Pirotta,Facebook AI Research
+Alessandro Lazaric,Facebook Artificial Intelligence Research
+Xiao Sun,IBM Thomas J. Watson Research Center
+Jungwook Choi,Hanyang University
+Chia-Yu Chen,IBM research
+Naigang Wang,IBM T. J. Watson Research Center
+Swagath Venkataramani,IBM Research
+Vijayalakshmi,Viji) Srinivasan (IBM TJ Watson
+Xiaodong Cui,IBM T. J. Watson Research Center
+Wei Zhang,IBM T.J.Watson Research Center
+Kailash Gopalakrishnan,IBM Research
+Guang-He Lee,MIT
+Shiyu Chang,IBM T.J. Watson Research Center
+Tommi Jaakkola,MIT
+Ruqi Zhang,Cornell University
+Ari Morcos,Facebook AI Research
+Haonan Yu,Facebook AI Research
+Michela Paganini,Facebook AI Research
+Ali Mousavi,Google Brain
+Daniel Holtmann-Rice,Google Inc
+Satyen Kale,Google
+Sashank Reddi,Google
+Sanjiv Kumar,Google Research
+Suman Bera,University of California Santa Cruz
+Deeparnab Chakrabarty,Dartmouth
+Nicolas Flores,Dartmouth College
+Maryam Negahbani,Dartmouth College
+Xin Guo,"University of California, Berkeley"
+Anran Hu,"University of Californian, Berkeley (UC Berkeley)"
+Renyuan Xu,University of Oxford
+Junzi Zhang,Stanford University
+Igor Fedorov,Arm Research
+Ryan Adams,Princeton University
+Matthew Mattina,ARM
+Paul Whatmough,Arm Research
+Eric Jonas,University of Chicago
+Chi Han,Tsinghua University
+Jiayuan Mao,MIT
+Jiajun Wu,MIT
+Andrew Tao,Nvidia Corporation
+Guilin Liu,NVIDIA
+Bryan Catanzaro,NVIDIA
+Weiyang Liu,Georgia Institute of Technology
+Zhen Liu,"MILA, University of Montreal"
+James M Rehg,Georgia Tech
+Yikang Shen,"Mila, University of Montreal, MSR Montreal"
+Shawn Tan,Mila
+Arian Hosseini,"Mila, University of Montreal, MSR Montreal"
+Zhouhan Lin,MILA
+Alessandro Sordoni,Microsoft Research Montreal
+David Berthelot,Google Brain
+Nicholas Carlini,Google
+Ian Goodfellow,Google
+Nicolas Papernot,University of Toronto
+Avital Oliver,Google Brain
+Colin A Raffel,Google Brain
+Jingjing Wang,University of Waterloo
+Sun Sun,National Research Council
+Yaoliang Yu,University of Waterloo
+Sharon Qian,Harvard
+Yaron Singer,Harvard University
+Anton Bakhtin,Facebook AI Research
+Laurens van der Maaten,Facebook
+Justin Johnson,University of Michigan / FAIR
+Laura Gustafson,Facebook AI Research
+Ross Girshick,FAIR
+Ji Xu,Columbia University
+Daniel Hsu,Columbia University
+Jicong Fan,Cornell University
+Lijun Ding,Cornell University
+Madeleine Udell,Cornell University
+Ifigeneia Apostolopoulou,Carnegie Mellon University
+Kyle Miller,Carnegie Mellon University
+Artur Dubrawski,Carnegie Mellon University
+Gautier Izacard,Ecole Polytechnique
+Sreyas Mohan,NYU
+Carlos Fernandez-Granda,NYU
+Ziyu Jiang,Texas A&M University
+Yue Wang,MIT
+Xiaohan Chen,Texas A&M University
+Pengfei Xu,Didi Chuxing
+Yang Zhao,Rice University
+Yingyan Lin,Rice University
+Tianjun Zhang,"University of California, Berkeley"
+Zhewei Yao,UC Berkeley
+Amir Gholami,"University of California, Berkeley"
+Joseph Gonzalez,UC Berkeley
+Kurt Keutzer,"EECS, UC Berkeley"
+Michael W Mahoney,UC Berkeley
+George Biros,University of Texas at Austin
+Jayadev Acharya,Cornell University
+Sourbh Bhadane,Cornell University
+Piotr Indyk,MIT
+Ziteng Sun,Cornell University
+Micah Carroll,UC Berkeley
+Rohin Shah,UC Berkeley
+Mark Ho,Princeton University
+Tom Griffiths,Princeton University
+Sanjit Seshia,UC Berkeley
+Anca Dragan,UC Berkeley
+Gabriele Farina,Carnegie Mellon University
+Chun Kai Ling,Carnegie Mellon University
+Fei Fang,Carnegie Mellon University
+Tuomas Sandholm,"CMU, Strategic Machine, Strategy Robot, Optimized Markets"
+Zhengyuan Zhou,Stanford University
+Saeed Mahloujifar,University of Virginia
+Xiao Zhang,Purdue University
+Mohammad Mahmoody,University of Virginia
+David Evans,University of Virginia
+Erik Nijkamp,UCLA
+Mitch Hill,UCLA Department of Statistics
+Ying Nian Wu,"University of California, Los Angeles"
+Shiyang Li,UCSB
+Xiaoyong Jin,UCSB
+Yao Xuan,"University of California, Santa Barbara"
+Xiyou Zhou,UC Santa Barbara
+Wenhu Chen,"University of California, Santa Barbara"
+Yu-Xiang Wang,UC Santa Barbara
+Xifeng Yan,UCSB
+Pang Wei Koh,Stanford University
+Kai-Siang Ang,Stanford University
+Hubert Teo,Stanford University
+Yandong Wen,Carnegie Mellon University
+Bhiksha Raj,Carnegie Mellon University
+Rita Singh,Carnegie Mellon University
+Mengye Ren,University of Toronto / Uber ATG
+Ethan Fetaya,University of Toronto
+Ivan Stelmakh,Carnegie Mellon University
+Nihar Shah,CMU
+Aarti Singh,CMU
+Chanho Eom,Yonsei University
+Bumsub Ham,Yonsei University
+Nixie S Lesmana,Nanyang Technological University
+Xuan Zhang,University of Illinois at Urbana-Champaign
+Xiaohui Bei,Nanyang Technological University
+Yulia Rubanova,University of Toronto
+Tian Qi Chen,U of Toronto
+Yiqi Zhong,University of Southern California
+Cho-Ying Wu,University of Southern California
+Suya You,US Army Research Laboratory
+Guillaume Charpiat,INRIA
+Nicolas Girard,Inria Sophia-Antipolis
+Loris Felardos,INRIA
+Yuliya Tarabalka,Inria Sophia-Antipolis
+Marko Mitrovic,Yale University
+Ehsan Kazemi,Yale
+Moran Feldman,Open University of Israel
+Amin Karbasi,Yale
+Adam Gaier,Google / Inria / H-BRS
+David Ha,Google Brain
+Daniel Freeman,Google Brain
+Luke Metz,Google Brain
+Sébastien Arnold,University of Southern California
+Pierre-Antoine Manzagol,Google
+Reza Babanezhad Harikandeh,UBC
+Ioannis Mitliagkas,Mila & University of Montreal
+Daniel McDuff,Microsoft Research
+Shuang Ma,SUNY Buffalo
+Yale Song,Microsoft
+Ashish Kapoor,Microsoft
+Yunwen Lei,Southern University of Science and Technology
+Peng Yang,Southern University of Science and Technology
+Ke Tang,Southern University of Science and Technology
+Ding-Xuan Zhou,City University of Hong Kong
+Ashudeep Singh,Cornell University
+Thorsten Joachims,Cornell
+Alexander Irpan,Google Brain
+Kanishka Rao,Google
+Konstantinos Bousmalis,DeepMind
+Chris Harris,Google
+Julian Ibarz,Google Inc.
+Corinna Cortes,Google Research
+Mehryar Mohri,Courant Inst. of Math. Sciences & Google Research
+Dmitry Storcheus,Google Research
+Atilim Gunes Baydin,University of Oxford
+Lei Shao,Intel Corporation
+Wahid Bhimji,Berkeley lab
+Lukas Heinrich,New York University
+Saeid Naderiparizi,University of British Columbia
+Andreas Munk,University of British Columbia
+Jialin Liu,Lawrence Berkeley National Lab
+Bradley Gram-Hansen,University of Oxford
+Lawrence Meadows,Intel Corporation
+Victor Lee,Intel Corporation
+Kyle Cranmer,New York University
+Mr. Prabhat,LBL/NERSC
+Frank Wood,University of British Columbia
+Harald Steck,Netflix
+Edward Raff,Booz Allen Hamilton
+David Eriksson,Uber AI
+Matthias Poloczek,Uber AI
+Jacob Gardner,Uber AI Labs
+Ryan Turner,Uber AI Labs
+Michael Pearce,Warwick University
+Daniel Jarrett,University of Cambridge
+M Van Der Schaar,"University of California, Los Angeles"
+Zhouyuan Huo,University of Pittsburgh
+Shen-Huan Lyu,Nanjing University
+Liang Yang,Nanjing University
+Amir Najafi,Sharif University of Technology
+Shin-ichi Maeda,Preferred Networks
+Takeru Miyato,"Preferred Networks, Inc."
+Kohei Hayashi,Preferred Networks
+Taiki Yamaguchi,The University of Tokyo
+Yohei Sugawara,"Preferred Networks, Inc."
+Wei Deng,Purdue University
+Faming Liang,Purdue University
+Guang Lin,Purdue University
+Binghui Peng,Columbia University
+Wei Chen,Microsoft Research
+Yiren Zhao,University of Cambridge
+Xitong Gao,"Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences"
+Daniel Bates,University of Cambridge
+Robert Mullins,University of Cambridge
+Cheng-Zhong Xu,University of Macau
+Dinesh Garg,"IBM Research AI, India"
+Shajith Ikbal Mohamed,"IBM Research AI, India"
+Santosh K. Srivastava,IBM Research AI
+Harit Vishwakarma,University of Wisconsin Madison
+Hima Karanam,IBM Research AI
+L Venkata Subramaniam,IBM Research AI - India
+Vrettos Moulos,UC Berkeley
+Andrea Zanette,Stanford University
+Mykel J Kochenderfer,Stanford University
+Emma Brunskill,Stanford University
+Mahdi Karami,University of Alberta
+Jascha Sohl-Dickstein,Google Brain
+Laurent Dinh,Google Brain
+Daniel Duckworth,Google Brain
+Philippe Casgrain,Citadel / University of Toronto
+Xiaoling Hu,Stony Brook University
+Fuxin Li,Oregon State University
+Dimitris Samaras,Stony Brook University
+Chao Chen,Stony Brook University
+Aming Wu,Tianjin University
+Linchao Zhu,University of Sydney Technology
+Yahong Han,"Tianjin University, China"
+Vikas Garg,MIT
+Tamar Pichkhadze,MIT
+Francisco Garcia,University of Massachusetts - Amherst
+Philip Thomas,University of Massachusetts Amherst
+Xiao Liu,Peking University
+Xiaolong Zou,Peking University
+Zilong Ji,Beijing Normal University
+Gengshuo Tian,Beijing Normal University
+Yuanyuan Mi,Weizmann Institute of Science
+Tiejun Huang,Peking University
+K. Y. Michael Wong,"Department of Physics, Hong Kong University of Science and Technology"
+Jianxin Ma,Alibaba Group
+Chang Zhou,Alibaba Group
+Peng Cui,Tsinghua University
+Hongxia Yang,Alibaba Group
+Simon Du,Institute for Advanced Study
+Kangcheng Hou,Zhejiang University
+Russ Salakhutdinov,Carnegie Mellon University
+Barnabas Poczos,Carnegie Mellon University
+Keyulu Xu,MIT
+Hui Guan,North Carolina State University
+Lin Ning,NCSU
+Zhen Lin,NCSU
+Xipeng Shen,North Carolina State University
+Huiyang Zhou,NCSU
+Seung-Hwan Lim,Oak Ridge National Laboratory
+Bin Shi,UC Berkeley
+Weijie Su,"The Wharton School, University of Pennsylvania"
+Zhilin Yang,Recurrent AI
+Zihang Dai,Carnegie Mellon University
+Yiming Yang,CMU
+Jaime Carbonell,CMU
+Jianghong Shi,University of Washington
+Eric Shea-Brown,University of Washington
+Michael Buice,Allen Institute for Brain Science
+Thang Luong,Google Brain
+Mingyi Hong,University of Minnesota
+Kexin Tang,Shanghai Jiao Tong University
+Ben Adlam,Google
+Ningshan Zhang,New York University
+Tiantian Fang,University of Illinois Urbana-Champaign
+Alexander Schwing,University of Illinois at Urbana-Champaign
+Ronghui You,Fudan University
+Ziye Wang,Fudan University
+Suyang Dai,Fudan University
+Hiroshi Mamitsuka,Kyoto University / Aalto University
+Shanfeng Zhu,Fudan University
+Himanshu Sahni,Georgia Institute of Technology
+Toby Buckley,Offworld Inc.
+Ilya Kuzovkin,Offworld Inc.
+Kecheng Zheng,University of Science and Technology of China
+Wei Wei,Google AI
+Yangbangyan Jiang,"Institute of Information Engineering, Chinese Academy of Sciences"
+Florian Tramer,Stanford University
+Dan Boneh,Stanford University
+Gi-Soo Kim,Seoul National University
+Myunghee Cho Paik,Seoul National University
+Xuezhe Ma,Carnegie Mellon University
+Xiang Kong,Carnegie Mellon University
+Shanghang Zhang,Carnegie Mellon University
+Eduard Hovy,Carnegie Mellon University
+Drew Hudson,Stanford
+Christopher Manning,Stanford University
+Mikhail Khodak,CMU
+Ameet Talwalkar,CMU
+Kai Zheng,Peking University
+Haipeng Luo,University of Southern California
+Liwei Wang,Peking University
+Wenhao Yang,Peking University
+Zhihua Zhang,Peking University
+Zhiwei Fan,University of Wisconsin-Madison
+Aritra Guha,University of Michigan
+Paraschos Koutris,University of Wisconsin-Madison
+XuanLong Nguyen,University of Michigan
+Siqi Wang,National University of Defense Technology
+Yijie Zeng,Nanyang Technological University
+Xinwang Liu,National University of Defense Technology
+En Zhu,National University of Defense Technology
+Jianping Yin,Dongguan University of Technology
+Chuanfu Xu,National University of Defense Technology
+Marius Kloft,TU Kaiserslautern
+Yonatan Geifman,Technion
+Ran El-Yaniv,Technion
+Christopher Criscitiello,"None, formerly Princeton University"
+Nicolas Boumal,Princeton University
+Jiong Zhang,University of Texas at Austin
+W. O. K. Asiri Suranga Wijesinghe,The Australian National University
+Qing Wang,Huya AI
+Wonjae Kim,Kakao Corporation
+Yoonho Lee,Kakao Corporation
+Mareike Hartmann,University of Copenhagen
+Yova  Kementchedjhieva,University of Copenhagen
+Anders Søgaard,University of Copenhagen
+Tianyu Guo,Peking University
+Boxin Shi,Peking University
+Chao Xu,Peking University
+Florian Scheidegger,IBM Research -- Zurich
+Luca Benini,"ETHZ, University of Bologna "
+Costas Bekas,IBM Research GmbH
+A. Cristiano I. Malossi,IBM Research - Zurich
+Yihe Dong,Microsoft
+Samuel Hopkins,UC Berkeley
+Jerry Li,Microsoft
+Yanyao Shen,UT Austin
+Yu Qi,Zhejiang University
+Bin Liu,Nanjing University of Posts and Telecommunications
+Yueming Wang,Zhejiang University
+Gang Pan,Zhejiang University
+Yingru Li,"The Chinese University of Hong Kong, Shenzhen, China"
+Jiechao Xiong,Tencent AI Lab
+Tong Zhang,Tencent AI Lab
+Alessio Ansuini,International School for Advanced Studies (SISSA)
+Alessandro Laio,International School for Advanced Studies (SISSA)
+Jakob H Macke,"Technical University of Munich, Munich, Germany"
+Davide Zoccolan,"Visual Neuroscience Lab, International School for Advanced Studies (SISSA)"
+Anh Tuan Luu,MIT CSAIL
+Aston Zhang,Amazon AI
+Shuohang Wang,Singapore Management University
+Siu Cheung Hui,Nanyang Technological University
+Jian Ni,University of Science and Technology of China
+Haiyong Xie,University of Science and Technology of China
+Zeyuan Allen-Zhu,Microsoft Research
+Yuanzhi Li,Princeton
+Yingyu Liang,University of Wisconsin Madison
+Sangwoo Mo,KAIST
+Chiheon Kim,Kakao Brain
+Sungwoong  Kim,Kakao Brain
+Minsu Cho,POSTECH
+Jinwoo Shin,KAIST; AITRICS
+Jie Song,Zhejiang University
+Xinchao Wang,Stevens Institute of Technology
+Chengchao Shen,Zhejiang University
+Mingli Song,Zhejiang University
+Derek Yang,UC San Diego
+Li Zhao,Microsoft Research
+Zichuan Lin,Tsinghua University
+Jiang Bian,Microsoft
+Guy Lorberbom,Technion
+Andreea Gane,Google AI
+Tamir Hazan,Technion
+Guangwen Yang,Tsinghua University
+Yilun Xu,Peking University
+Peng Cao,Peking University
+Yuqing Kong,Peking University
+Yizhou Wang,Peking University
+Motonobu Kanagawa,EURECOM
+Dan Zhang,Bosch Center for Artificial Intelligence
+Anna Khoreva,Bosch Center for Artificial Intelligence
+Ali Kavis,EPFL
+Kfir Y. Levy,Technion
+Volkan Cevher,EPFL
+Aaron Klein,Amazon Berlin
+Zhenwen Dai,Amazon
+Frank Hutter,University of Freiburg & Bosch
+Neil Lawrence,Amazon
+Javier Gonzalez,Amazon
+Rahma Chaabouni,FAIR/ENS
+Eugene Kharitonov,Facebook AI
+Emmanuel Dupoux,Ecole des Hautes Etudes en Sciences Sociales
+Marco Baroni,University of Trento
+Abraham Traore,University of Rouen
+Maxime Berar,Université de Rouen
+Alain Rakotomamonjy,Université de Rouen Normandie   Criteo AI Lab
+Yiren Wang,University of Illinois at Urbana-Champaign
+Yingce Xia,Microsoft Research Asia
+Fei Tian,Facebook
+Fei Gao,University of Chinese Academy of Sciences
+Cheng Xiang  Zhai,University of Illinois at Urbana-Champaign
+Martin Jørgensen,Technical University of Denmark
+Weiwei Liu,Wuhan University
+Martin Trapp,Graz University of Technology
+Robert Peharz,University of Cambridge
+Hong Ge,University of Cambridge
+Franz Pernkopf,"Signal Processing and Speech Communication Laboratory, Graz, Austria"
+Zoubin Ghahramani,Uber and University of Cambridge
+Robert Pinsler,University of Cambridge
+Jonathan Gordon,University of Cambridge
+Eric Nalisnick,University of Cambridge
+zengfeng Huang,Fudan University
+Ziyue Huang,Hong Kong University of Science and Technology
+Yilei WANG,The Hong Kong University of Science and Technology
+Ke Yi,""" Hong Kong University of Science and Technology, Hong Kong"""
+Xiaohan Ding,Tsinghua University
+guiguang ding,"Tsinghua University, China"
+Xiangxin Zhou,Tsinghua University
+Yuchen Guo,Tsinghua University
+Jungong Han,Lancaster University
+Tomasz Kuśmierczyk,University of Helsinki
+Joseph Sakaya,University of Helsinki
+Arto Klami,University of Helsinki
+Ryo Karakida,National Institute of Advanced Industrial Science and Technology
+Shotaro Akaho,AIST
+Shun-ichi Amari,RIKEN
+Natasa Tagasovska,University of Lausanne
+David Lopez-Paz,Facebook AI Research
+Eran Malach,Hebrew University Jerusalem Israel
+Shai Shalev-Shwartz,Mobileye & HUJI
+Matteo Togninalli,ETH Zürich
+Elisabetta Ghisu,ETH Zurich
+Felipe Llinares-López,ETH Zürich
+Bastian Rieck,ETH Zurich
+Karsten Borgwardt,ETH Zurich
+Qi Dou,Imperial College London
+Daniel Coelho de Castro,Imperial College London
+Konstantinos Kamnitsas,Imperial College London
+Ben Glocker,Imperial College London
+Lukas Hoyer,Bosch Center for Artificial Intelligence
+Mauricio Munoz,Bosch Center for Artificial Intelligence
+Prateek Katiyar,Bosch Center for Artificial Intelligence
+Volker Fischer,"Robert Bosch GmbH, Bosch Center for Artificial Intelligence"
+Ioannis Panageas,SUTD
+Georgios Piliouras,Singapore University of Technology and Design
+Xiao Wang,Singapore University of Technology and Design
+Michael Arbel,UCL
+Anna Korba,Gatsby Unit - UCL
+Adil SALIM,KAUST
+Sajin Sasy,University of Waterloo
+Olga Ohrimenko,Microsoft Research
+Zaiqiao Meng,University of Glasgow
+Shangsong Liang,Sun Yat-sen University
+Jinyuan Fang,Sun Yat-sen University
+Teng Xiao,Sun Yat-sen University
+Roman Beliy,weizmann institute
+Guy Gaziv,Weizmann Institute of Science
+Assaf Hoogi,Weizmann Institute
+Francesca Strappini,Weizmann Institute of Science
+Tal Golan,Columbia University
+Damien Ackerer,Swissquote
+Thibault Vatter,Columbia University
+Tobias Sommer Thune,University of Copenhagen
+Nicolò Cesa-Bianchi,Università degli Studi di Milano
+Yevgeny Seldin,University of Copenhagen
+Lars Maaløe,Corti
+Marco Fraccaro,Unumed
+Valentin Liévin,DTU
+Ole Winther,Technical University of Denmark
+Bolin Wei,Peking University
+Xin Xia,Monash University
+Zhiyi Fu,"Key Lab of High Confidence Software Technologies (Peking University), Ministry of Education"
+Zhi Jin,"Key Lab of High Confidence Software Technologies (Peking University), Ministry o"
+Ron A Shapira Weber,Ben-Gurion University
+Matan Eyal,Ben Gurion University
+Oren Shriki,Ben-Gurion University of the Negev
+Oren Freifeld,Ben-Gurion University
+Cheng-Chun Hsu,Academia Sinica
+Kuang-Jui Hsu,Qualcomm
+Chung-Chi Tsai ,Qualcomm
+Yen-Yu Lin,National Chiao Tung University
+Yung-Yu Chuang,National Taiwan University
+Gilad Yehudai,Weizmann Institute of Science
+Ohad Shamir,Weizmann Institute of Science
+tianyuan jin,University of Science and Technology of China
+Jieming SHI,NATIONAL UNIVERSITY OF SINGAPORE
+Xiaokui Xiao,National University of Singapore
+Enhong Chen,University of Science and Technology of China
+Taufik Xu,Tsinghua University
+Chongxuan LI,Tsinghua University
+Jun Zhu,Tsinghua University
+Bo Zhang,Tsinghua University
+Karlis Freivalds,"Institute of Mathematics and Computer Science, University of Latvia"
+Emīls Ozoliņš,Institute of Mathematics and Computer Science
+Agris Šostaks,Institute of Mathematics and Computer Science
+Yukang Chen,"Institute of Automation, Chinese Academy of Sciences"
+Tong Yang,Megvii Inc.
+Xiangyu Zhang,MEGVII Technology
+Xinyu Xiao,"National Laboratory of Pattern recognition (NLPR),  Institute of Automation of Chinese Academy of Sciences (CASIA)"
+Sungbin Lim,Kakao Brain
+Ildoo Kim,Kakao Brain
+Taesup Kim,Mila / Kakao Brain
+Ben Deverett,Princeton University
+Ryan Faulkner,Deepmind
+Meire Fortunato,DeepMind
+Joel Leibo,DeepMind
+Roi Livni,Tel Aviv University
+Stanislav Fort,Stanford University / Google Research
+Stanislaw Jastrzebski,New York University
+Mike Gartrell,Criteo AI Lab
+Victor-Emmanuel Brunel,ENSAE ParisTech
+Elvis Dohmatob,Criteo
+Syrine Krichene,Google
+Dylan Foster,MIT
+Spencer Greenberg,Spark Wave
+Karthik Sridharan,Cornell University
+Bo Yang,University of Oxford
+Jianan Wang,DeepMind
+Ronald Clark,Imperial College London
+Qingyong Hu,University of Oxford
+Sen Wang,Heriot-Watt University
+Andrew Markham,University of Oxford
+Niki Trigoni,University of Oxford
+Seppo Virtanen,University of Cambridge
+Mark Girolami,Imperial College London
+Yibo Zhang,Illinois
+Rajiv Khanna,University of California at Berkeley
+Anastasios Kyrillidis,Rice University
+Oluwasanmi Koyejo,UIUC
+Iryna Korshunova,Ghent University
+Hanchen Xiong,Twitter
+Mateusz Fedoryszak,Twitter
+Lucas Theis,Twitter
+Shouvanik Chakrabarti,University of Maryland
+Huang Yiming,University of Electronic Science and Technology of China; University of Maryland
+Tongyang Li,University of Maryland
+Soheil Feizi,University of Maryland
+Xiaodi Wu,University of Maryland
+Joan Serrà,Telefónica Research
+Santiago Pascual,Universitat Politècnica de Catalunya
+Carlos Segura Perales,Telefónica Research
+Ho Chung Law,University of Oxford
+Leung Sing Chan,University of Oxford
+Dino Sejdinovic,University of Oxford
+Akinori Tanaka,RIKEN/Keio Univ.
+David Salinas,Naverlabs
+Michael Bohlke-Schneider,Amazon
+Laurent Callot,Amazon
+Jan Gasthaus,Amazon.com
+Roberto Medico,Ghent University
+Xiaobo Xia,The University of Sydney / Xidian University
+Nannan Wang,Xidian University
+Bo Han,RIKEN
+Fenglin Liu,Peking University
+Yuanxin Liu,"Institute of Information Engineering, Chinese Academy of Sciences; SCS, University of Chinese Academy of Sciences"
+Xuancheng Ren,Peking University
+Xiaodong He,JD AI research
+Kai Lei,peking university
+Marco Cuturi,Google Brain  &  CREST - ENSAE
+Olivier Teboul,Google Brain
+Jean-Philippe Vert,
+Gaël Letarte,Université Laval
+Pascal Germain,INRIA
+Benjamin Guedj,Inria & University College London
+Francois Laviolette,Université Laval
+Chenwei DING,The University of Sydney
+DongDong Ge,Shanghai University of Finance and Economics
+Haoyue Wang,Fudan University
+Zikai Xiong,Fudan University
+Yinyu  Ye,Standord
+Denis Mazur,Yandex
+Vage Egiazarian,Skoltech
+Stanislav Morozov,Yandex
+Artem Babenko,Yandex
+Boris Muzellec,"ENSAE, Institut Polytechnique de Paris"
+Huizhuo Yuan,Peking University
+Xiangru Lian,University of Rochester
+Chris Junchi Li,Tecent AI Lab
+Yu-Guan Hsieh,Université Grenoble Alpes / École Normale Supérieure Paris
+Franck Iutzeler,Univ. Grenoble Alpes
+Jérôme Malick,CNRS and LJK
+Panayotis Mertikopoulos,CNRS (French National Center for Scientific Research)
+Shagun Ajmera Shyam Sunder Ajmera,Indian Institute of Science
+Shreya Rajagopal,Indian Institute of Science
+Razi Rehman,Indian Institute of Science
+Devarajan Sridharan,Indian Institute of Science
+Rui Zhang,Arizona State University
+Sebastian Goldt,"Institut de Physique Théorique, CNRS, Paris"
+Madhu Advani,Apple
+Andrew Saxe,University of Oxford
+Florent Krzakala,École Normale Supérieure
+Lenka Zdeborová,CEA Saclay
+Yuan Liu,Zhejiang University
+Zehong Shen,Zhejiang University
+Zhixuan Lin,Zhejiang University
+Sida Peng,Zhejiang University
+Hujun Bao,Zhejiang University
+Xiaowei Zhou,"Zhejiang University, China"
+Mark Herbster,University College London
+James Robinson,UCL
+Fan Zhou,Shanghai University of Finance and Economics
+Tengfei Li,UNC Chapel Hill
+Haibo Zhou,University of North Carolina at Chapel Hill
+Hongtu Zhu,UNC Chapel Hill
+Ye Jieping,DiDi Chuxing
+Andreas Kirsch,University of Oxford
+Joost van Amersfoort,University of Oxford
+Yarin Gal,University of Oxford
+Yaniv Blumenfeld,Technion
+Dar Gilboa,Columbia University
+Daniel Soudry,Technion
+Marek Petrik,University of New Hampshire
+Reazul Hasan Russel,University of New Hampshire
+Alexis CONNEAU,Facebook
+Guillaume Lample,Facebook AI Research
+Cornelius Schröder,University of Tübingen
+Ben James ,University of Sussex
+Leon Lagnado,University of Sussex
+Philipp Berens,University of Tübingen
+Maxence Ernoult,Université Paris Sud
+Benjamin Scellier,"Mila, University of Montreal"
+Damien Querlioz,Univ Paris-Sud
+Julie Grollier,Unité Mixte de Physique CNRS/Thales
+Nicolas Keriven,Ecole Normale Supérieure
+Gabriel Peyré,CNRS and ENS
+Jaehyeok Shin,Carnegie Mellon University
+Alessandro Rinaldo,CMU
+Abi Komanduru,Purdue University
+Matthew Fellows,University of Oxford
+Anuj Mahajan,University of Oxford
+Tim G. J. Rudner,University of Oxford
+Aliaksandr Siarohin,University of Trento
+Stephane Lathuillere,University of Trento
+Sergey Tulyakov,Snap Inc
+Elisa Ricci,FBK - Technologies of Vision
+Nicu Sebe,University of Trento
+Laurence Aitchison,University of Cambridge
+Alban Laflaquière,SoftBank Robotics Europe
+Jiabin Liu,University of Chinese Academy of Sciences
+Bo Wang,University of International Business and Economics
+Zhiquan Qi,University of Chinese Academy of Sciences
+YingJie Tian,University of Chinese Academy of Sciences
+Yong Shi,University of Chinese Academy of Sciences
+Debmalya Mandal,Columbia University
+Nisarg Shah,University of Toronto
+Can Qin,Northeastern University
+Haoxuan You,Columbia University
+Lichen Wang,Northeastern University
+C.-C. Jay Kuo,University of Southern California
+Yun Fu,Northeastern University
+Xiangyi Chen,University of Minnesota
+Sijia Liu,"MIT-IBM Watson AI Lab, IBM Research AI"
+Kaidi Xu,Northeastern University
+Xingguo Li,Princeton University
+Xue Lin,Northeastern University
+Erwan Lecarpentier,Université de Toulouse
+Emmanuel Rachelson,ISAE-SUPAERO / University of Toulouse
+Akihiro Kishimoto,IBM Research
+Beat Buesser,IBM Research
+Bei Chen,IBM Research
+Adi Botea,IBM Research
+Nika Haghtalab,Cornell University
+Cameron Musco,Microsoft Research
+Bo Waggoner,"U. Colorado, Boulder"
+Sebastian Mair,Leuphana University
+Ulf Brefeld,Leuphana
+Adam Bielski,University of Bern
+Paolo Favaro,"Bern University, Switzerland"
+Xiyang Hu,Duke University
+Cynthia Rudin,Duke
+Margo Seltzer,University of British Columbia
+Yue Sun,University of Washington
+Nicolas Flammarion,EPFL
+Maryam Fazel,University of Washington
+Sicheng Zhao,University of California Berkeley
+Bo Li,Harbin Institute of Technology
+Xiangyu Yue,UC Berkeley
+Yang Gu,Didi chuxing
+Runbo Hu,DiDi Chuxing
+Hua Chai,Didi Chuxing
+Carlo Ciliberto,Imperial College London
+Sarath Yasodharan,Indian Institute of Science
+Patrick Loiseau,Inria
+David Sabbagh,INRIA
+Pierre Ablin,Inria
+Gael Varoquaux,"Parietal Team, INRIA"
+Denis A. Engemann,INRIA Saclay
+Lei Xu,MIT
+Maria Skoularidou,University of Cambridge
+Alfredo Cuesta-Infante,Universidad Rey Juan Carlos
+Kalyan Veeramachaneni,Massachusetts Institute of Technology
+Lu Hou,"Huawei Technologies Co., Ltd"
+Jinhua Zhu,University of Science and Technology of China
+James Kwok,Hong Kong University of Science and Technology
+Clarice Poon,University of Bath
+Jingwei Liang,University of Cambridge
+Daniel Worrall,University of Amsterdam
+Edward De Brouwer,KU Leuven
+Jaak Simm,KU Leuven
+Adam Arany,University of Leuven
+Yves Moreau,KU Leuven
+Niloy Biswas,Harvard University
+Pierre E Jacob,Harvard University
+Paul Vanetti,Oxford
+Ali Vakilian,University of Wisconsin-Madison
+Sanjeev Arora,Princeton University
+Nadav Cohen,Tel Aviv University
+Wei Hu,Princeton University
+Yuping Luo,Princeton University
+Sushrut Karmalkar,The University of Texas at Austin
+Adam Klivans,UT Austin
+Pravesh Kothari,Princeton University and Institute for Advanced Study
+Theo Deprelle,École des ponts ParisTech
+Thibault Groueix,École des ponts ParisTech
+Matthew Fisher,Adobe Research
+Vladimir Kim,Adobe
+Bryan Russell,Adobe
+Mathieu Aubry,École des ponts ParisTech
+Pascale Gourdeau,University of Oxford
+Marta Kwiatkowska,University of Oxford
+James Worrell,University of Oxford
+Debarghya Ghoshdastidar,Technical University Munich
+Michaël Perrot,Max Planck Institute for Intelligent Systems
+Ulrike von Luxburg,University of Tübingen
+Marco Loog,Delft University of Technology & University of Copenhagen
+Tom Viering,"Delft University of Technology, Netherlands"
+Alexander Mey,TU Delft
+Liangpeng Zhang,University of Birmingham
+Xin Yao,Southern University of Science and Technology
+Arjun Nitin Bhagoji,Princeton University
+Daniel Cullina,Penn State
+Prateek Mittal,Princeton University
+Conor Durkan,University of Edinburgh
+Artur Bekasov,University of Edinburgh
+Iain Murray,University of Edinburgh
+George Papamakarios,DeepMind
+David Simchi-Levi,MIT
+Yunzong Xu,MIT
+Koen Helwegen,Plumerai
+James Widdicombe,Plumerai
+Lukas Geiger,Plumerai
+Zechun Liu,HKUST
+Kwang-Ting Cheng,Hong Kong University of Science and Technology
+Roeland Nusselder,Plumerai
+Laura Rose Edmondson,University of Sheffield
+Alejandro Jimenez Rodriguez,University of Sheffield
+Hannes P. Saal,University of Sheffield
+Santiago Paternain,University of Pennsylvania
+Luiz Chamon,University of Pennsylvania
+Miguel Calvo-Fullana,University of Pennsylvania
+Alejandro Ribeiro,University of Pennsylvania
+Niklas Gebauer,Technische Universität Berlin
+Michael Gastegger,Technische Universität Berlin
+Kristof Schütt,TU Berlin
+Akshay Balsubramani,Stanford
+Sanjoy Dasgupta,UC San Diego
+yoav Freund,UCSD
+Shay Moran,Google AI Princeton
+Lingxiao Huang,EPFL
+Shaofeng Jiang,Weizmann Institute of Science
+Ben Graham,Facebook Research
+Jeremy Reizenstein,Facebook AI Research
+Tabish Rashid,University of Oxford
+Mikayel Samvelyan,Russian-Armenian University
+Florian Schaefer,Caltech
+Anima Anandkumar,NVIDIA / Caltech
+Ulysse Marteau-Ferey,DI ENS / INRIA
+Dushyant Rao,DeepMind
+Francesco Visin,DeepMind
+Andrei Rusu,DeepMind
+Razvan Pascanu,Google DeepMind
+Raia Hadsell,DeepMind
+Taeyoung Hahn,SNUVL
+Myeongjang Pyeon,Seoul National University
+Gunhee Kim,Seoul National University
+Eduard Eiben,"Royal Holloway, University of London"
+Robert Ganian,TU Wien
+Iyad Kanj,"DePaul University, Chicago"
+Stefan Szeider,Vienna University of Technology
+Falcon Dai,TTI-Chicago
+Matthew Walter,TTI-Chicago
+Rishidev Chaudhuri,"University of California, Davis"
+Ila Fiete,Massachusetts Institute of Technology
+Dmitrii Emelianenko,Yandex; National Research University Higher School of Economics
+Elena Voita,Yandex; University of Amsterdam
+Pavel Serdyukov,Yandex
+Brian Axelrod,Stanford
+Alistair Stewart,University of Southern California
+Anastasios Sidiropoulos,University of Illinois at Chicago
+Gecia Bravo Hermsdorff,Princeton University
+Lee Gunderson,Princeton University
+Xuechen Li,Google
+Yi Wu,University of Toronto & Vector Institute
+Lester Mackey,Microsoft Research
+Murat Erdogdu,University of Toronto
+Qian Qian,Ohio State University
+Xiaoyuan Qian,Dalian University of Technology
+Guillaume Gautier,"CNRS, INRIA, Univ. Lille"
+Rémi Bardenet,University of Lille
+Michal Valko,DeepMind Paris and Inria Lille - Nord Europe
+Zuxuan Wu,University of Maryland
+Caiming Xiong,Salesforce
+Yu-Gang Jiang,Fudan University
+Dennis Maximilian Elbrächter,University of Vienna
+Julius Berner,University of Vienna
+Philipp Grohs,University of Vienna
+Wenrui Zhang,"University of California, Santa Barbara"
+Peng Li,"University of California, Santa Barbara"
+Guokun Lai,Carnegie Mellon University
+Shinjae Yoo,Brookhaven National Lab
+Syrine Belakaria,Washington State University
+Aryan Deshwal,Washington State University
+Janardhan Rao Doppa,Washington State University
+Dilin Wang,UT Austin
+Ziyang Tang,UT Austin
+Chandrajit Bajaj,The University of Texas at Austin
+Qiang Liu,UT Austin
+Shahana Ibrahim,Oregon State University
+Xiao Fu,Oregon State University
+Nikolaos Kargas,University of Minnesota
+Kejun Huang,University of Florida
+Roman Werpachowski,DeepMind
+András György,DeepMind
+Csaba Szepesvari,DeepMind / University of Alberta
+Felix Leibfried,PROWLER.io
+Sergio Pascual-Diaz,PROWLER.io
+Jordi Grau-Moya,PROWLER.io
+Seyed Kamyar Seyed Ghasemipour,"University of Toronto, Vector Institute"
+Shixiang,Shane) Gu (Google Brain
+Tianyi Liu,Georgia Institute of Technolodgy
+Minshuo Chen,Georgia Tech
+Mo Zhou,Duke University
+Enlu Zhou,Georgia Institute of Technology
+Tuo Zhao,Georgia Tech
+Elliot Meyerson,Cognizant
+Risto Miikkulainen,The University of Texas at Austin; Cognizant
+Chieh Wu,Northeastern University
+Jared Miller,Northeastern University
+Yale Chang,Northeastern University
+Mario Sznaier,Northeastern University
+Jennifer Dy,Northeastern University
+Shuo Yang,UT Austin
+John Bradshaw,University of Cambridge/MPI IS Tübingen
+Brooks Paige,Alan Turing Institute
+Matt J Kusner,University College London
+Marwin Segler,BenevolentAI
+Ron Banner,Intel - Artificial Intelligence Products Group (AIPG)
+Yury Nahshan,Intel - Artificial Intelligence Products Group (AIPG)
+James Requeima,University of Cambridge / Invenia Labs
+John Bronskill,University of Cambridge
+Sebastian Nowozin,Microsoft Research Cambridge
+Richard Turner,Cambridge
+Ananda Theertha Suresh,Google
+Sergul Aydore,Stevens Institute of Technology
+Tianhao Zhu,Stevens Institute of Techonlogy
+Dean Foster,Amazon
+Emre Yolcu,Carnegie Mellon University
+Yu Bai,Stanford University
+Tengyang Xie,University of Illinois at Urbana-Champaign
+Nan Jiang,University of Illinois at Urbana-Champaign
+Benoit Steiner,Facebook AI Research
+Zachary DeVito,Facebook AI Research
+Soumith Chintala,Facebook AI Research
+Sam Gross,Facebook
+Adam Paszke,University of Warsaw
+Francisco Massa,Facebook AI Research
+Gregory Chanan,Facebook
+Zeming Lin,Facebook AI Research
+Edward Yang,Facebook
+Alban Desmaison,Oxford University
+Alykhan Tejani,"Twitter, Inc."
+Andreas Kopf,Xamla
+James Bradbury,Google Research
+Luca Antiga,Orobix
+Martin Raison,Nabla
+Natalia Gimelshein,NVIDIA
+Sasank Chilamkurthy,Qure.ai
+Trevor Killeen,Self Employed
+Lu Fang,Facebook
+Junjie Bai,Facebook
+Fernando Gama,University of Pennsylvania
+Joan Bruna,NYU
+Yu Wang,Microsoft Research
+Sumanta Basu,Cornell University
+Karl Kumbier,"University of California, Berkeley"
+Bin Yu,UC Berkeley
+Shanshan Wu,University of Texas at Austin
+Alexandros Dimakis,"University of Texas, Austin"
+Guodong Zhang,University of Toronto
+James Martens,DeepMind
+Roger Grosse,University of Toronto
+Santosh Vempala,Georgia Tech
+Andre Wibisono,Georgia Tech
+Cheng Meng,University of Georgia
+Yuan Ke,University of Georgia
+Jingyi Zhang,The University of Georgia
+Mengrui Zhang,University of Georgia
+Wenxuan Zhong,
+Ping Ma,University of Georgia
+Nicolas Carion,Facebook AI Research Paris
+Nicolas Usunier,Facebook AI Research
+Gabriel Synnaeve,Facebook
+Zhiyuan Li,Princeton University
+Gregory Farquhar,University of Oxford
+Jakob Foerster,Facebook AI Research
+Raymond Yeh,University of Illinois at Urbana–Champaign
+Yuan-Ting Hu,University of Illinois Urbana-Champaign
+Haoming Jiang,Georgia Institute of Technology
+Wenjing Liao,Georgia Tech
+Senanayak Sesh Kumar Karri,Imperial College London
+Thomas Pock,Graz University of Technology
+Lala Li,Google
+Zachary Nado,Google Inc.
+Sushant Sachdeva,University of Toronto
+George Dahl,Google Brain
+Chris Shallue,Google Brain
+Yu Meng,University of Illinois at Urbana-Champaign
+Jiaxin Huang,University of Illinois Urbana-Champaign
+Guangyuan Wang,UIUC
+Chao Zhang,Georgia Institute of Technology
+Honglei Zhuang,Google Research
+Lance Kaplan,U.S. Army Research Laboratory
+Jiawei Han,UIUC
+Zhixin Zhou,Baidu Research
+Shulong Tan,Baidu Research
+Zhaozhuo Xu,Baidu Research
+Ping Li,Baidu Research USA
+Maximilian Nickel,Facebook AI Research
+Douwe Kiela,Facebook AI Research
+Saeed Sharifi-Malvajerdi,University of Pennsylvania
+Michael Kearns,University of Pennsylvania
+Aaron Roth,University of Pennsylvania
+Hugo Touvron,Facebook AI Research
+Matthijs Douze,Facebook AI Research
+Herve Jegou,Facebook AI Research
+Lingge Li,UC Irvine
+Dustin Pluta,UC Irvine
+Babak Shahbaba,UCI
+Norbert Fortin,UC Irvine
+Hernando Ombao,KAUST
+Pierre Baldi,UC Irvine
+Jiarui Gan,University of Oxford
+Qingyu Guo,Nanyang Technological University
+Long Tran-Thanh,University of Southampton
+Bo An,Nanyang Technological University
+Michael Wooldridge,Univ of Oxford
+Andrew Spielberg,Massachusetts Institute of Technology
+Allan Zhao,Massachusetts Institute of Technology
+Yuanming Hu,Massachusetts Institute of Technology
+Tao Du,MIT
+Wojciech Matusik,MIT
+Daniela Rus,Massachusetts Institute of Technology
+Shichen Liu,University of Southern California (SSO)
+Shunsuke Saito,University of Southern California
+Weikai Chen,USC Institute for Creative Technology
+Hao Li,Pinscreen/University of Southern California/USC ICT
+Ibrahim Jubran,The University of Haifa
+Alaa Maalouf,The University of Haifa
+Dan Feldman,University of Haifa
+Aleksandar Bojchevski,Technical University of Munich
+Frederic Koehler,MIT
+Paul Goelz,Carnegie Mellon University
+Anson Kahng,Carnegie Mellon University
+Yongxin Chen,Georgia Institute of Technology
+Benjamin Aubin,Ipht Saclay
+Bruno Loureiro,IPhT Saclay
+Antoine Maillard,Ecole Normale Supérieure
+Francis Williams,New York University
+Matthew Trager,NYU
+Daniele Panozzo,NYU
+Claudio Silva,New York University
+Denis Zorin,New York University
+Amirhossein Reisizadeh,UC Santa Barbara
+Hossein Taheri,UCSB
+Aryan Mokhtari,UT Austin
+Hamed Hassani,UPenn
+Ramtin Pedarsani,UC Santa Barbara
+Sauptik Dhar,LG Electronics
+Vladimir Cherkassky,University of Minnesota
+Mohak Shah,LG Electronics
+Sujoy Paul,UC Riverside
+Jeroen Vanbaar,"MERL (Mitsubishi Electric Research Laboratories), Cambridge MA"
+Amit Roy-Chowdhury ,"University of California, Riverside, USA "
+Qiuwei Li,Colorado School of Mines
+Xinshuo Yang,Colorado School of Mines
+Vitaliy Chiley,Cerebras Systems
+Ilya Sharapov,Cerebras Systems
+Atli Kosson,Cerebras Systems
+Urs Koster,Cerebras Systems
+Ryan Reece,Cerebras Systems
+Sofia Samaniego de la Fuente,Cerebras Systems
+Vishal Subbiah,Cerebras Systems
+Michael James,Cerebras
+Arash Ardakani,McGill University
+Zhengyun Ji,McGill University
+Amir Ardakani,McGill University
+Warren Gross,McGill University
+Kimon Antonakopoulos,Inria
+Veronica Belmega,ENSEA
+Shengchao Liu,UW-Madison
+Mehmet F Demirel,University of Wisconsin-Madison
+Bin Hu,University of Illinois at Urbana-Champaign
+Usman Syed,University of Illinois Urbana Champaign
+Yunus Esencayi,State University of New York at Buffalo
+Marco Gaboardi,Univeristy at Buffalo
+Shi Li,University at Buffalo
+Di Wang,Google AI
+John Lawson,Stanford University
+George Tucker,Google Brain
+Rajesh Ranganath,New York University
+Karl Krauth,UC berkeley
+Stephen Tu,UC Berkeley
+Benjamin Recht,UC Berkeley
+Necdet Serhat Aybat,Penn State University
+Alireza Fallah,MIT
+Asuman Ozdaglar,Massachusetts Institute of Technology
+Hidenori Tanaka,Stanford
+Aran Nayebi,Stanford University
+Stephen Baccus,Stanford University
+Surya Ganguli,Stanford
+Alexandre Sablayrolles,Facebook AI Research
+Marc'Aurelio Ranzato,Facebook AI Research
+Ludovic Denoyer,Facebook - FAIR
+Gail Weiss,Technion
+Yoav Goldberg,Bar-Ilan University
+Eran Yahav,Technion
+Jaehoon Lee,Google Brain
+Lechao Xiao,Google Brain
+Samuel Schoenholz,Google Brain
+Yasaman Bahri,Google Brain
+Roman Novak,Google Brain
+Jeffrey Pennington,Google Brain
+Surbhi Goel,The University of Texas at Austin
+Emily Reif,Google
+Ann Yuan,Google
+Martin Wattenberg,Google
+Fernanda B Viegas,Google
+Andy Coenen,Google
+Adam Pearce,Google
+Been Kim,Google
+Jialin Wu,UT Austin
+Raymond Mooney,University of Texas at Austin
+Alon Cohen,Google
+Avinatan Hassidim,Google
+Haim Kaplan,"TAU, GOOGLE"
+Hao Yu,Alibaba Group (US) Inc 
+Gilad Baruch,Apple
+Moran Baruch,Bar Ilan University
+Gunjan Verma,U.S. Army Research Laboratory
+Ananthram Swami,"Army Research Laboratory, Adelphi"
+Sébastien Lahaie,Google Research
+Vahab Mirrokni,Google Research NYC
+Shaofeng Zou,"University at Buffalo, the State University of New York"
+Tengyu Xu,The Ohio State University
+Stefano Sarao Mannelli,Institut de Physique Théorique
+Giulio Biroli,ENS
+Chiara Cammarota,King's College London
+Colin Graber,University of Illinois at Urbana-Champaign
+Alon Gonen,UCSD
+Elad Hazan,Princeton University
+Otilia Stretcu,Carnegie Mellon University
+Krishnamurthy Viswanathan,Google Research
+Dana Movshovitz-Attias,Google
+Emmanouil Platanios,Carnegie Mellon University
+Sujith Ravi,Google Research
+Andrew Tomkins,Google
+Ernesto Araya Valdivia,Université Paris-Sud
+Yohann De Castro,ENPC
+Jennifer Cardona,Stanford University
+Michael Howland,Stanford University
+John Dabiri,Stanford University
+Christos Louizos,University of Amsterdam
+Xiahan Shi,Bosch Center for Artificial Intelligence
+Klamer Schutte,TNO
+Robin Sandkühler,University of Basel
+Simon Andermatt,Center for medical Image Analysis and Navigation
+Grzegorz Bauman,University of Basel Hospital
+Sylvia  Nyilas,Bern University Hospital
+Christoph Jud,University of Basel
+Philippe C. Cattin,University of Basel
+Ankesh Anand,"Mila, University of Montreal"
+Evan Racah,"Mila, Université de Montréal"
+Sherjil Ozair,"Mila, Université de Montréal"
+Marc-Alexandre Côté,Microsoft Research
+Michael Wick,Oracle Labs
+swetasudha panda,Oracle Labs
+Jean-Baptiste Tristan,Oracle Labs
+Song Liu,University of Bristol
+Takafumi Kanamori,Tokyo Institute of Technology/RIKEN
+Yu Chen,University of Bristol
+My Phan,University of Massachusetts Amherst
+Yasin Abbasi Yadkori,"VinAI Research/ VinTech JSC.,"
+Minmin Chen,Google
+Ramki Gummadi,Google
+Axel Brando,BBVA DATA & ANALYTICS SL UNIVERSITAT DE BARCELONA
+Jose A Rodriguez,BBVA Data & Analytics
+Jordi Vitria,Universitat de Barcelona
+Alberto Rubio Muñoz,BBVA Data & Analytics
+Farzane Aminmansour,University of Alberta
+Andrew Patterson,University of Alberta
+Lei Le,Amazon
+Yisu  Peng,Northeastern University
+Daniel  Mitchell,University of Alberta
+Franco Pestilli,Indiana University
+Cesar Caiafa,CONICET/RIKEN AIP
+Russell Greiner,University of Alberta
+Jonathan Kuck,Stanford
+Tri Dao,Stanford University
+Ashish Sabharwal,Allen Institute for AI
+Stefano Ermon,Stanford
+Chengtao Li,MIT
+Connor Coley,MIT
+Robert Kleinberg,Cornell University
+Kevin Leyton-Brown,University of British Columbia
+Brendan Lucier,Microsoft Research
+Devon Graham,University of British Columbia
+Jacob Abernethy,Georgia Institute of Technology
+Young Hun Jung,University of Michigan
+Chansoo Lee,Google
+Audra McMillan,Northeastern/Boston University
+Siyuan Huang,"University of California, Los Angeles"
+Tao Yuan,UCLA
+Siyuan Qi,UCLA
+Anna Wigren,Uppsala University
+Riccardo Sven Risuleo,Uppsala University
+Lawrence Murray,Uber AI
+Chaofan Chen,Duke University
+Oscar Li,Carnegie Mellon University
+Daniel Tao,Duke University
+Alina Barnett,Duke University
+Lun Huang,Peking University
+Wenmin Wang,Peking University
+Yaxian Xia,Peking University
+Jie Chen,Peng Cheng Laboratory
+Jeremiah Liu,Google Research / Harvard
+Marianthi-Anna Kioumourtzoglou,Columbia University
+Brent Coull,Harvard University
+Adarsh Barik,Purdue University
+Yahav Bechavod,Hebrew University
+Katrina Ligett,Hebrew University
+Kevin Smith,MIT
+Lingjie Mei,MIT
+Shunyu Yao,Princeton University
+Elizabeth Spelke,Harvard University
+Tomer Ullman,Harvard
+Jae Hyun Lim,"Mila, University of Montreal"
+Sungjin Ahn,Rutgers University
+Tamas Madarasz,University of Oxford
+Tim Behrens,University of Oxford
+Yifeng Fan,University of Illinois at Urbana-Champaign
+Tingran Gao,University of Chicago
+Zhizhen Jane Zhao,University of Illinois at Urbana Champaign
+Rowan Zellers,University of Washington
+Ari Holtzman,University of Washington
+Hannah Rashkin,University of Washington
+Yonatan Bisk,Carnegie Mellon University
+Franziska Roesner,University of Washington
+Yejin Choi,University of Washington
+Michael Zhu,Stanford University
+Junyu Zhang,University of Minnesota
+Lin Xiao,Microsoft Research
+Ananya Uppal,Carnegie Mellon University
+Shashank Singh,Carnegie Mellon University/Google
+Karim Ahmed,Cornell; Dartmouth
+Song Mei,Stanford University
+Theodor Misiakiewicz,Stanford University
+Behrooz Ghorbani,Stanford University
+Andrea Montanari,Stanford
+Ghassen Jerfel,Duke University
+Erin Grant,UC Berkeley
+Katherine Heller,Google
+Matthew Staib,MIT
+Stefanie Jegelka,MIT
+Taco S Cohen,Qualcomm AI Research
+Mario Geiger,EPFL
+Maurice Weiler,University of Amsterdam
+Mario Lezcano Casado,Univeristy of Oxford
+Kevin Ellis,MIT
+Maxwell Nye,MIT
+Yewen Pu,MIT
+Felix Sosa,"Harvard and Center for Brains, Minds, and Machines"
+Armando Solar-Lezama,MIT
+Rebecca Roelofs,UC Berkeley
+Vaishaal Shankar,UC Berkeley
+Sara Fridovich-Keil,UC Berkeley
+Moritz Hardt,"University of California, Berkeley"
+John Miller,"University of California, Berkeley"
+Ludwig Schmidt,UC Berkeley
+Chi-Ning Chou,Harvard University
+Zhixian Lei,Harvard University
+Tselil Schramm,Harvard University
+Yueqi Sheng,Harvard University 
+Farnam Mansouri,MPI-SWS
+Ara Vartanian,University of Wisconsin -- Madison
+Jerry Zhu,University of Wisconsin-Madison
+Mingrui Zhang,Yale University
+Lin Chen,Yale University
+Hao(Jackson) Cui,Google
+Roni Khardon,"Indiana University, Bloomington"
+Dylan Bourgeois,EPFL
+Jiaxuan You,Stanford University
+Marinka Zitnik,Stanford University
+Sanae Amani,University of California Santa Barbara
+Mahnoosh Alizadeh,University of California Santa Barbara
+Christos Thrampoulidis,UCSB
+Rohan Gala,Allen Institute
+Nathan Gouwens,Allen Institute
+Zizhen Yao,Allen Institute
+Agata Budzillo,Allen Institute
+Osnat Penn,Allen Institute
+Bosiljka Tasic,Allen Institute
+Gabe Murphy,Allen Institute
+Hongkui Zeng,Allen Institute
+Uygar Sümbül,Allen Institute
+Amirata Ghorbani,Stanford University
+James Wexler,
+Salvator Lombardo,Disney Research
+JUN HAN,Dartmouth College
+Christopher Schroers,Disney Research|Studios
+Stephan Mandt,Disney Research
+Nicolas Carrara,ULille
+Edouard Leurent,INRIA
+Romain Laroche,Microsoft Research
+Tanguy Urvoy,Orange-Labs
+Odalric-Ambrym Maillard,INRIA
+Olivier Pietquin,Google Research    Brain Team
+Vivek Veeriah,University of Michigan
+Matteo Hessel,Google DeepMind
+Zhongwen Xu,DeepMind
+Janarthanan Rajendran,University of Michigan
+Richard L Lewis,University of Michigan
+Junhyuk Oh,DeepMind
+Hado van Hasselt,DeepMind
+David Silver,DeepMind
+Giulia Luise,University College London
+Saverio Salzo,Istituto Italiano di Tecnologia
+Massimiliano Pontil,IIT & UCL
+Stéphane d'Ascoli,ENS / FAIR
+Levent Sagun,EPFL
+Sanchit Kalhan,Northwestern University
+Konstantin Makarychev,Northwestern University
+Timothy Zhou,University of Illinois at Urbana–Champaign
+Gaurush Hiranandani,University of Illinois at Urbana-Champaign
+Shant Boodaghians,UIUC
+Ruta Mehta,UIUC
+Zhiqi Bu,University of Pennsylvania
+Jason Klusowski,Rutgers University
+Cynthia Rush,Columbia University
+Mikael Henaff,Microsoft Research
+Jinjin Tian,Carnegie Mellon University
+Vincent Chen,Stanford University
+Sen Wu,Stanford University
+Alexander Ratner,Stanford
+Jen Weng,Stanford University
+James Lucas,University of Toronto
+Mohammad Norouzi,Google Brain
+YiDing Jiang,Google Research
+Rémi Jézéquel,"INRIA, École Normale Supérieure"
+Pierre Gaillard,
+Tianyu Ding,Johns Hopkins University
+Daniel Robinson,Johns Hopkins University
+Manolis Tsakiris,ShanghaiTech University
+René Vidal,Mathematical Institute for Data Science Johns Hopkins University
+Andrei Barbu,MIT
+David Mayo,MIT
+Julian Alverio,MIT
+William Luo,MIT
+Christopher Wang,Massachusetts Institute of Technology
+Dan Gutfreund,IBM Research
+Boris Katz,MIT
+Bai Li,Duke University
+Changyou Chen,University at Buffalo
+Michela Meister,Cornell University
+Tamas Sarlos,Google Research
+Xiangyuan Zhang,University of Illinois at Urbana-Champaign
+Kaiqing Zhang,University of Illinois at Urbana-Champaign (UIUC)
+Erik Miehling,University of Illinois at Urbana-Champaign
+Tamer Basar,
+Rixon Crane,The University of Queensland
+Fred Roosta,University of Queensland
+Youssef Mroueh,IBM T.J Watson Research Center
+Tom Sercu,Facebook AI Research
+Mattia Rigotti,IBM Research AI
+Inkit Padhi,IBM Research
+Cicero Nogueira dos Santos,Amazon AWS AI
+Chenjun Xiao,University of Alberta
+Ruitong Huang,Borealis AI
+Jincheng Mei,University of Alberta
+Martin Müller,University of Alberta
+Zhe Li,Baylor College of Medicine
+Wieland Brendel,"AG Bethge, University of Tübingen"
+Edgar Walker,Baylor College of Medicine
+Erick Cobos,Baylor College of Medicine
+Taliah Muhammad,Baylor College of Medicine
+Jacob Reimer,Baylor College of Medicine
+Matthias Bethge,University of Tübingen
+Fabian Sinz,University Tübingen
+Zachary Pitkow,BCM/Rice
+Andreas Tolias,Baylor College of Medicine
+Hunter Lang,Microsoft Research
+Pengchuan Zhang,Microsoft Research
+Paul Micaelli,The University of Edinburgh
+Amos Storkey,University of Edinburgh
+Akshay Agrawal,Stanford University
+Brandon Amos,Facebook AI
+Shane Barratt,Stanford University
+Stephen Boyd,Stanford University
+Steven Diamond,Stanford University
+Shufei Ge,Simon Fraser University
+Shijia Wang,Nankai University
+Liangliang Wang,Simon Fraser University
+Lloyd Elliott,Simon Fraser University
+Blake Mason,University of Wisconsin - Madison
+Ardhendu Tripathy,University of Wisconsin - Madison
+Robert Nowak,University of Wisconsion-Madison
+Michael Zhang,University of Toronto / Vector Institute
+Jimmy Ba,University of Toronto / Vector Institute
+Geoffrey Hinton,Google
+Wenzheng Chen,University of Toronto
+Huan Ling,"University of Toronto, NVIDIA"
+Jun Gao,University of Toronto
+Edward Smith,McGill University
+Alec Jacobson,University of Toronto
+Sanja Fidler,University of Toronto
+Nikolaos Ignatiadis,Stanford University
+Stefan Wager,Stanford University
+Igor Gitman,Microsoft Research AI
+Li Kevin Wenliang,"Gatsby Unit, UCL"
+Russell Mendonca,UC Berkeley
+Abhishek Gupta,"University of California, Berkeley"
+Rosen Kralev,UC Berkeley
+Yifei Ma,Amazon
+Santiago Balseiro,Columbia University
+Negin Golrezaei,MIT
+Mohammad Mahdian,Google Research
+Roshan Rao,UC Berkeley
+Nicholas Bhattacharya,UC Berkeley
+Neil Thomas,UC Berkeley
+Yan Duan,COVARIANT.AI
+Peter Chen,COVARIANT.AI
+John Canny,UC Berkeley
+Yun Song,UC Berkeley
+Koosha Khalvati,University of Washington
+Saghar Mirbagheri,New York University
+Seongmin A. Park,"Cognitive Neuroscience Center, CNRS"
+Jean-Claude Dreher,cnrs
+Rajesh PN Rao,University of Washington
+Jason Lee,Princeton University
+Sara Hooker,Google Brain
+Pieter-Jan Kindermans,Google Brain
+Rohan Anil,Google
+Vineet Gupta,Google
+Tomer Koren,Google
+Yoram Singer,Google
+Adel Javanmard,USC
+Miguel Vaquero,UCSD
+Jorge Cortes,UCSD
+Xuanqing Liu,"University of California, Los Angeles"
+Si Si,Google Research
+Yang Li,Google
+Brenden Lake,New York University
+Lingrui Gan,University of Illinois at Urbana-Champaign
+Xinming Yang,University of Illinois at Urbana-Champaign
+Naveen Narisetty,University of Illinois at Urbana-Champaign
+Feng Liang,Univ. of Illinois Urbana-Champaign
+Jian Wu,Cornell University
+Peter Frazier,Cornell / Uber
+Yunfei Teng,New York University
+Wenbo Gao,Columbia University
+François Chalus,Credit Suisse
+Anna Choromanska,NYU
+Donald Goldfarb,Columbia University
+Adrian Weller,"Cambridge, Alan Turing Institute"
+Hadi Salman,Microsoft Research AI
+Greg Yang,Microsoft Research
+Huan Zhang,UCLA
+Junteng Jia,Cornell
+Austin Benson,Cornell University
+Qi Zhao,The Ohio State University
+Yusu Wang,Ohio State University
+Steve Hanneke,Toyota Technological Institute at Chicago
+Samory Kpotufe,Columbia University
+Adithya M Devraj,University of Florida
+Jianshu Chen,Tencent AI Lab
+Anish Agarwal,MIT
+Devavrat Shah,Massachusetts Institute of Technology
+Dennis Shen,Massachusetts Institute of Technology
+Dogyoon Song,Massachusetts Institute of Technology
+Yujia Xie,Georgia Institute of Technology
+Feng Liu,Florida Atlantic University
+Hongyuan Zha,Georgia Tech
+Jens Behrmann,University of Bremen
+Joern-Henrik Jacobsen,Vector Institute
+Christian Schroeder de Witt,University of Oxford
+Antreas Antoniou,University of Edinburgh
+Ziyu Wan,City University of Hong Kong
+Dongdong Chen,university of science and technology of china
+Yan Li,"Institute of Automation, Chinese Academy of Sciences"
+Xingguang Yan,Shenzhen University
+Junge Zhang,CASIA
+Yizhou Yu,Deepwise AI Lab
+Jing Liao,City University of Hong Kong
+Hamid Shayestehmanesh,University of Victoria
+Sajjad Azami,University of Victoria
+Nishant Mehta,University of Victoria
+Horia Mania,UC Berkeley
+Ben Sorscher,Stanford University
+Gabriel Mel,Stanford University
+Samuel Ocko,Stanford
+Wenbo Ren,The Ohio State University
+Jia,Kevin) Liu (Iowa State University
+Ness Shroff,The Ohio State University
+Hengyuan Hu,Facebook
+Denis Yarats,New York University
+Qucheng Gong,Facebook AI Research
+Mike Lewis,Facebook AI Research
+Qian Lou,Indiana University Bloomington
+Lei Jiang,Indiana University Bloomington
+Hossein Esfandiari,Google Research
+Gang Fu,Google Research
+Yang Zhang,MIT-IBM Watson AI Lab
+Mo Yu,IBM Research
+Emmanouil-Vasileios Vlatakis-Gkaragkounis,Columbia University
+Lampros Flokas,Columbia University
+Jenelle Feather,MIT
+Alex Durango,MIT
+Ray Gonzalez,MIT
+Josh McDermott,Massachusetts Institute of Technology
+Yujiao Shi,Australian National University
+Liu Liu,ANU
+Xin Yu,Australian National University
+Hongdong Li,Australian National University
+Rakshith Sharma Srinivasa,Georgia Institute of Technology
+Kiryung Lee,Ohio state university
+Marius  Junge,University of Illinois
+Justin Romberg,Georgia Institute of Technology
+Hanzhang Hu,Carnegie Mellon University
+John Langford,Microsoft Research New York
+Rich Caruana,Microsoft
+Saurajit Mukherjee,microsoft
+Debadeepta Dey,Microsoft Research AI
+Siavash Khodadadeh,University of Central Florida
+Ladislau Boloni,University of Central Florida
+Mubarak Shah,University of Central Florida
+Zhibing Zhao,RPI
+Lirong Xia,RPI
+Ruoxi Sun,Columbia University
+ Ian  Kinsella,Columbia University
+Liam Paninski,Columbia University
+Naman Agarwal,Google
+Karan Singh,Princeton University
+Matthew Reimherr,Penn State University
+Jordan Awan,Penn State University
+Yaqin Zhou,Nanyang Technological University
+Shangqing Liu,Nanyang Technological University
+Jingkai Siow,Nanyang Technological University
+Xiaoning Du,Nanyang Technological University
+Yang Liu,"Nanyang Technology University, Singapore"
+Patrick Schwab,ETH Zurich / Roche
+Walter Karlen,ETH Zurich
+Wenjie Shi,Tsinghua University
+Shiji Song,"Department of Automation, Tsinghua University"
+Ya-Chu Hsu,Tsinghua University
+Cheng Wu,Tsinghua
+Corey Snyder,University of Illinois at Urbana-Champaign
+Minh Do,University of Illinois
+Gautam Singh,Rutgers University
+Jaesik Yoon,SAP
+Youngsung Son,Electronics and Telecommunications Research Institute
+Hao Sun,CUHK
+Zhizhong Li,The Chinese University of Hong Kong
+Xiaotong Liu,Peking Uinversity
+Bolei Zhou,CUHK
+Dahua Lin,The Chinese University of Hong Kong
+Xinzhe Li,SJTU
+Qianru Sun,Singapore Management University
+Yaoyao Liu,Tianjin University
+Qin Zhou,Alibaba Group
+Shibao Zheng,SJTU
+Tat-Seng Chua,National Univ. of Singapore
+Bernt Schiele,Max Planck Institute for Informatics
+Sawyer Birnbaum,Stanford University
+Volodymyr Kuleshov,Stanford University / Afresh
+Zayd Enam,Stanford
+Krzysztof M Choromanski,Google Brain Robotics
+Aldo Pacchiano,UC Berkeley
+Jack Parker-Holder,University of Oxford
+Yunhao Tang,Columbia University
+Vikas Sindhwani,Google
+Joe Kileel,Princeton University
+Shashank Rajput,University of Wisconsin - Madison
+Hongyi Wang,University of Wisconsin-Madison
+Zachary Charles,University of Wisconsin - Madison
+Dimitris Papailiopoulos,University of Wisconsin-Madison
+Raef Bassily,The Ohio State University
+Noga  Alon,Princeton
+Ari Seff,Princeton University
+Wenda Zhou,Columbia University
+Farhan Damani,Princeton University
+Abigail Doyle,Princeton University
+Aditya Gangrade,Boston University
+Praveen Venkatesh,Carnegie Mellon University
+Bobak Nazer,Boston University
+Venkatesh Saligrama,Boston University
+Alexander Trott,Salesforce Research
+Stephan Zheng,Salesforce
+Richard Socher,Salesforce
+Larkin Flodin,University of Massachusetts Amherst
+Venkata Gandikota,"University of Massachusetts, Amherst"
+Arya Mazumdar,University of Massachusetts Amherst
+Raman Arora,Johns Hopkins University
+Teodor Vanislavov Marinov,Johns Hopkins University
+Cassidy Laidlaw,"University of Maryland, College Park"
+Lingxiao Wang,Northwestern University
+Shuyang Dai,Duke University
+Junya Chen,Duke U
+Ke Bai,Duke University
+Dong Wang,Duke University
+Jianfeng Feng,Fudan University
+Wenlian Lu,Fudan University
+Georgiy Bobashev,RTI International
+Jinhao Dong,Xidian University
+Tong Lin,Peking University
+Guanghui Lan,Georgia Tech
+Daniel Kane,UCSD
+Pasin Manurangsi,Google
+Wasim Huleihel,Tel-Aviv University
+Muriel Medard,MIT
+Soumyabrata Pal,University of Massachusetts Amherst
+Haohan Wang,Carnegie Mellon University
+Songwei Ge,Carnegie Mellon University
+Allan Jabri,UC Berkeley
+Kyle Hsu,University of Toronto
+Ben Eysenbach,Carnegie Mellon University
+Akshay Krishnamurthy,Microsoft
+Andrew McGregor,University of Massachusetts Amherst
+Jeff Donahue,DeepMind
+Karen Simonyan,DeepMind
+Haoze Wu,Stanford University
+Clark Barrett,Stanford University
+Raghuram Ramanujan,Davidson College
+Boyi Liu,Northwestern University
+Qi Cai,Northwestern University
+Yair Bartal,Hebrew University
+Nova Fandina,Hebrew University of Jerusalem
+Ofer Neiman,Ben-Gurion University
+Shinji Ito,"NEC Corporation,      University of Tokyo"
+Daisuke Hatano,RIKEN AIP
+Hanna Sumita,Tokyo Metropolitan University
+Kei Takemura,NEC Corporation
+Takuro Fukunaga,"Chuo University, JST PRESTO, RIKEN AIP"
+Naonori Kakimura,Keio University
+Ken-Ichi Kawarabayashi,National Institute of Informatics
+Ankit Singh Rawat,Google Research
+Yuan Cao,UCLA
+Ziyin Liu,University of Tokyo
+Zhikang Wang,University of Tokyo
+Paul Pu Liang,Carnegie Mellon University
+Louis-Philippe Morency,Carnegie Mellon University
+Masahito Ueda,University of Tokyo
+Boyu Wang,University of Western Ontario
+Jorge Mendez,University of Pennsylvania
+Mingbo Cai,Princeton University
+Eric Eaton,University of Pennsylvania
+Lemeng Wu,UT Austin
+Lalit Jain,University of Washington
+Tanner Fiez,University of Washington
+Lillian Ratliff,University of Washington
+Aditya Sharad Golatkar,UCLA
+Alessandro Achille,AWS
+Stefano Soatto,UCLA
+Eric Price,University of Texas at Austin
+Ehsan Hajiramezanali,Texas A&M University
+Arman Hasanzadeh,Texas A&M University
+Krishna Narayanan,Texas A&M University
+Nick Duffield,Texas A&M University
+Xiaoning Qian,Texas A&M
+Tejas Kulkarni,DeepMind
+Ankush Gupta,DeepMind
+Catalin Ionescu,Deepmind
+Sebastian Borgeaud,DeepMind
+Malcolm Reynolds,DeepMind
+Andrew Zisserman,DeepMind & University of Oxford
+Volodymyr Mnih,DeepMind
+Xueying Bai,Stony Brook University
+Jian Guan,Tsinghua University
+Hongning Wang,University of Virginia
+Harikrishna Narasimhan,Google Research
+Andrew Cotter,Google
+Maya Gupta,Google
+Jisoo Jeong,Seoul National University
+Seungeui Lee,Seoul National University
+Jeesoo Kim,Seoul National University
+Nojun Kwak,Seoul National University
+Xingye Qiao,Binghamton University
+Jiexin Duan,Purdue University
+Guang Cheng,Purdue University
+Jessica Finocchiaro,University of Colorado Boulder
+Rafael Frongillo,CU Boulder
+CHAO LI,Xidian University
+Shangqian Gao,University of Pittsburgh
+Cheng Deng,Xidian University
+De Xie,XiDian University
+Jun Yang,University of Toronto
+Shengyang Sun,University of Toronto
+Daniel Roy,Univ of Toronto & Vector
+Aya Abdelsalam Ismail,University of Maryland
+Mohamed Gunady,University of Maryland
+Luiz Pessoa,University of Maryland
+Hector Corrada Bravo,University of Maryland
+Eui Chul Shin,UC Berkeley
+Miltiadis Allamanis,Microsoft Research
+Marc Brockschmidt,Microsoft Research
+Alex Polozov,Microsoft Research
+Jonathan Lacotte,Stanford University
+Mert Pilanci,Stanford
+Marco Pavone,Stanford University
+Xiaoyun Li,Rutgers University
+Brian Cheung,UC Berkeley
+Alexander Terekhov,"Awecom, Inc"
+Yubei Chen,Berkeley AI Research UC Berkeley
+Pulkit Agrawal,MIT
+Bruno Olshausen,Redwood Center/UC Berkeley
+Maryam Aliakbarpour,MIT
+Ronitt Rubinfeld,"MIT, TAU"
+Rui,"Ray) Zhang (School of Mathematics, Monash University"
+Xingwu Liu,University of Chinese Academy of Sciences
+Yuyi Wang,ETH Zurich
+Devansh Arpit,Salesforce/MILA
+Víctor Campos,Barcelona Supercomputing Center
+Xiaoyi Gu,Carnegie Mellon University
+Leman Akoglu,CMU
+Shuyu Cheng,Tsinghua University
+Yinpeng Dong,Tsinghua University
+Tianyu Pang,Tsinghua University
+Hang Su,Tsinghua Univiersity
+Sitao Luan,"McGill University, Mila"
+Mingde Zhao,Mila & McGill University
+Xiao-Wen Chang,McGill University
+Doina Precup,DeepMind
+Mayank Agarwal,"IBM Research AI, MIT-IBM Watson AI Lab"
+Soumya Ghosh,IBM Research
+Kristjan Greenewald,IBM Research
+Nghia Hoang,IBM Research
+Chih-Kuan Yeh,Carnegie Mellon University
+Cheng-Yu Hsieh,National Taiwan University
+Arun Suggala,Carnegie Mellon University
+David Inouye,Carnegie Mellon University
+Niao He,UIUC
+Yi Hao,"University of California, San Diego"
+Alon Orlitsky,"University of California, San Diego"
+Chenlin Meng,Stanford University
+Gintare Karolina Dziugaite,Element AI
+Mahdi Haghifam,University of Toronto
+Jeffrey Negrea,University of Toronto
+Ashish Khisti,University of Toronto
+Aditya Bhaskara,University of Utah
+Pruthuvi Wijewardena,University of Utah
+Ke Wang,Cornell University
+Hang Hua,Peking University
+Xiaojun Wan,Peking University
+Sumeet Katariya,UW-Madison and Amazon
+Aditya Grover,Stanford University
+Jiaming Song,Stanford University
+Kenneth Tran,Microsoft Research
+Alekh Agarwal,Microsoft Research
+Dheeraj Baby,UC Santa Barbara
+Farzin Haddadpour,Pennsylvania State university
+Mohammad Mahdi Kamani,Pennsylvania State University
+Mehrdad Mahdavi,Pennsylvania State University
+Viveck Cadambe,Penn State
+Shreyas Saxena,Apple
+Oncel Tuzel,Apple
+Dennis DeCoste,Apple
+Shuai Zhao,Zhejiang University
+Yang Wang,Huazhong University of Science and Technology
+Zheng Yang,FABU
+Deng Cai,ZJU
+Gaurav Manek,Carnegie Mellon University
+Simao Herdade,Yahoo Research
+Armin Kappeler,Apple
+Kofi Boakye,Yahoo Research
+Joao Soares,Yahoo Research
+Sharvaree Vadgama,University of Utah
+Hong Xu,University of Utah
+Joshua Susskind,Apple Inc.
+Shuangfei Zhai,Apple
+Walter Talbott,Apple
+Carlos Guestrin,Apple & University of Washington
+Pasha Khosravi,UCLA
+YooJung Choi,UCLA
+Yitao Liang,UCLA
+Antonio Vergari,"University of California, Los Angeles"
+Guy Van den Broeck,UCLA
+Jiatao Gu,Facebook AI Research
+Changhan Wang,Facebook AI Research
+Junbo Zhao,New York University
+Yair Carmon,Stanford University
+Aditi Raghunathan,Stanford University
+John Duchi,Stanford
+Tomi Peltola,Aalto University
+Mustafa Mert Çelikok,Aalto University
+Pedram Daee,Aalto University
+Samuel Kaski,Aalto University
+Takumi Kobayashi,National Institute of Advanced Industrial Science and Technology
+Albert Shaw,Deepscale
+Yukai Liu,Caltech
+Rose Yu,Northeastern University
+Eric Zhan,Caltech
+Ziniu Hu,UCLA
+Yewen Wang,UCLA
+Song Jiang,"University of California, Los Angeles"
+Yizhou Sun,UCLA
+Lizhong Ding,Inception Institute of Artificial Intelligence
+Mengyang Yu,Inception Institute of Artificial Intelligence
+Li Liu,Inception Institute of Artificial Intelligence
+Fan Zhu,Inception Institute of Artificial Intelligence
+Yong Liu,"Institute of Information Engineering, CAS"
+Yu Li,King Abdullah University of Science and Technology
+Ling Shao,Inception Institute of Artificial Intelligence
+Anmol Kagrecha,Indian Institute of Technology Bombay
+Jayakrishnan Nair,"""Assist. Prof, EE, IIT Bombay"""
+Krishna Jagannathan,IIT Madras
+Vitaly Feldman,Google Brain
+Kunal Talwar,Google
+Abhradeep Guha Thakurta,University of California Santa Cruz
+Ilya Razenshteyn,Microsoft Research
+Sebastien Bubeck,Microsoft Research
+Ahmed Alaa,UCLA
+Baoxiang Wang,The Chinese University of Hong Kong
+Nidhi Hegde,Borealis AI
+Ilai Bistritz,Stanford
+Xi Chen,New York University
+Nicholas Bambos,
+Arun Jambulapati,Stanford University
+Kevin Tian,Stanford University
+Julaiti Alafate,University of California San Diego
+Yoav S Freund,"University of California, San Diego"
+Han Zhao,Carnegie Mellon University
+Yao-Hung Hubert Tsai,Carnegie Mellon University
+Geoffrey Gordon,MSR Montréal & CMU
+Michal Derezinski,UC Berkeley
+Andy Shih,UCLA / Stanford
+Paul Beame,University of Washington
+Antoine Amarilli,"LTCI, Télécom ParisTech"
+Mahyar Fazlyab,University of Pennsylvania
+Alexander Robey,University of Pennsylvania
+Manfred Morari,University of Pennsylvania
+George Pappas,University of Pennsylvania
+Kai Zhong,Amazon
+Prateek Jain,Microsoft Research
+Shuai Zheng,Hong Kong University of Science and Technology / Amazon Web Services
+Boyan Beronov,University of British Columbia
+Nima Hamidi,Stanford University
+Mohsen Bayati,Stanford University
+Kapil Gupta,Airbnb
+Moshe Shenfeld,Hebrew University of Jerusalem
+Daniel Levy,Stanford University
+Nikhil Ghosh,Caltech
+Amin Jaber,Purdue University
+Jiji Zhang,Lingnan University
+Elias Bareinboim,Purdue
+Vaden Masrani,University of British Columbia
+Tuan Anh Le,MIT
+Paul Hand,Northeastern University
+Babhru Joshi,University of British Columbia
+Daniele Calandriello,LCSL IIT/MIT
+Josh Tobin,OpenAI
+Wojciech Zaremba,OpenAI
+Amir Abboud,IBM research
+Hussein Houdrouge,Ecole Polytechnique
+Rachel Cummings,Georgia Tech
+Bhuvesh Kumar,Georgia Tech
+Sam Taggart,Oberlin College
+Jamie Morgenstern,University of Washington
+Vaishnavh Nagarajan,Carnegie Mellon University
+Mejbah Alam,Intel Labs
+Justin Gottschlich,Intel Labs
+Nesime Tatbul,Intel Labs and MIT
+Javier Turek,Intel Labs
+Tim Mattson,Intel
+Abdullah Muzahid,Texas A&M University
+Xingyu Cai,University of Connecticut
+Tingyang Xu,Tencent AI Lab
+Jinfeng Yi,JD Research
+Sanguthevar Rajasekaran,University of Connecticut
+Sandeep Kumar,Hong Kong University of Science and Technology
+ Jiaxi  Ying,HKUST
+Jose Vinicius de Miranda Cardoso,Universidade Federal de Campina Grande
+Daniel Palomar,The Hong Kong University of Science and Technology
+Chao Tao,Indiana University Bloomington
+Saúl Blanco,Indiana University
+Jian Peng,University of Illinois at Urbana-Champaign
+Yu Tian,Rutgers
+Long Zhao,Rutgers University
+Xi Peng,University of Delaware
+Dimitris Metaxas,Rutgers University
+Pim de Haan,"Qualcomm AI Research, University of Amsterdam"
+Dinesh Jayaraman,UC Berkeley
+I Chien,UIUC
+Olgica Milenkovic,University of Illinois at Urbana-Champaign
+Amanda Gentzel,UMass Amherst
+Dan Garant,C&S Wholesale Grocers
+David Jensen,Univ. of Massachusetts
+Zheng Li,Tsinghua University
+Sanjay P. Bhat,Tata Consultancy Services Limited
+Prashanth L.A.,IIT Madras
+Lantao Yu,Stanford University
+Tianhe Yu,Stanford University
+Aviral Kumar,UC Berkeley
+Justin Fu,UC Berkeley
+Matthew Soh,UC Berkeley
+Huong Ha,Deakin University
+Santu Rana,Deakin University
+Sunil Gupta,Deakin University
+Thanh Nguyen,Deakin University
+Hung Tran-The,Deakin University
+Svetha Venkatesh,Deakin University
+Avner May,Stanford University
+Jian Zhang,Stanford University
+Peter W Glynn,Stanford University
+Jun Yan,Stanford
+Ferran Alet,MIT
+Erica Weng,MIT
+Tomás Lozano-Pérez,MIT
+Leslie Kaelbling,MIT
+Rahaf Aljundi,"KU Leuven, Belgium"
+Min Lin,MILA
+Baptiste Goujaud,MILA
+Susmit Jha,SRI
+Sunny Raj,University of Central Florida
+Steven Fernandes,University of Central Florida
+Sumit K Jha,University of Central Florida
+Somesh Jha,"University of Wisconsin, Madison"
+Brian Jalaian,U.S. Army Research Laboratory
+Rafael Pinot,Dauphine University - CEA LIST Institute
+Laurent Meunier,Dauphine University - FAIR Paris
+Alexandre Araujo,Université Paris-Dauphine
+Florian Yger,Université Paris-Dauphine
+Cedric Gouy-Pailler,CEA
+Jamal Atif,Université Paris-Dauphine
+Eugene Belilovsky,"Mila, University of Montreal"
+Tinne Tuytelaars,KU Leuven
+Laurent Charlin,MILA / U.Montreal
+Massimo Caccia,MILA
+Lucas Page-Caccia,McGill University
+Rahul Gupta,Indian Institute of Science
+Aditya Kanade,Indian Institute of Science
+Shirish Shevade,iisc
+Hugo Penedones,Google DeepMind
+Damien Vincent,Google Brain
+Hartmut Maennel,Google
+Sylvain Gelly,Google Brain (Zurich)
+Timothy A Mann,DeepMind
+Andre Barreto,DeepMind
+Gergely Neu,Universitat Pompeu Fabra
+Sumith Kulal,Stanford University
+Panupong Pasupat,Stanford University
+Kartik  Chandra,Stanford University
+Mina Lee,Stanford University
+Oded Padon,Stanford University
+Alex Aiken,Stanford University
+Juncheng Li,Carnegie Mellon University
+Shuhui Qu,Stanford University
+Xinjian Li,Carnegie Mellon University
+Joseph Szurley,Bosch Center for Artificial Intelligence
+Florian Metze,Carnegie Mellon University
+Muhammad Osama,Uppsala University
+Dave Zachariah,Uppsala University
+Peter Stoica,Uppsala University
+Kolyan Ray,King's College London
+Botond Szabo,Leiden University
+Allan Grønlund,"Aarhus University, MADALGO"
+Lior Kamma,Aarhus University
+Kasper Green Larsen,Aarhus University
+Alexander Mathiasen,Aarhus University
+Jelani Nelson,UC Berkeley
+Julian Zimmert,University of Copenhagen
+Seongjun Yun,Korea university
+Minbyul Jeong,Korea university
+Raehyun Kim,Korea university
+Jaewoo Kang,Korea University
+Hyunwoo Kim,Korea University
+Ji Feng,Sinovation Ventures
+Qi-Zhi Cai,Sinovation Ventures
+Fariborz Salehi,California Institute of Technology
+Ehsan Abbasi,Caltech
+Babak Hassibi,Caltech
+Thomas Lucas,Inria
+Konstantin Shmelkov,Huawei
+Karteek Alahari,Inria
+Cordelia Schmid,Inria / Google
+Jakob Verbeek,INRIA
+Fabian Latorre,EPFL
+Armin eftekhari,EPFL
+Yoan Russac,Ecole Normale Supérieure
+Claire Vernade,Google DeepMind
+Olivier Cappé,CNRS
+Xi Lin,City University of Hong Kong
+Hui-Ling Zhen,City University of Hong Kong
+Zhenhua Li,National University of Singapore
+Qing-Fu Zhang,
+Sam Kwong,City Univeristy of Hong Kong
+Etienne Boursier,ENS Paris Saclay
+Vianney Perchet,ENS Paris-Saclay & Criteo AI Lab
+Vighnesh Shiv,Microsoft Research
+Chris Quirk,Microsoft Research
+Paulina Grnarova,ETH Zurich
+Aurelien Lucchi,ETH Zurich
+Nathanael Perraudin,Swiss Data Science Center - EPFL / ETH Zurich
+Thomas Hofmann,ETH Zurich
+Radu Marinescu,IBM Research
+Rina Dechter,UCI
+Shuyue Hu,The Chinese University of Hong Kong
+Chin-wing Leung,The Chinese University of Hong Kong
+Ho-fung Leung,The Chinese University of Hong Kong
+Ming Hou,RIKEN AIP
+Jiajia Tang,Hangzhou Dianzi University / RIKEN AIP
+Jianhai Zhang,Hangzhou Dianzi University
+Wanzeng Kong,Hangzhou Dianzi University
+Qibin Zhao,RIKEN AIP
+Botao Hao,Purdue University
+Zheng Wen,DeepMind
+Emiel Hoogeboom,University of Amsterdam
+Jorn Peters,University of Amsterdam
+Rianne van den Berg,Google Brain
+Mathieu Blondel,Google
+Yatin Nandwani,Indian Institute Of Technology Delhi
+Abhishek Pathak,"Indian Institute Of Technology, Delhi"
+Mausam ,IIT Dehli
+Parag Singla,Indian Institute of Technology Delhi
+Mokhtar Z. Alaya,"LITIS Lab, University of Rouen"
+Gilles Gasso,LITIS - INSA de Rouen
+Zakaria Mhammedi,The Australian National University
+Peter Grünwald,CWI and Leiden University
+Jean-Baptiste Alayrac,Deepmind
+Jonathan Uesato,DeepMind
+Robert Stanforth,DeepMind
+Yonathan Efroni,Technion
+Nadav Merlis,Technion
+Mohammad Ghavamzadeh,Facebook AI Research
+Majid Abdolshah,Deakin University
+Alistair Shilton,Deakin University
+Pooria Joulani,DeepMind
+David Widmann,Uppsala University
+Suman Ravuri,DeepMind
+Oriol Vinyals,Google DeepMind
+Zhuozhuo Tu,The University of Sydney
+Jingwei Zhang,Hong Kong University of Science and Technology & University of Sydney
+Mark Rowland,DeepMind
+Shayegan Omidshafiei,DeepMind
+Karl Tuyls,DeepMind
+Julien Perolat,DeepMind
+Remi Munos,DeepMind
+Tam Le,RIKEN AIP
+Kenji Fukumizu,Institute of Statistical Mathematics / Preferred Networks / RIKEN AIP
+Meelis Kull,University of Tartu
+Miquel Perello Nieto,University of Bristol
+Markus Kängsepp,University of Tartu
+Telmo Silva Filho,Universidade Federal da Paraíba
+Hao Song,University of Bristol
+Peter Flach,University of Bristol
+meyer scetbon,CREST-ENSAE
+Hongge Chen,MIT
+Duane Boning,Massachusetts Institute of Technology
+Alexander Mott,DeepMind
+Daniel Zoran,DeepMind
+Mike Chrzanowski,Google Brain
+Daan Wierstra,DeepMind Technologies
+Danilo Jimenez Rezende,Google DeepMind
+Beidi Chen,Rice University
+Yingchen Xu,Airbnb
+Anshumali Shrivastava,Rice University
+Igor Colin,Huawei
+Ludovic DOS SANTOS,Huawei
+Kevin Scaman,Huawei Noah's Ark Lab
+Biao Zhang,University of Edinburgh
+Rico Sennrich,University of Edinburgh
+Jean-Bastien Grill,Google DeepMind
+Omar Darwiche Domingues,Inria
+Pierre Menard,Inria
+Cheng Tang,Amazon
+Jerome Revaud,Naver Labs Europe
+Cesar De Souza,NAVER LABS Europe
+Martin Humenberger,Naver Labs Europe
+Philippe Weinzaepfel,NAVER LABS Europe
+Shin Matsushima,The University of Tokyo
+Maria Brbic,Stanford University
+Moses Charikar,Stanford University
+Kirankumar Shiragur,Stanford University
+Virginia Aglietti,University of Warwick
+Edwin Bonilla,CSIRO's Data61
+Theodoros Damoulas,University of Warwick & The Alan Turing Institute
+Sally  Cripps,University of Sydney
+Melissa Tan,Deepmind
+Steven Hansen,DeepMind
+Adrià Puigdomènech Badia,Google DeepMind
+Gavin Buttimore,DeepMind
+Charles Deck,Deepmind
+Charles Blundell,DeepMind
+Meera Pai,Indian Institute of Technology Bombay
+Animesh Kumar,Indian Institute of Technology Bombay
+Anna Harutyunyan,DeepMind
+Thomas Mesnard,DeepMind
+Mohammad Gheshlaghi Azar,DeepMind
+Bilal Piot,DeepMind
+Nicolas Heess,Google DeepMind
+Daniel Kumor,Purdue University
+Bryant Chen,Brex
+NING MIAO,Bytedance
+Hao Zhou,Bytedance
+Chengqi Zhao,Bytedance
+Wenxian Shi,Bytedance
+Yitan Li,ByteDance.Inc
+Lei Li,ByteDance
+Michael Janner,UC Berkeley
+Marvin Zhang,UC Berkeley
+Marco Bressan,Sapienza University of Rome
+Andrea Paudice,University of Milan
+Fabio Vitale,University of Lille - INRIA Lille (France)
+Sebastian Blaes,"Max-Planck Institute for Intelligent Systems, Tuebingen, Germany"
+Marin Vlastelica Pogančić,Max Planck Institute for Intelligent Systems
+Jiajie Zhu,Max Planck Institute for Intelligent Systems
+Georg Martius,MPI for Intelligent Systems
+Atalanti Mastakouri,Max Planck Institute for Intelligent Systems
+Emile Mathieu,University of Oxford
+Charline Le Lan,University of Oxford
+Chris J. Maddison,"Institute for Advanced Study, Princeton"
+Ryota Tomioka,Microsoft Research Cambridge
+Andrei Kulunchakov,Inria
+Julien Mairal,Inria
+Nicole Muecke,University of Stuttgart
+Lorenzo Rosasco,University of Genova- MIT - IIT
+Arindam Banerjee,Voleon
+Qilong Gu,University of Minnesota Twin Cities
+Vidyashankar Sivakumar,University of Minnesota
+Antonio Orvieto,ETH Zurich
+Zhengyou Zhang,Tencent
+Yulin Wang,Tsinghua University
+Xuran Pan,Tsinghua University
+Hong Zhang,Baidu Inc.
+Yann Dauphin,Google AI
+Xuhui Fan,University of New South Wales
+Bin Li,Fudan University
+Caoyuan Li,UTS
+Scott SIsson,"University of New South Wales, Sydney"
+Ling Chen,""" University of Technology, Sydney, Australia"""
+Jathushan Rajasegaran,Inception Institute of Artificial Intelligence
+Munawar Hayat,IIAI
+Salman H Khan,Inception Institute of Artificial Intelligence
+Fahad Shahbaz Khan,Inception Institute of Artificial Intelligence
+Kiran Thekumparampil,Univ. of Illinois at Urbana-Champaign
+Praneeth Netrapalli,Microsoft Research
+Farnood Salehi,EPFL
+William Trouleau,EPFL
+Matthias Grossglauser,EPFL
+Patrick Thiran,EPFL
+Mickaël Chen,Sorbonne Université
+Thierry Artières,Aix-Marseille Université
+Ronald Ortner,Montanuniversitaet Leoben
+Felipe Tobar,Universidad de Chile
+Evgenii Chzhen,Université Paris-Est
+Christophe Denis,Universite Paris Est
+Mohamed Hebiri,Université Paris-Est--MLV
+Luca Oneto,University of Genoa
+Valerio Perrone,Amazon
+Huibin Shen,Amazon
+Matthias Seeger,Amazon
+Cedric Archambeau,Amazon
+Rodolphe Jenatton,Google Brain
+Edoardo Manino,University of Southampton
+Nicholas Jennings,"Imperial College, London"
+Ruibo Tu,KTH Royal Institute of Technology
+Bo Bertilson,KI Karolinska Institutet
+Hedvig Kjellstrom,KTH Royal Institute of Technology
+Cheng Zhang,"Microsoft Research, Cambridge, UK"
+Jonas Kubilius,"MIT, KU Leuven, Three Thirds"
+Martin Schrimpf,MIT
+Ha Hong,Bay Labs Inc.
+Najib Majaj,NYU
+Rishi Rajalingham,MIT
+Elias Issa,Columbia University
+Kohitij Kar,MIT
+Pouya Bashivan,MIT
+Jonathan Prescott-Roy,MIT
+Kailyn Schmidt,MIT
+Daniel Bear,Stanford University
+Daniel Yamins,Stanford University
+James J DiCarlo,Massachusetts Institute of Technology
+Yair Marom,University of Haifa
+Stefan Meintrup,TU Dortmund
+Alexander Munteanu,TU Dortmund
+Dennis Rohde,TU Dortmund
+Andrei Nicolicioiu,Bitdefender
+Iulia Duta,Bitdefender
+Marius Leordeanu,Institute of Mathematics of the Romanian Academy
+Bertrand Charpentier,Technical University of Munich
+Marin Biloš,Technical University of Munich
+Jonas Rauber,University of Tübingen
+Matthias Kümmerer,University of Tübingen
+Ivan Ustyuzhaninov,University of Tübingen
+David Gamarnik,Massachusetts Institute of Technology
+Julia Gaudio,Massachusetts Institute of Technology
+Ruichu Cai,Guangdong University of Technology
+Feng Xie,Guangdong University of Technology
+Clark Glymour,Carnegie Mellon University
+Zhifeng Hao,Guangdong University of Technology
+Alberto Bietti,Inria
+Muhammad Muzammal Naseer,Australian National University (ANU)
+Muhammad Haris Khan,Inception Institute of Artificial Intelligence
+Fatih Porikli,ANU
+Don Dennis,Carnegie Mellon University
+Durmus Alp Emre Acar,Boston University
+Vikram Mandikal,The University of Texas at Austin
+Vinu Sankar Sadasivan,Indian Institute of Technology Gandhinagar
+Harsha Vardhan Simhadri,Microsoft Research
+Ayoub Belhadji,Ecole Centrale de Lille
+Pierre Chainais,Centrale Lille / CRIStAL CNRS UMR 9189
+Yiwei Liu,Beijing institute of technology
+Jiamou Liu,University of Auckland
+Zijian Zhang,Beijing Institute of Technology
+Liehuang Zhu,Beijing Institute of Technology
+Angsheng Li,Beihang University
+Carl Doersch,DeepMind
+Bjarne Sievers,Hasso-Plattner-Institut
+Jonathan Sauder,Hasso Plattner Institute
+Tristan Milne,University of Toronto
+Alessandro Barp,Imperial College London
+Francois-Xavier Briol,University of Cambridge
+Andrew Duncan,Imperial College London
+James P Bailey,Texas A&M University
+Amit Daniely,Hebrew University and Google Research
+Elad Granot,Hebrew University
+Maksym Andriushchenko,University of Tübingen / EPFL
+Matthias Hein,University of Tübingen
+Ruiqi Gao,Peking University
+Tianle Cai,Peking University
+Haochuan Li,MIT
+Kishor Jothimurugan,University of Pennsylvania
+Rajeev Alur,University of Pennsylvania
+Osbert Bastani,University of Pennysylvania
+Diana Borsa,DeepMind
+Shaobo Hou,DeepMind
+Gheorghe Comanici,DeepMind
+Eser Aygün,DeepMind
+Philippe Hamel,Deepmind
+Daniel Toyama,DeepMind
+Jonathan hunt,DeepMind
+Shibl Mourad,Google
+Li Dong,Microsoft Research
+Nan Yang,Microsoft Research Asia
+Wenhui Wang,Microsoft Research
+Furu Wei,Microsoft Research Asia
+Xiaodong Liu,Microsoft
+Jianfeng Gao,"Microsoft Research, Redmond, WA"
+Hsiao-Wuen Hon,Microsoft Research
+Andrea Celli,Politecnico di Milano
+Alberto Marchesi,Politecnico di Milano
+Tommaso Bianchi,Politecnico di Milano
+Nicola Gatti,Politecnico di Milano
+Zebang Shen,University of Pennsylvania
+Justin Cosentino,Tsinghua University
+Giulia Denevi,IIT & UNIGE
+Dimitris Stamos,University College London
+Thomas Moreau,Inria
+Tom Eccles,DeepMind
+Yoram Bachrach,
+Guy Lever,Google DeepMind
+Angeliki Lazaridou,DeepMind
+Thore Graepel,DeepMind
+Sebastian Ruder,DeepMind
+Lingpeng Kong,DeepMind
+Dani Yogatama,DeepMind
+Wesley J Maddox,New York University
+Pavel Izmailov,New York University
+Timur Garipov,MIT
+Andrew Gordon Wilson,New York University
+Nikita Ivkin,Amazon
+Daniel Rothchild,UC Berkeley
+Enayat Ullah,Johns Hopkins University
+Vladimir braverman,Johns Hopkins University
+Ion Stoica,UC Berkeley
+Rodolfo Corona Rodriguez,UC Berkeley
+Zeynep Akata,University of Amsterdam
+Stephan Alaniz,University of Amsterdam
+David Farrow,Carnegie Mellon University
+Maria Jahja,Carnegie Mellon University
+Roni Rosenfeld,Carnegie Mellon University
+Sepideh Mahabadi,Toyota Technological Institute at Chicago
+Sariel Har-Peled,University of Illinois at Urbana-Champaign
+Arnak Dalalyan,ENSAE ParisTech
+Philip Thompson,ENSAE ParisTech - Centre for Research in Economics and Statistic
+Guannan Zhang,Oak Ridge National Laboratory
+Jiaxin Zhang,Oak Ridge National Laboratory
+Jacob Hinkle,Oak Ridge National Lab
+Yi Chern Tan,Yale University
+L. Elisa Celis,Yale University
+Jianhao Peng,University of Illinois at Urbana Champaign
+Abhishek Agarwal,University of Illinois at Urbana Champaign
+Ngoc-Trung Tran,Singapore University of Technology and Design
+Viet-Hung Tran,Singapore University of Technology and Design
+Bao-Ngoc Nguyen,Singapore University of Technology and Design
+Linxiao Yang,University of Electronic Science  and Technology of China; Singapore University of Technology and Design
+Ngai-Man,Man) Cheung (Singapore University of Technology and Design
+Tharun Kumar Reddy Medini,Rice University
+Qixuan Huang,Rice University
+Yiqiu Wang,Massachusetts Institute of Technology
+Vijai Mohan,www.amazon.com
+Dong Yin,UC Berkeley
+Raphael Gontijo Lopes,Google Brain
+Ekin Dogus Cubuk,Google Brain
+Justin Gilmer,Google Brain
+Gabriel Loaiza-Ganem,Columbia University
+John Cunningham,Columbia University
+Borja Balle,DeepMind
+Gilles Barthe,Max Planck Institute
+Joseph Geumlek,"University of California, San Diego"
+Jean Pouget-Abadie,Google
+Kevin Aydin,Google
+Warren Schudy,Google
+Kay Brodersen,Google
+Mahmoud,"""Mido"") Assran (McGill University / Facebook AI Research"
+Joshua Romoff,McGill University
+Nicolas Ballas,Facebook FAIR
+Mike Rabbat,Facebook FAIR
+Tsendsuren Munkhdalai,Microsoft Research
+TONG WANG,Microsoft Research Montreal
+Adam Trischler,Microsoft
+Mohammad Sadegh Talebi,Inria
+Johannes Klicpera,Technical University of Munich
+Stefan Weißenberger,Technical University of Munich
+Sean Perkins,Columbia University
+Karen Schroeder,Columbia University
+Mark Churchland,Columbia University
+Yixin Wang,Columbia University
+Lei Wu,Princeton University
+Qingcan Wang,"Program in Applied and Computational Mathematics, Princeton University"
+Chao Ma,Princeton University
+Jalaj Upadhyay,Apple
+He Lyu,Michigan State University
+Ningyu Sha,MSU
+Shuyang Qin,Michigan State University
+Ming Yan,Michigan State University
+Yuying Xie,Michigan State University
+Rongrong Wang,Michigan State University
+Junzhe Zhang,Columbia University
+Cagatay Yildiz,Aalto University
+Markus Heinonen,Aalto University
+Harri Lahdesmaki,Aalto University
+Se-Young Yun,KAIST
+Alexandre Proutiere,KTH
+Dexiong Chen,Inria
+Laurent Jacob,CNRS
+Chhavi Yadav,"Walmart Labs, NYU"
+John Lee,Georgia Institute of Technology
+Max Dabagia,Georgia Institute of Technology
+Eva Dyer,Georgia Institute of Technology
+Christopher Rozell,Georgia Institute of Technology
+Zhizhou Ren,Tsinghua University
+Kefan Dong,Tsinghua University
+Karol Gregor,DeepMind
+Frederic Besse,DeepMind
+Yan Wu,DeepMind
+Hamza Merzic,DeepMind
+Aaron van den Oord,Google Deepmind
+Yoav Wald,Hebrew University / Google
+Nofar Noy,Hebrew University
+Gal Elidan,Google
+Ami Wiesel,"Google Research and The Hebrew University of Jerusalem, Israel"
+Enrique Sanchez,Samsung AI Centre
+Georgios Tzimiropoulos,Samsung AI Centre | University of Nottingham
+Biwei Huang,Carnegie Mellon University
+Pengtao Xie,Petuum / CMU
+Amirmohammad Rooshenas,University of Massachusetts Amherst
+Dongxu Zhang,University of Massachusetts Amherst
+Gopal Sharma,University of Massachusetts Amherst
+Andrew McCallum,UMass Amherst
+Ashia Wilson,UC Berkeley
+Jose A. Arjona-Medina,"LIT AI Lab, Institute for Machine Learning, Johannes Kepler University Linz, Austria"
+Michael Gillhofer,LIT AI Lab / University Linz
+Michael Widrich,LIT AI Lab / University Linz
+Thomas Unterthiner,Google Research
+Johannes Brandstetter,LIT AI Lab / University Linz
+Sepp Hochreiter,LIT AI Lab / University Linz / IARAI
+Jenny Liu,"Vector Institute, University of Toronto"
+Jamie Kiros,Google Inc.
+Kevin Swersky,Google
+Ann-Kathrin Dombrowski,TU Berlin
+Maximillian Alber,TU Berlin
+Christopher Anders,Technische Universität Berlin
+Marcel Ackermann,HHI
+Klaus-Robert Müller,TU Berlin
+Pan Kessel,TU Berlin
+Kshitij Patel,Indian Institute of Technology Kanpur
+Giancarlo Kerg,MILA
+Kyle Goyette,University of Montreal
+Maximilian Puelma Touzel,Mila
+Eugene Vorontsov,Polytechnique Montreal
+Guillaume Lajoie,Université de Montréal / Mila
+Pier Giuseppe Sessa,ETH Zürich
+Ilija Bogunovic,ETH Zurich
+Maryam Kamgarpour,ETH Zürich
+Pierre Monteiller,ENS Ulm
+Yao Fu,Columbia University
+Yansong Feng,Peking University
+Joshua  Allen,Microsoft
+Bolin Ding,Alibaba Group
+Harsha Nori,Microsoft
+Sergey Yekhanin,Microsoft
+Ching-Yi Hung,Academia Sinica
+Cheng-Hao Tu,Academia Sinica
+Cheng-En Wu,Academia Sinica
+Chien-Hung Chen,Academia Sinica
+Yi-Ming Chan,Academia Sinica
+Chu-Song Chen,Academia Sinica
+Asma Ghandeharioun,MIT
+Judy Hanwen Shen,Massachusetts Institute of Technology / Microsoft
+Natasha Jaques,MIT
+Craig Ferguson,MIT
+Noah Jones,MIT
+Agata Lapedriza,Massachusetts Institute of Technology
+Rosalind Picard,MIT Media Lab
+Andrew Stirn,Columbia University
+Tony Jebara,Spotify
+David Knowles,Columbia University
+XIA XIAO,University of Connecticut
+Zigeng Wang,University of Connecticut
+Eszter Vértes,"Gatsby Unit, UCL"
+Mohamed Belghazi,University of Montreal
+Maxime Oquab,Facebook AI Research
+Renato Negrinho,Carnegie Mellon University
+Matthew Gormley,Carnegie Mellon University
+Darshan Patil,Carnegie Mellon University
+Nghia Le,Carnegie Mellon University
+Daniel Ferreira,TU Wien
+Laura I Galindez Olascoaga,KU Leuven
+Wannes Meert,K.U.Leuven
+Marian Verhelst,KU Leuven
+Pranjal Awasthi,Rutgers University/Google
+Abhratanu Dutta,Northwestern University
+Aravindan Vijayaraghavan,Northwestern University
+Suhas Jayaram Subramanya,Carnegie Mellon University
+Fnu Devvrit,University of Texas at Austin
+Ravishankar Krishnawamy,Microsoft Research India
+Chuang Wang,"Institute of Automation, Chinese Academy of Sciences"
+Hong Hu,Harvard
+Yue Lu,Harvard University
+Igor Kuralenok,Experts League Ltd.
+Vasilii Ershov,Yandex
+Igor Labutin,Yandex
+Sayak Ray Chowdhury,Indian Institute of Science
+Victor Garcia Satorras,University of Amsterdam
+Nathaniel Lahn,Virginia Tech
+Deepika Mulchandani,Walmart Labs
+Sharath Raghvendra,Virginia Tech
+Chongli Qin,DeepMind
+Sven Gowal,DeepMind
+Dilip Krishnan,Google
+Krishnamurthy Dvijotham,DeepMind
+Soham De,DeepMind
+Jiecao Chen,Google Research
+Felix Xinnan Yu,Google Research
+Shoichiro Yamaguchi,Preferred Networks
+Yoh-ichi Mototake,Institute of Statistical Mathematics
+Mirai Tanaka,The Institute of Statistical Mathematics / RIKEN
+Jiechuan Jiang,Peking University
+Zongqing Lu,Peking University
+Qi Lei,University of Texas at Austin
+JIACHENG ZHUO,University of Texas at Austin
+Constantine Caramanis,UT Austin
+Hermina Petric Maretic,EPFL
+Mireille El Gheche,EPFL
+Pascal Frossard,EPFL
+Sunil Thulasidasan,Los Alamos National Laboratory & University of Washington
+Gopinath Chennupati,Los Alamos National Laboratory
+Jeff Bilmes,"University of Washington, Seattle"
+Tanmoy Bhattacharya,Los Alamos National Laboratory
+Sarah Michalak,Los Alamos National Laboratory
+Qijia Jiang,Stanford University
+Yin-Tat Lee,
+Ajil Jalal,University of Texas at Austin
+Viet Anh Nguyen,EPFL
+Soroosh Shafieezadeh Abadeh,EPFL
+Man-Chung Yue,The Hong Kong Polytechnic University
+Daniel Kuhn,EPFL
+Wolfram Wiesemann,Imperial College
+Kirill Neklyudov,"Samsung AI Center, Moscow"
+Evgenii Egorov,Skolkovo Institute of Science and Technology
+Mehmet Fatih Sahin,École Polytechnique Fédérale de Lausanne
+Ahmet Alacaoglu,EPFL
+Maximilian Igl,University of Oxford
+Yingzhen Li,Microsoft Research Cambridge
+Sam Devlin,Microsoft Research
+Emily Fertig,Google Research
+Balaji Lakshminarayanan,Google DeepMind
+D. Sculley,Google Research
+Joshua Dillon,Google
+Jie Ren,Google Brain
+Vickram Rajendran,The Johns Hopkins University Applied Physics Lab
+William LeVine,The Johns Hopkins University Applied Physics Lab
+Ximing Qiao,Duke University
+Yukun Yang,Duke University
+Hai Li,Duke University
+Paul Michel,"Carnegie Mellon University, Language Technologies Institute"
+Graham Neubig,Carnegie Mellon University
+Oliver Hamelijnck,The Alan Turing Institute
+Kangrui Wang,The Alan Turing Institute
+Adam Foster,University of Oxford
+Martin Jankowiak,Uber AI Labs
+Elias Bingham,Uber AI Labs
+Paul Horsfall,Uber AI Labs
+Thomas Rainforth,University of Oxford
+Noah Goodman,Stanford University
+Joshua Hanson,University of Illinois at Urbana-Champaign
+Maxim Raginsky,University of Illinois at Urbana-Champaign
+Matt Jordan,UT Austin
+Justin Lewis,University of Texas at Austin
+Sobhan Miryoosefi,Princeton University
+Kianté Brantley,The University of Maryland College Park
+Hal Daume III,Microsoft Research &      University of Maryland
+Miro Dudik,Microsoft Research
+Robert Schapire,MIcrosoft Research
+Dirk van der Hoeven,Leiden University
+Johannes Kirschner,ETH Zurich
+Dan Schwartz,Carnegie Mellon University
+Mariya Toneva,Carnegie Mellon University
+Leila Wehbe,Carnegie Mellon University
+Harm Van Seijen,Microsoft Research
+Mehdi Fatemi,Microsoft Research
+Arash Tavakoli,Imperial College London
+Ciara Pike-Burke,Universitat Pompeu Fabra
+Steffen Grunewalder,Lancaster
+Matthew Sotoudeh,"University of California, Davis"
+Aditya Thakur,"University of California, Davis"
+Yingxiang Yang,University of Illinois at Urbana-Champaign
+Haoxiang Wang,"University of Illinois, Urbana-Champaign"
+Negar Kiyavash,EPFL
+Bastian Alt,Technische Universität Darmstadt
+Adrian Šošić,Merck KGaA
+Deeksha Adil,University of Toronto
+Richard Peng,Georgia Tech
+Yanis Bahroun,Flatiron institute
+Dmitri Chklovskii,"Flatiron Institute, Simons Foundation"
+Anirvan Sengupta,Rutgers University
+Kareem Amin,Google Research
+Alex Kulesza,Google
+Andres Munoz,Google
+Sergei Vassilvitskii,Google
+Mostafa Rahmani,Baidu Research
+Robert Ness,Gamalon
+Kaushal Paneri,Microsoft
+Olga Vitek,Northeastern University
+Sjoerd van Steenkiste,The Swiss AI Lab - IDSIA
+Francesco Locatello,ETH Zürich - MPI Tübingen
+Jürgen Schmidhuber,"Swiss AI Lab, IDSIA (USI & SUPSI) - NNAISENSE"
+Olivier Bachem,Google Brain
+Thijs Vogels,EPFL
+Sai Praneeth Karimireddy,EPFL
+Alp Yurtsever,EPFL
+Olivier Fercoq,Telecom ParisTech
+Honghao Li,Institut Curie
+Vincent Cabeli,Institut Curie
+Nadir Sella,Institut Curie
+Herve Isambert,Institut Curie
+David Clark,Columbia University
+Jesse Livezey,Lawrence Berkeley National Laboratory
+Kristofer Bouchard,Lawrence Berkeley National Laboratory
+Dmitriy Katz,IBM Research
+Karthikeyan Shanmugam,"IBM Research, NY"
+Sara Magliacane,MIT-IBM Watson AI Lab
+Murat Kocaoglu,MIT-IBM Watson AI Lab
+Enric Boix Adsera,MIT
+Guy Bresler,MIT
+Junran Peng,CASIA
+Ming Sun,sensetime.com
+ZHAO-XIANG ZHANG,"Chinese Academy of Sciences, China"
+Tieniu Tan,Chinese Academy of Sciences
+Junjie Yan,Sensetime Group Limited
+Jiefeng Chen,University of Wisconsin-Madison
+Xi Wu,Google
+Vaibhav Rastogi,University of Wisconsin-Madison
+Miika Aittala,MIT CSAIL / NVIDIA
+Prafull Sharma,MIT
+Lukas Murmann,Massachusetts Institute of Technology
+Adam Yedidia,Massachusetts Institute of Technology
+Bill Freeman,MIT/Google
+Fredo Durand,MIT
+John Aslanides,DeepMind
+Gabriele Cesa,University of Amsterdam
+Saurabh Sihag,Rensselaer Polytechnic Institute
+Ali Tajer,Rensselaer Polytechnic Institute
+Cory Stephenson,Intel
+Suchismita Padhy,Intel AI Lab
+Oguz Elibol,Intel AI Lab
+Hanlin Tang,Intel AI Products Group
+SueYeon Chung,Columbia/MIT
+Caroline Haimerl,New York University
+Cristina Savin,NYU
+Eero Simoncelli,HHMI / New York University
+Othman El Balghiti,Columbia University
+Adam Elmachtoub,Columbia University
+Paul Grigas,UC Berkeley
+Matthieu Jedor,ENS Paris-Saclay & Cdiscount
+Jonathan Louedec,Cdiscount
+Daniel Russo,Columbia University
+Nishal Shah,Stanford University
+Sasidhar Madugula,Stanford University
+Pawel Hottowy,AGH University of Science and Technology in Kraków
+Alexander Sher,"Santa Cruz Institute for Particle Physics, University of California, Santa Cruz"
+Alan Litke,"Santa Cruz Institute for Particle Physics, University of California, Santa Cruz"
+E.J. Chichilnisky,Stanford University
+Kanthi Sarpatwar,IBM T. J. Watson Research Center
+Venkata Sitaramagiridharganesh Ganapavarapu,IBM Research
+Ashish Jagmohan,IBM Research
+Roman Vaculin,IBM Research
+Brendan O'Donoghue,DeepMind
+Nicolò Pagliana,Università degli studi di Genova (DIMA)
+Rémy Degenne,"Centrum Wiskunde & Informatica, Amsterdam"
+Wouter Koolen,"Centrum Wiskunde & Informatica, Amsterdam"
+Pierre Ménard,Institut de Mathématiques de Toulouse
+Haibin YU,National University of Singapore
+Yizhou Chen,National University of Singapore
+Bryan Kian Hsiang Low,National University of Singapore
+Patrick Jaillet,MIT
+Benyamin Allahgholizadeh Haghi,California Institute of Technology
+Spencer Kellis,California Institute of Technology
+Sahil Shah,California Institute of Technology
+Maitreyi Ashok,California Institute of Technology
+Luke Bashford,California Institute of Technology
+Daniel Kramer,University of Southern California
+Brian Lee,University of Southern California
+Charles Liu,University of Southern California
+Richard Andersen,California Institute of Technology
+Azita Emami,California Institute of Technology
+Arun Verma,IIT Bombay
+Manjesh Hanawal,Indian Institute of Technology Bombay
+Arun Rajkumar,Indian Institute of Technology Madras
+Raman Sankaran,LinkedIn
+Brandon Anderson,University of Chicago
+Truong Son Hy,The University of Chicago
+Risi Kondor,U. Chicago
+Andrey Malinin,Yandex Research
+Mark Gales,University of Cambridge
+Youwei Lyu,Beijing University of Posts and Telecommunications
+Zhaopeng Cui,ETH Zurich
+Si Li,Beijing University of Posts and Telecommunications
+Marc Pollefeys,ETH Zurich
+Yuzhe Ma,University of Wisconsin-Madison
+Xuezhou Zhang,UW-Madison
+Alix LHERITIER,Amadeus
+Frederic Cazals,Inria
+Rohith Kuditipudi,Duke University
+Xiang Wang,Duke University
+Yi Zhang,Princeton
+Rong Ge,Duke University
+Gabriele Abbati,University of Oxford
+Stefan Bauer,MPI for Intelligent Systems
+Charith Mendis,MIT
+Cambridge Yang,MIT
+Dr.Saman Amarasinghe,Massachusetts institute of technology
+Michael Carbin,MIT
+Runzhe Yang,Princeton University
+Xingyuan Sun,Princeton University
+Karthik Narasimhan,Princeton University
+Geoff Pleiss,Cornell University
+Stephen Tyree,NVIDIA
+Dustin Tran,Google Brain
+Mike Dusenberry,Google Brain
+Danijar Hafner,Google
+Thomas PIERROT,InstaDeep
+Guillaume Ligner,InstaDeep
+Scott Reed,Google DeepMind
+Olivier Sigaud,Sorbonne University
+Nicolas Perrin,"ISIR, Sorbonne Université"
+Alexandre Laterre,InstaDeep
+David Kas,InstaDeep
+Karim Beguir,InstaDeep
+Nando de Freitas,DeepMind
+Nirandika Wanigasekara,National University of Singapore
+Christina Yu,Cornell University
+Debraj Basu,Adobe Inc.
+Deepesh Data,UCLA
+Can Karakus,Amazon Web Services
+Suhas Diggavi,UCLA
+Peter Liu,Google Brain
+Ryan  Poplin,Google
+Mark Depristo,Google
+Keyon Vafa,Columbia University
+Kumar Agrawal,Google AI Resident
+Ben Poole,Google Brain
+Zehua Zhang,Indiana University Bloomington
+Vayer Titouan,IRISA
+Rémi Flamary,Université Côte d'Azur
+Nicolas Courty,"IRISA, Universite Bretagne-Sud"
+Romain Tavenard,LETG-Rennes /  IRISA-Obelix
+Laetitia Chapel,IRISA
+Zhiqiang Xu,Baidu Inc.
+Ligeng Zhu,MIT
+Fanny Yang,"Stanford University, ETH Zurich"
+Zuowen Wang,ETH Zurich
+Christina Heinze-Deml,ETH Zurich
+Spencer Frei,UCLA
+Amir-massoud Farahmand,Vector Institute and University of Toronto
+Wenbo Gong,University of Cambridge
+Gauri Jagatap,Iowa State University
+Chinmay Hegde,New York University
+Soroush Nasiriany,UC Berkeley
+Vitchyr Pong,UC Berkeley
+Steven Lin,UC Berkeley
+Sidharth Gupta,University of Illinois at Urbana-Champaign
+Remi Gribonval,INRIA
+Laurent Daudet,LightOn
+Ivan Dokmanić,University of Basel
+Ali Razavi,DeepMind
+Pedro Mercado,University of Tübingen
+Francesco Tudisco,University of Strathclyde
+Yingying Li,Harvard University
+Xin Chen,Harvard University
+Na Li,Harvard University
+Wei Ma,Carnegie Mellon University
+George H Chen,Carnegie Mellon University
+Kundan Kumar,"Lyrebird-AI, Mila"
+Rithesh Kumar,Mila / Lyrebird
+Thibault de Boissiere,Lyrebird
+Lucas Gestin,Lyrebird
+Wei Zhen Teoh,Lyrebird
+Jose Sotelo,"MILA, Lyrebird"
+Alexandre de Brébisson,"LYREBIRD, MILA"
+Blossom Metevier,"University of Massachusetts, Amherst"
+Stephen Giguere,"University of Massachusetts, Amherst"
+Sarah Brockman,University of Massachusetts Amherst
+Ari Kobren,UMass Amherst
+Yuriy Brun,University of Massachusetts Amherst
+Maher Nouiehed,American University of Beirut
+Maziar Sanjabi,USC
+Tianjian Huang,University of Southern California
+Meisam Razaviyayn,University of Southern California
+Yizhe Zhu,Rutgers University
+Jianwen Xie,Hikvision
+Zhiqiang Tang,Rutgers
+Ahmed Elgammal,Rutgers University
+Gregory Benton,New York University
+Jayson Salkey,New York University
+Julio Albinati,Microsoft
+Rahul Kidambi,Cornell University
+Coline Devin,UC Berkeley
+Daniel Geng,UC Berkeley
+Ehsan Amid,"University of California, Santa Cruz"
+Manfred K. Warmuth,Google Brain
+Ganlin Song,Yale University
+Zhou Fan,Yale Univ
+John Lafferty,Yale University
+Yue Cao,Texas A&M University
+Tianlong Chen,Texas A&M University
+Yang Shen,Texas A&M University
+Adarsh Prasad,Carnegie Mellon University
+Victor Chernozhukov,MIT
+Mert Demirer,MIT
+Greg Lewis,Microsoft Research
+Vasilis Syrgkanis,Microsoft Research
+Fariba Yousefi,University of Sheffield
+Michael T Smith,University of Sheffield
+Mauricio Álvarez,University of Sheffield
+Bulat Ibragimov,Yandex Research
+Gleb Gusev,Yandex
+Gagandeep Singh,ETH Zurich
+Rupanshu Ganvir,ETH Zurich
+Martin Vechev,"ETH Zurich, Switzerland"
+Firoozeh Sepehr,University of Tennessee
+Donatello Materassi,University of Minnesota
+Andisheh Amrollahi,ETH Zurich
+Amir Zandieh,epfl
+Michael Kapralov,EPFL
+Peng Chen,The University of Texas at Austin
+Keyi Wu,The University of Texas at Austin
+Joshua Chen,The University of Texas at Austin
+Tom O'Leary-Roseberry,The University of Texas at Austin
+Rachel Carrington,University of Nottingham
+Karthik Bharath,University of Nottingham
+Simon Preston,University of Nottingham
+Uthaipon Tantipongpipat,Georgia Tech
+Samira Samadi,Georgia Tech
+Mohit Singh,Georgia Tech
+Ravi Kumar,Google
+Manish Purohit,Google
+Zoya Svitkina,Google
+Erik Vee,Google
+Joshua Wang,Google
+Samuel Ainsworth,University of Washington
+Matt Barnes,University of Washington
+Siddhartha Srinivasa,Amazon + University of Washington
+Victor Lei,TripAdvisor
+Miruna Oprescu,Microsoft Research
+Maggie Hei,Microsoft
+Keith Battocchi,Microsoft
+Meena Jagadeesan,Harvard University
+Tong Yu,Samsung Research America
+Yilin Shen,Samsung Research America
+Hongxia Jin,Samsung Research America
+Joshua Robinson,MIT
+Suvrit Sra,MIT
+Ashok Cutkosky,Google Research
+Francesco Orabona,Boston University
+Nishant Subramani,AI Foundation
+Kyunghyun Cho,New York University
+Xueru Zhang,University of Michigan
+Mohammadmahdi Khaliligarekani,university of michigan
+Cem Tekin,Bilkent University
+mingyan liu,"university of Michigan, Ann Arbor"
+Digvijay Boob,Georgia Institute of Technology
+Saurabh Sawlani,Georgia Institute of Technology
+Anand Rajagopalan,Google
+Claudio Gentile,Google Research
+Matthieu SIMEONI,IBM Research / EPFL
+Sepand Kashani,EPFL
+Paul Hurley,Western Sydney University
+Martin Vetterli,EPFL
+Mislav Balunovic,ETH Zurich
+Maximilian Baader,ETH Zürich
+Timon Gehr,ETH Zurich
+Yiming Ding,"University of California, Berkeley"
+Carlos Florensa,UC Berkeley
+Mariano Phielipp,Intel AI Labs
+Jack Umenberger,Uppsala University
+Mina Ferizbegovic,KTH Royal Institute of Technology
+Thomas Schön,Uppsala University
+Håkan Hjalmarsson,KTH
+Ali Sadeghian,University of Florida
+Mohammadreza Armandpour,Texas A&M University
+Patrick Ding,Texas A&M University
+Daisy Zhe Wang,Univeresity of Florida
+Kwang-Sung Jun,U of Arizona
+Melikasadat Emami,UCLA
+Mojtaba Sahraee Ardakan,UCLA
+Sundeep Rangan,NYU
+Alyson Fletcher,UCLA
+Samuel Greydanus,Oregon State University
+Misko Dzamba,Freenome
+Qiyang Li,University of Toronto
+Saminul Haque,University of Toronto
+Cem Anil,University of Toronto; Vector Institute
+Dina Obeid,Harvard University
+Cengiz Pehlevan,Harvard University
+Nima Dehmamy,Northeastern University
+Albert-Laszlo Barabasi,Northeastern University
+Charlie Tang,Apple Inc.
+Tristan Bepler,MIT
+Ellen Zhong,Massachusetts Institute of Technology
+Kotaro Kelley,New York Structural Biology Center
+Edward Brignole,Massachusetts Institute of Technology
+Bonnie Berger,MIT
+Jingbo Liu,MIT
+Philippe Rigollet,MIT
+Yihao Feng,UT Austin
+Jonas Mueller,Amazon Web Services
+Matt Taddy,Chicago Booth
+Eugene Bagdasaryan,"Cornell Tech, Cornell University"
+Omid Poursaeed,Cornell University
+Vitaly Shmatikov,Cornell University
+Daniel Brooks,Thales - LIP6
+Olivier Schwander,Sorbonne Université
+Frederic Barbaresco,THALES LAND & AIR SYSTEMS
+Jean-Yves Schneider,THALES LAND & AIR SYSTEMS
+Yuan Wang,Carnegie Mellon University
+Michael Tarr,Carnegie Mellon University
+Adam Kosiorek,University of Oxford
+Sara Sabour,Google
+Rodrigo Toro Icarte,University of Toronto and Vector Institute
+Ethan Waldie,University of Toronto & Palantir Technologies
+Toryn Klassen,University of Toronto
+Rick Valenzano,Element AI
+Margarita Castro,University of Toronto
+Sheila McIlraith,University of Toronto
+Philip Bachman,Microsoft Research
+William Buchwalter,Microsoft
+Sam Wiseman,TTIC
+Yoon Kim,Harvard University
+Chulhee Yun,MIT
+Ali Jadbabaie,MIT
+Aaron Voelker,Applied Brain Research
+Ivana Kajić,University of Waterloo
+Chris Eliasmith,U of Waterloo
+Maxime Gasse,Polytechnique Montréal
+Didier Chetelat,Polytechnique Montreal
+Nicola Ferroni,University of Bologna
+Andrea Lodi,École Polytechnique Montréal
+Hrayr Harutyunyan,USC Information Sciences Institute
+Corey Lynch,Google Brain
+Pierre Sermanet,Google Brain
+Jingxiang Lin,University of Illinois at Urbana-Champaign
+Unnat Jain,University of Illinois at Urbana Champaign
+Niru Maheswaranathan,Google Brain
+Alex Williams,Stanford University
+Matthew Golub,Stanford University
+David Sussillo,Google Inc.
+Raphael Townshend,Stanford University
+Rishi Bedi,System1 Biosciences
+Patricia Suriana,Stanford University
+Ron Dror,Stanford University
+Yingdong Lu,IBM Research
+Mark Squillante,IBM Research
+Chai Wah Wu,IBM
+Dan Hendrycks,UC Berkeley
+Mantas Mazeika,University of Chicago
+Saurav Kadavath,UC Berkeley
+Dawn Song,UC Berkeley
+Geoff Gordon,Microsoft
+Eleanor Batty,Columbia University
+Matthew Whiteway,Columbia University
+Shreya Saxena,Columbia University
+Dan Biderman,Columbia University
+Taiga Abe,Columbia University
+Simon Musall,Cold Spring Harbor Laboratory
+Winthrop Gillis,Harvard Medical School
+Jeffrey Markowitz,Harvard Medical School
+Anne Churchland,Cold Spring Harbor Laboratory
+Sandeep R Datta,Harvard Medical School
+Yuge Shi,University of Oxford
+Siddharth N,Unversity of Oxford
+Philip  Torr,University of Oxford
+Michalis Titsias,DeepMind
+Muhammad Waleed Gondal,Max Planck Institute for Intelligent Systems
+Manuel Wuthrich,Max Planck Institute for Intelligent Systems
+Djordje Miladinovic,ETH Zurich
+Martin  Breidt,MPI for Biological Cybernetics
+Valentin Volchkov,Max Planck Institut for Intelligent Systems
+Joel Akpo,Max Planck Institute for Intelligent Systems
+Abhinav Verma,Rice University
+Hoang Le,California Institute of Technology
+Swarat Chaudhuri,Rice University
+Zhiting Hu,Carnegie Mellon University
+Bowen Tan,CMU
+Tom Mitchell,Carnegie Mellon University
+Aida Rahmattalabi,University of Southern California
+Phebe Vayanos,University of Southern California
+Anthony Fulginiti,University of Denver
+Eric Rice,University of Southern California
+Amulya Yadav,Pennsylvania State University
+Pavithra Prabhakar,Kansas State University
+Zahra Rahimi Afzal,Kansas State University
+Arturs Backurs,MIT
+Tal Wagner,MIT
+Parikshit Gopalan,VMware Research
+Vatsal Sharan,Stanford University
+Udi Wieder,VMware Research
+John Ingraham,MIT
+Regina Barzilay,Massachusetts Institute of Technology
+Randall Balestriero,Rice University
+Romain Cosentino,Rice University
+Behnaam Aazhang,Rice University
+Richard Baraniuk,Rice University
+Ke Li,UC Berkeley
+Tianhao Zhang,Nanjing University
+Jitendra Malik,University of California at Berkley
+Fushan Li,University of Alberta
+Michael Bowling,University of Alberta / DeepMind
+Anthony Ndirango,Intel AI Lab
+Tyler Lee,Intel AI Lab
+Alexey Ignatiev,"Reason Lab, Faculty of Sciences, University of Lisbon"
+Nina Narodytska,VMmare Research
+Joao Marques-Silva,"ANITI, Federal University of Toulouse Midi-Pyrénées"
+Zhengdao Chen,New York University
+Soledad Villar,New York University
+Lei Chen,New York University
+Hosein Hasani,Sharif University of Technology
+Mahdieh Soleymani,Sharif University of Technology
+Hamid Aghajan,"Sharif University of Technology and iMinds, Gent University,"
+Da Xu,Walmart Labs
+Chuanwei Ruan,Walmart Labs
+Evren Korpeoglu,Walmart Labs
+Sushant Kumar,Walmart Labs
+Kannan Achan,Walmart Labs
+Cun-Hui Zhang,Rutgers
+Mohammad Reza Keshtkaran,Georgia Tech and Emory University
+Chethan Pandarinath,Emory University and Georgia Tech
+Michael I. Jordan,UC Berkeley
+Pradeep K. Ravikumar,Carnegie Mellon University
+Inderjit S. Dhillon,UT Austin
+Ruslan R. Salakhutdinov,Carnegie Mellon University
+Jonathan W. Pillow,Princeton University
+Eric P. Xing,Carnegie Mellon University
+Nati Srebro,University of Chicago
+Percy S. Liang,Stanford University
+Ryan P. Adams,Princeton University

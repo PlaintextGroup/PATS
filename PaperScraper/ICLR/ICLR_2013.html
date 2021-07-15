@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ICLR 2013 | OpenReview</title>
+		<meta name="description" content="">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@openreviewnet">
+		<meta name="og:title" content="ICLR 2013">
+		<meta name="og:description" content="">
+		<meta name="og:image" content="https://openreview.net/static/images/openreview_logo_512.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i">
+		<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+		<link rel="stylesheet" href="/static/css/main.min.css?v=3.0.1">
+		<style type="text/css">
+			.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+			.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+			.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+			.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+		</style>
+		<style type="text/css">
+			.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+			.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+			.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+			.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+			.CtxtMenu_MenuClose:hover:focus {  outline:none}
+		</style>
+		<style type="text/css">
+			.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+			.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+			.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+			.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+			.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+			.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+			.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+			.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+			.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+			.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+			.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+			.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+			.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+			.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+			.CtxtMenu_MenuDisabled {  color:GrayText}
+			.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+			.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+			.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+			.CtxtMenu_ContextMenu:focus {  outline:none}
+			.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+			.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+		</style>
+		<style id="MJX-SVG-styles">
+			mjx-container[jax="SVG"] > svg {
+			  overflow: visible;
+			}
+			
+			mjx-container[jax="SVG"] > svg a {
+			  fill: blue;
+			  stroke: blue;
+			}
+			
+			mjx-container[jax="SVG"][display="true"] {
+			  display: block;
+			  text-align: center;
+			  margin: 1em 0;
+			}
+			
+			mjx-container[jax="SVG"][justify="left"] {
+			  text-align: left;
+			}
+			
+			mjx-container[jax="SVG"][justify="right"] {
+			  text-align: right;
+			}
+			
+			g[data-mml-node="merror"] > g {
+			  fill: red;
+			  stroke: red;
+			}
+			
+			g[data-mml-node="merror"] > rect[data-background] {
+			  fill: yellow;
+			  stroke: none;
+			}
+			
+			g[data-mml-node="mtable"] > line[data-line] {
+			  stroke-width: 70px;
+			  fill: none;
+			}
+			
+			g[data-mml-node="mtable"] > rect[data-frame] {
+			  stroke-width: 70px;
+			  fill: none;
+			}
+			
+			g[data-mml-node="mtable"] > .mjx-dashed {
+			  stroke-dasharray: 140;
+			}
+			
+			g[data-mml-node="mtable"] > .mjx-dotted {
+			  stroke-linecap: round;
+			  stroke-dasharray: 0,140;
+			}
+			
+			g[data-mml-node="mtable"] > svg {
+			  overflow: visible;
+			}
+			
+			[jax="SVG"] mjx-tool {
+			  display: inline-block;
+			  position: relative;
+			  width: 0;
+			  height: 0;
+			}
+			
+			[jax="SVG"] mjx-tool > mjx-tip {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			}
+			
+			mjx-tool > mjx-tip {
+			  display: inline-block;
+			  padding: .2em;
+			  border: 1px solid #888;
+			  font-size: 70%;
+			  background-color: #F8F8F8;
+			  color: black;
+			  box-shadow: 2px 2px 5px #AAAAAA;
+			}
+			
+			g[data-mml-node="maction"][data-toggle] {
+			  cursor: pointer;
+			}
+			
+			mjx-status {
+			  display: block;
+			  position: fixed;
+			  left: 1em;
+			  bottom: 1em;
+			  min-width: 25%;
+			  padding: .2em .4em;
+			  border: 1px solid #888;
+			  font-size: 90%;
+			  background-color: #F8F8F8;
+			  color: black;
+			}
+			
+			.MathJax path {
+			  stroke-width: 3;
+			}
+		</style>
+	</head>
+
+	<body class="group">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand home push-link" href="/"><strong>OpenReview</strong>.net</a> </div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<form class="navbar-form navbar-left profile-search" role="search">
+						<div class="form-group has-feedback"> <input id="search_input" type="text" class="form-control ui-autocomplete-input" placeholder="Search OpenReview..." autocomplete="off"> <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span> </div> <input id="search_group" type="hidden" value="all"> <input id="search_content" type="hidden" value="all"> <ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li id="user-menu"><a href="/login" class="push-link">Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="or-banner" class="banner" style="display: none;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12"> <span class="tagline">Open Peer Review. Open Publishing. Open Access. <span class="hidden-xs">Open Discussion. Open Recommendations.</span> <span class="hidden-xs hidden-sm">Open Directory. Open API. Open Source.</span></span> </div>
+				</div>
+			</div>
+		</div>
+		<div id="flash-message-container" class="alert alert-danger" role="alert" style="display: none;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="alert-content"> <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<main id="content" class="clearfix pre-rendered legacy-styles">
+						<div id="group-container">
+							<div id="header">
+								<h1>ICLR 2013</h1>
+								<h3>International Conference on Learning Representations</h3>
+								<h4>May 02 - 04, 2013, Scottsdale, Arizona, USA</h4>
+								<h4><a href="https://sites.google.com/site/representationlearning2013/" target="_blank">https://sites.google.com/site/representationlearning2013/</a></h4>
+								<div class="description">
+									<p class="no-margin">Please see the venue website for more information.</p>
+									<p></p>
+								</div>
+							</div>
+							<div id="invitation"></div>
+							<div id="notes">
+								<div>
+									<h1>ICLR 2013 Conference Track</h1>
+								</div>
+								<div class="panel">
+									<h2 style="text-decoration: underline; ">Accepted for Oral Presentation</h2>
+								</div>
+								<div id="note_2LzIDWSabfLe9" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=2LzIDWSabfLe9">Herded Gibbs Sampling</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.4168" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by bornn@stat.harvard.edu</span> • <a href="/forum?id=2LzIDWSabfLe9">Herded Gibbs Sampling</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=bornn%40stat.harvard.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="bornn@stat.harvard.edu">Luke Bornn</a>, <a href="/profile?email=yutian.chen%40uci.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yutian.chen@uci.edu">Yutian Chen</a>, <a href="/profile?email=nando%40cs.ubc.ca" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="nando@cs.ubc.ca">Nando de Freitas</a>, <a href="/profile?email=mareijae%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="mareijae@gmail.com">Maya Baya</a>, <a href="/profile?email=welling%40ics.uci.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="welling@ics.uci.edu">Jing Fang</a>, <a href="/profile?email=jingf%40cs.ubc.ca" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jingf@cs.ubc.ca">Max Welling</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">18 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_SSnY462CYz1Cu" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=SSnY462CYz1Cu">Knowledge Matters: Importance of Prior Information for Optimization</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.4083" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by ca9lar@gmail.com</span> • <a href="/forum?id=SSnY462CYz1Cu">Knowledge Matters: Importance of Prior Information for Optimization</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=ca9lar%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ca9lar@gmail.com">Çağlar Gülçehre</a>, <a href="/profile?email=yoshua.bengio%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yoshua.bengio@gmail.com">Yoshua Bengio</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">18 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">10 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_7hXs7GzQHo-QK" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=7hXs7GzQHo-QK">The Neural Representation Benchmark and its Evaluation on Brain and Machine</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3530" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by c.cadieu@gmail.com</span> • <a href="/forum?id=7hXs7GzQHo-QK">The Neural Representation Benchmark and its Evaluation on Brain and Machine</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=c.cadieu%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="c.cadieu@gmail.com">Charles Cadieu</a>, <a href="/profile?email=hahong%40mit.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hahong@mit.edu">Ha Hong</a>, <a href="/profile?email=yamins%40mit.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yamins@mit.edu">Dan Yamins</a>, <a href="/profile?email=nicolas.pinto%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="nicolas.pinto@gmail.com">Nicolas Pinto</a>, <a href="/profile?email=najib.majaj%40nyu.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="najib.majaj@nyu.edu">Najib J. Majaj</a>, <a href="/profile?email=dicarlo%40mit.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="dicarlo@mit.edu">James J. DiCarlo</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">6 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_4UGuUZWZmi4Ze" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=4UGuUZWZmi4Ze">Feature grouping from spatially constrained multiplicative interaction</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3391" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by felix.bauer.bfx@gmail.com</span> • <a href="/forum?id=4UGuUZWZmi4Ze">Feature grouping from spatially constrained multiplicative interaction</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=felix.bauer.bfx%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="felix.bauer.bfx@gmail.com">Felix Bauer</a>, <a href="/profile?email=roland.memisevic%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="roland.memisevic@gmail.com">Roland Memisevic</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_aJh-lFL2dFJ21" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=aJh-lFL2dFJ21">Discriminative Recurrent Sparse Auto-Encoders</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3775" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by rolfe22@gmail.com</span> • <a href="/forum?id=aJh-lFL2dFJ21">Discriminative Recurrent Sparse Auto-Encoders</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=rolfe22%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="rolfe22@gmail.com">Jason Rolfe</a>, <a href="/profile?email=ylecun%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ylecun@gmail.com">Yann LeCun</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">17 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_ttxM6DQKghdOi" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=ttxM6DQKghdOi">Discrete Restricted Boltzmann Machines</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3529" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by guidomontufar@googlemail.com</span> • <a href="/forum?id=ttxM6DQKghdOi">Discrete Restricted Boltzmann Machines</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=guidomontufar%40googlemail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="guidomontufar@googlemail.com">Guido F. Montufar</a>, <a href="/profile?email=jason.morton%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jason.morton@gmail.com">Jason Morton</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">5 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_ttnAE7vaATtaK" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=ttnAE7vaATtaK">Indoor Semantic Segmentation using depth information</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3572" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by camille.couprie@gmail.com</span> • <a href="/forum?id=ttnAE7vaATtaK">Indoor Semantic Segmentation using depth information</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=camille.couprie%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="camille.couprie@gmail.com">Camille Couprie</a>, <a href="/profile?email=clement.farabet%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="clement.farabet@gmail.com">Clement Farabet</a>, <a href="/profile?email=l.najman%40esiee.fr" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="l.najman@esiee.fr">Laurent Najman</a>, <a href="/profile?email=ylecun%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ylecun@gmail.com">Yann LeCun</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">6 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_l_PClqDdLb5Bp" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=l_PClqDdLb5Bp">Stochastic Pooling for Regularization of Deep Convolutional Neural Networks</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3557" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by zeiler@cs.nyu.edu</span> • <a href="/forum?id=l_PClqDdLb5Bp">Stochastic Pooling for Regularization of Deep Convolutional Neural Networks</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=zeiler%40cs.nyu.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="zeiler@cs.nyu.edu">Matthew Zeiler</a>, <a href="/profile?email=robfergus%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="robfergus@gmail.com">Rob Fergus</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_-AIqBI4_qZAQ1" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=-AIqBI4_qZAQ1">Information Theoretic Learning with Infinitely Divisible Kernels</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3551" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by luisitobarcito@gmail.com</span> • <a href="/forum?id=-AIqBI4_qZAQ1">Information Theoretic Learning with Infinitely Divisible Kernels</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=luisitobarcito%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="luisitobarcito@gmail.com">Luis Gonzalo Sánchez</a>, <a href="/profile?email=principe%40cnel.ufl.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="principe@cnel.ufl.edu">Jose C. Principe</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">8 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_-4IA4WgNAy4Wx" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=-4IA4WgNAy4Wx">What Regularized Auto-Encoders Learn from the Data Generating Distribution</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1211.4246" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by guillaume.alain.umontreal@gmail.com</span> • <a href="/forum?id=-4IA4WgNAy4Wx">What Regularized Auto-Encoders Learn from the Data Generating Distribution</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=guillaume.alain.umontreal%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="guillaume.alain.umontreal@gmail.com">Guillaume Alain</a>, <a href="/profile?email=yoshua.bengio%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yoshua.bengio@gmail.com">Yoshua Bengio</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">6 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_ZhGJ9KQlXi9jk" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=ZhGJ9KQlXi9jk">Complexity of Representation and Inference in Compositional Models with Part Sharing</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3560" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by yuille@stat.ucla.edu</span> • <a href="/forum?id=ZhGJ9KQlXi9jk">Complexity of Representation and Inference in Compositional Models with Part Sharing</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=yuille%40stat.ucla.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yuille@stat.ucla.edu">Alan Yuille</a>, <a href="/profile?email=roozbehm%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="roozbehm@gmail.com">Roozbeh Mottaghi</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_kk_XkMO0-dP8W" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=kk_XkMO0-dP8W">Feature Learning in Deep Neural Networks - A Study on Speech Recognition Tasks</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3605" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by dongyu888@gmail.com</span> • <a href="/forum?id=kk_XkMO0-dP8W">Feature Learning in Deep Neural Networks - A Study on Speech Recognition Tasks</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=dongyu888%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="dongyu888@gmail.com">Dong Yu</a>, <a href="/profile?email=mike.seltzer%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="mike.seltzer@gmail.com">Mike Seltzer</a>, <a href="/profile?email=jinyli%40microsoft.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jinyli@microsoft.com">Jinyu Li</a>, <a href="/profile?email=jthuang%40microsoft.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jthuang@microsoft.com">Jui-Ting Huang</a>, <a href="/profile?email=fseide%40microsoft.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="fseide@microsoft.com">Frank Seide</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_eQWJec0ursynH" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=eQWJec0ursynH">Barnes-Hut-SNE</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3342" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by lvdmaaten@gmail.com</span> • <a href="/forum?id=eQWJec0ursynH">Barnes-Hut-SNE</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=lvdmaaten%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="lvdmaaten@gmail.com">Laurens van der Maaten</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_BBIbj9w8Lvj8F" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=BBIbj9w8Lvj8F">Efficient Learning of Domain-invariant Image Representations</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3224" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by jhoffman@eecs.berkeley.edu</span> • <a href="/forum?id=BBIbj9w8Lvj8F">Efficient Learning of Domain-invariant Image Representations</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=jhoffman%40eecs.berkeley.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jhoffman@eecs.berkeley.edu">Judy Hoffman</a>, <a href="/profile?email=erik.rodner%40uni-jena.de" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="erik.rodner@uni-jena.de">Erik Rodner</a>, <a href="/profile?email=jdonahue%40eecs.berkeley.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jdonahue@eecs.berkeley.edu">Jeff Donahue</a>, <a href="/profile?email=saenko%40cs.uml.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="saenko@cs.uml.edu">Kate Saenko</a>, <a href="/profile?email=trevordarrell%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="trevordarrell@gmail.com">Trevor Darrell</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">7 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div style="height: 50px;"></div>
+								<div class="panel">
+									<h2 style="text-decoration: underline; ">Accepted for Poster Presentation</h2>
+								</div>
+								<div id="note_6s2YsOZPYcb8N" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=6s2YsOZPYcb8N">Cutting Recursive Autoencoder Trees</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.2811" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by christian.scheible@gmail.com</span> • <a href="/forum?id=6s2YsOZPYcb8N">Cutting Recursive Autoencoder Trees</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=christian.scheible%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="christian.scheible@gmail.com">Christian Scheible</a>, <a href="/profile?email=hinrichwork%40googlemail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hinrichwork@googlemail.com">Hinrich Schuetze</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">20 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">7 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_yGgjGkkbeFSbt" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=yGgjGkkbeFSbt">Saturating Auto-Encoder</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3577" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by rgoroshin@gmail.com</span> • <a href="/forum?id=yGgjGkkbeFSbt">Saturating Auto-Encoder</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=rgoroshin%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="rgoroshin@gmail.com">Ross Goroshin</a>, <a href="/profile?email=ylecun%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ylecun@gmail.com">Yann LeCun</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">8 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_4eEO5rd6xSevQ" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=4eEO5rd6xSevQ">Jitter-Adaptive Dictionary Learning - Application to Multi-Trial Neuroelectric Signals</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3611" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by sebastian.hitziger@gmx.de</span> • <a href="/forum?id=4eEO5rd6xSevQ">Jitter-Adaptive Dictionary Learning - Application to Multi-Trial Neuroelectric Signals</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=sebastian.hitziger%40gmx.de" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="sebastian.hitziger@gmx.de">Sebastian Hitziger</a>, <a href="/profile?email=maureen.clerc%40inria.fr" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="maureen.clerc@inria.fr">Maureen Clerc</a>, <a href="/profile?email=alexandre.gramfort%40telecom-paristech.fr" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="alexandre.gramfort@telecom-paristech.fr">Alexandre Gramfort</a>, <a href="/profile?email=ssaillet53%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ssaillet53@gmail.com">Sandrine Saillet</a>, <a href="/profile?email=christian.benar%40univmed.fr" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="christian.benar@univmed.fr">Christian Bénar</a>, <a href="/profile?email=theodore.papadopoulo%40inria.fr" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="theodore.papadopoulo@inria.fr">Théodore Papadopoulo</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_tFbuFKWX3MFC8" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=tFbuFKWX3MFC8">Training Neural Networks with Stochastic Hessian-Free Optimization</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3641" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by rkiros@ualberta.ca</span> • <a href="/forum?id=tFbuFKWX3MFC8">Training Neural Networks with Stochastic Hessian-Free Optimization</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=rkiros%40ualberta.ca" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="rkiros@ualberta.ca">Ryan Kiros</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_OpvgONa-3WODz" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=OpvgONa-3WODz">Metric-Free Natural Gradient for Joint-Training of Boltzmann Machines</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3545" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by guillaume.desjardins@gmail.com</span> • <a href="/forum?id=OpvgONa-3WODz">Metric-Free Natural Gradient for Joint-Training of Boltzmann Machines</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=guillaume.desjardins%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="guillaume.desjardins@gmail.com">Guillaume Desjardins</a>, <a href="/profile?email=r.pascanu%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="r.pascanu@gmail.com">Razvan Pascanu</a>, <a href="/profile?email=aaron.courville%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="aaron.courville@gmail.com">Aaron Courville</a>, <a href="/profile?email=yoshua.bengio%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yoshua.bengio@gmail.com">Yoshua Bengio</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_7IOAIAx1AiEYC" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=7IOAIAx1AiEYC">Adaptive learning rates and parallelization for stochastic, sparse, non-smooth gradients</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3764" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by schaul@cims.nyu.edu</span> • <a href="/forum?id=7IOAIAx1AiEYC">Adaptive learning rates and parallelization for stochastic, sparse, non-smooth gradients</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=schaul%40cims.nyu.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="schaul@cims.nyu.edu">Tom Schaul</a>, <a href="/profile?email=ylecun%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ylecun@gmail.com">Yann LeCun</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_G0OapcfeK3g_R" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=G0OapcfeK3g_R">Block Coordinate Descent for Sparse NMF</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3527" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by vpotluru@mrn.org</span> • <a href="/forum?id=G0OapcfeK3g_R">Block Coordinate Descent for Sparse NMF</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=vpotluru%40mrn.org" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="vpotluru@mrn.org">Vamsi Potluru</a>, <a href="/profile?email=splis%40mrn.org" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="splis@mrn.org">Sergey M. Plis</a>, <a href="/profile?email=leroux%40merl.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="leroux@merl.com">Jonathan Le Roux</a>, <a href="/profile?email=barak%40cs.nuim.ie" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="barak@cs.nuim.ie">Barak A. Pearlmutter</a>, <a href="/profile?email=vcalhoun%40mrn.org" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="vcalhoun@mrn.org">Vince D. Calhoun</a>, <a href="/profile?email=hayes%40cs.unm.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hayes@cs.unm.edu">Thomas P. Hayes</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_i87JIQTAnB8AQ" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=i87JIQTAnB8AQ">The Diagonalized Newton Algorithm for Nonnegative Matrix Factorization</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3389" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by hugo.vanhamme@esat.kuleuven.be</span> • <a href="/forum?id=i87JIQTAnB8AQ">The Diagonalized Newton Algorithm for Nonnegative Matrix Factorization</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=hugo.vanhamme%40esat.kuleuven.be" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hugo.vanhamme@esat.kuleuven.be">Hugo Van hamme</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">6 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_mLr3In-nbamNu" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=mLr3In-nbamNu">Local Component Analysis</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1109.0093" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by nicolas.le.roux@gmail.com</span> • <a href="/forum?id=mLr3In-nbamNu">Local Component Analysis</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=nicolas.le.roux%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="nicolas.le.roux@gmail.com">Nicolas Le Roux</a>, <a href="/profile?email=francis.bach%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="francis.bach@gmail.com">Francis Bach</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">11 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div style="height: 50px;"></div>
+								<div>
+									<h1>ICLR 2013 Workshop Track</h1>
+								</div>
+								<div class="panel">
+									<h2 style="text-decoration: underline; ">Accepted for Oral Presentation</h2>
+								</div>
+								<div id="note_DD2gbWiOgJDmY" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=DD2gbWiOgJDmY">Why Size Matters: Feature Coding as Nystrom Sampling</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.5348" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by oriol18@gmail.com</span> • <a href="/forum?id=DD2gbWiOgJDmY">Why Size Matters: Feature Coding as Nystrom Sampling</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=oriol18%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="oriol18@gmail.com">Oriol Vinyals</a>, <a href="/profile?email=jiayq84%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jiayq84@gmail.com">Yangqing Jia</a>, <a href="/profile?email=trevordarrell%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="trevordarrell@gmail.com">Trevor Darrell</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">24 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">3 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_9bFY3t2IJ19AC" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=9bFY3t2IJ19AC">Affinity Weighted Embedding</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.4171" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by jweston@google.com</span> • <a href="/forum?id=9bFY3t2IJ19AC">Affinity Weighted Embedding</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=jweston%40google.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jweston@google.com">Jason Weston</a>, <a href="/profile?email=ronw%40google.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ronw@google.com">Ron Weiss</a>, <a href="/profile?email=hector.yee%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hector.yee@gmail.com">Hector Yee</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">19 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">3 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_qEV_E7oCrKqWT" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=qEV_E7oCrKqWT">Zero-Shot Learning Through Cross-Modal Transfer</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3666" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by richard@socher.org</span> • <a href="/forum?id=qEV_E7oCrKqWT">Zero-Shot Learning Through Cross-Modal Transfer</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=richard%40socher.org" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="richard@socher.org">Richard Socher</a>, <a href="/profile?email=mganjoo%40stanford.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="mganjoo@stanford.edu">Milind Ganjoo</a>, <a href="/profile?email=hsridhar%40stanford.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hsridhar@stanford.edu">Hamsa Sridhar</a>, <a href="/profile?email=obastani%40stanford.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="obastani@stanford.edu">Osbert Bastani</a>, <a href="/profile?email=manning%40stanford.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="manning@stanford.edu">Christopher Manning</a>, <a href="/profile?email=ang%40stanford.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ang@stanford.edu">Andrew Y. Ng</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_TT0bFo9VZpFWg" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=TT0bFo9VZpFWg">Big Neural Networks Waste Capacity</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3583" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by dauphiya@iro.umontreal.ca</span> • <a href="/forum?id=TT0bFo9VZpFWg">Big Neural Networks Waste Capacity</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=dauphiya%40iro.umontreal.ca" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="dauphiya@iro.umontreal.ca">Yann Dauphin</a>, <a href="/profile?email=yoshua.bengio%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yoshua.bengio@gmail.com">Yoshua Bengio</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_0W7-W0EaA4Wak" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=0W7-W0EaA4Wak">Joint Training Deep Boltzmann Machines for Classification</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3568" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by goodfellow.ian@gmail.com</span> • <a href="/forum?id=0W7-W0EaA4Wak">Joint Training Deep Boltzmann Machines for Classification</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=goodfellow.ian%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="goodfellow.ian@gmail.com">Ian Goodfellow</a>, <a href="/profile?email=aaron.courville%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="aaron.courville@gmail.com">Aaron Courville</a>, <a href="/profile?email=yoshua.bengio%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yoshua.bengio@gmail.com">Yoshua Bengio</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">6 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_N_c1XDpyus_yP" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=N_c1XDpyus_yP">A Nested HDP for Hierarchical Topic Models</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3570" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by johnnydobber@gmail.com</span> • <a href="/forum?id=N_c1XDpyus_yP">A Nested HDP for Hierarchical Topic Models</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=johnnydobber%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="johnnydobber@gmail.com">John Paisley</a>, <a href="/profile?email=chongw%40cs.cmu.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="chongw@cs.cmu.edu">Chong Wang</a>, <a href="/profile?email=blei%40cs.princeton.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="blei@cs.princeton.edu">David Blei</a>, <a href="/profile?email=jordan%40cs.berkeley.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jordan@cs.berkeley.edu">Michael I. Jordan</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_bI58OFtQlLOQ7" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=bI58OFtQlLOQ7">Deep Learning for Detecting Robotic Grasps</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3592" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by inl3@cornell.edu</span> • <a href="/forum?id=bI58OFtQlLOQ7">Deep Learning for Detecting Robotic Grasps</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=inl3%40cornell.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="inl3@cornell.edu">Ian Lenz</a>, <a href="/profile?email=honglak%40eecs.umich.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="honglak@eecs.umich.edu">Honglak Lee</a>, <a href="/profile?email=asaxena%40cs.cornell.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="asaxena@cs.cornell.edu">Ashutosh Saxena</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">2 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div style="height: 50px;"></div>
+								<div class="panel">
+									<h2 style="text-decoration: underline; ">Accepted for Poster Presentation</h2>
+								</div>
+								<div id="note_5Qbn4E0Njz4Si" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=5Qbn4E0Njz4Si">Hierarchical Data Representation Model - Multi-layer NMF</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.6316" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by hi.hyunah@gmail.com</span> • <a href="/forum?id=5Qbn4E0Njz4Si">Hierarchical Data Representation Model - Multi-layer NMF</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=hi.hyunah%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hi.hyunah@gmail.com">Hyun-Ah Song</a>, <a href="/profile?email=longlivelee%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="longlivelee@gmail.com">Soo-Young Lee</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">29 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">5 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_7hPJygSqJehqH" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=7hPJygSqJehqH">Latent Relation Representations for Universal Schemas</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.4293" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by sebastian.riedel@gmail.com</span> • <a href="/forum?id=7hPJygSqJehqH">Latent Relation Representations for Universal Schemas</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=sebastian.riedel%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="sebastian.riedel@gmail.com">Sebastian Riedel</a>, <a href="/profile?email=isabel0913%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="isabel0913@gmail.com">Limin Yao</a>, <a href="/profile?email=mccallum%40cs.umass.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="mccallum@cs.umass.edu">Andrew McCallum</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">21 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">3 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_OznsOsb6sDFeV" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=OznsOsb6sDFeV">Unsupervised Feature Learning for low-level Local Image Descriptors</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.2840" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by osendorf@gmail.com</span> • <a href="/forum?id=OznsOsb6sDFeV">Unsupervised Feature Learning for low-level Local Image Descriptors</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=osendorf%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="osendorf@gmail.com">Christian Osendorfer</a>, <a href="/profile?email=bayer.justin%40googlemail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="bayer.justin@googlemail.com">Justin Bayer</a>, <a href="/profile?email=smagt%40tum.de" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="smagt@tum.de">Patrick van der Smagt</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">20 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">6 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_OVyHViMbHRm8c" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=OVyHViMbHRm8c">Visual Objects Classification with Sliding Spatial Pyramid Matching</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1212.3767" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by haowooilim@1utar.my</span> • <a href="/forum?id=OVyHViMbHRm8c">Visual Objects Classification with Sliding Spatial Pyramid Matching</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=haowooilim%401utar.my" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="haowooilim@1utar.my">Hao Wooi Lim</a>, <a href="/profile?email=yonghaurtay%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yonghaurtay@gmail.com">Yong Haur Tay</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">19 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">2 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_aQZtOGDyp-Ozh" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=aQZtOGDyp-Ozh">Learning Stable Group Invariant Representations with Convolutional Networks</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3537" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by joan.bruna@gmail.com</span> • <a href="/forum?id=aQZtOGDyp-Ozh">Learning Stable Group Invariant Representations with Convolutional Networks</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=joan.bruna%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="joan.bruna@gmail.com">Joan Bruna</a>, <a href="/profile?email=aszlam%40ccny.cuny.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="aszlam@ccny.cuny.edu">Arthur Szlam</a>, <a href="/profile?email=ylecun%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ylecun@gmail.com">Yann LeCun</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">18 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">3 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_zzKhQhsTYlzAZ" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=zzKhQhsTYlzAZ">Regularized Discriminant Embedding for Visual Descriptor Learning</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3644" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by vapnik.chervonenkis@gmail.com</span> • <a href="/forum?id=zzKhQhsTYlzAZ">Regularized Discriminant Embedding for Visual Descriptor Learning</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=vapnik.chervonenkis%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="vapnik.chervonenkis@gmail.com">Kye-Hyeon Kim</a>, <a href="/profile?email=ruicai%40microsoft.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ruicai@microsoft.com">Rui Cai</a>, <a href="/profile?email=leizhang%40microsoft.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="leizhang@microsoft.com">Lei Zhang</a>, <a href="/profile?email=seungjin.choi.mlg%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="seungjin.choi.mlg@gmail.com">Seungjin Choi</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">18 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">3 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_YBi6KFA7PfKo5" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=YBi6KFA7PfKo5">Two SVDs produce more focal deep learning representations</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3627" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by hinrichwork@googlemail.com</span> • <a href="/forum?id=YBi6KFA7PfKo5">Two SVDs produce more focal deep learning representations</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=hinrichwork%40googlemail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hinrichwork@googlemail.com">Hinrich Schuetze</a>, <a href="/profile?email=christian.scheible%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="christian.scheible@gmail.com">Christian Scheible</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_jbLdjjxPd-b2l" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=jbLdjjxPd-b2l">Natural Gradient Revisited</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3584v4" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by r.pascanu@gmail.com</span> • <a href="/forum?id=jbLdjjxPd-b2l">Natural Gradient Revisited</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=r.pascanu%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="r.pascanu@gmail.com">Razvan Pascanu</a>, <a href="/profile?email=yoshua.bengio%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yoshua.bengio@gmail.com">Yoshua Bengio</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">12 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_rOvg47Txgprkn" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=rOvg47Txgprkn">Learnable Pooling Regions for Image Classification</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3516" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by mmalinow@mpi-inf.mpg.de</span> • <a href="/forum?id=rOvg47Txgprkn">Learnable Pooling Regions for Image Classification</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=mmalinow%40mpi-inf.mpg.de" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="mmalinow@mpi-inf.mpg.de">Mateusz Malinowski</a>, <a href="/profile?email=mario.j.fritz%40googlemail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="mario.j.fritz@googlemail.com">Mario Fritz</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">11 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_msGKsXQXNiCBk" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=msGKsXQXNiCBk">Learning New Facts From Knowledge Bases With Neural Tensor Networks and Semantic Word Vectors</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3618" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by danqi@stanford.edu</span> • <a href="/forum?id=msGKsXQXNiCBk">Learning New Facts From Knowledge Bases With Neural Tensor Networks and Semantic Word Vectors</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=danqi%40stanford.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="danqi@stanford.edu">Danqi Chen</a>, <a href="/profile?email=richard%40socher.org" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="richard@socher.org">Richard Socher</a>, <a href="/profile?email=manning%40stanford.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="manning@stanford.edu">Christopher Manning</a>, <a href="/profile?email=ang%40stanford.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ang@stanford.edu">Andrew Y. Ng</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_ACBmCbico7jkg" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=ACBmCbico7jkg">Gradient Driven Learning for Pooling in Visual Pipeline Feature Extraction Models</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3755" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by derek.c.rose@gmail.com</span> • <a href="/forum?id=ACBmCbico7jkg">Gradient Driven Learning for Pooling in Visual Pipeline Feature Extraction Models</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=derek.c.rose%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="derek.c.rose@gmail.com">Derek Rose</a>, <a href="/profile?email=itamar%40ieee.org" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="itamar@ieee.org">Itamar Arel</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">3 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_yyC_7RZTkUD5-" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=yyC_7RZTkUD5-">Deep Predictive Coding Networks</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3541" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by vnit.rakesh@gmail.com</span> • <a href="/forum?id=yyC_7RZTkUD5-">Deep Predictive Coding Networks</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=vnit.rakesh%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="vnit.rakesh@gmail.com">Rakesh Chalasani</a>, <a href="/profile?email=principe%40cnel.ufl.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="principe@cnel.ufl.edu">Jose C. Principe</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">9 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_rtGYtZ-ZKSMzk" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=rtGYtZ-ZKSMzk">Tree structured sparse coding on cubes</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3590" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by aszlam@ccny.cuny.edu</span> • <a href="/forum?id=rtGYtZ-ZKSMzk">Tree structured sparse coding on cubes</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=aszlam%40ccny.cuny.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="aszlam@ccny.cuny.edu">Arthur Szlam</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">2 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_zzEf5eKLmAG0o" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=zzEf5eKLmAG0o">Learning Features with Structure-Adapting Multi-view Exponential Family Harmoniums</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3539" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by e0engoon@gmail.com</span> • <a href="/forum?id=zzEf5eKLmAG0o">Learning Features with Structure-Adapting Multi-view Exponential Family Harmoniums</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=e0engoon%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="e0engoon@gmail.com">YoonSeop Kang</a>, <a href="/profile?email=seungjin.choi.mlg%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="seungjin.choi.mlg@gmail.com">Seungjin Choi</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_idpCdOWtqXd60" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=idpCdOWtqXd60">Efficient Estimation of Word Representations in Vector Space</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3781" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by tmikolov@google.com</span> • <a href="/forum?id=idpCdOWtqXd60">Efficient Estimation of Word Representations in Vector Space</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=tmikolov%40google.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="tmikolov@google.com">Tomas Mikolov</a>, <a href="/profile?email=kaichen%40google.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="kaichen@google.com">Kai Chen</a>, <a href="/profile?email=gcorrado%40google.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="gcorrado@google.com">Greg Corrado</a>, <a href="/profile?email=jeff%40google.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jeff@google.com">Jeffrey Dean</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">17 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">11 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_11y_SldoumvZl" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=11y_SldoumvZl">Factorized Topic Models</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3461" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by metalgeek.cz@gmail.com</span> • <a href="/forum?id=11y_SldoumvZl">Factorized Topic Models</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=metalgeek.cz%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="metalgeek.cz@gmail.com">Cheng Zhang</a>, <a href="/profile?email=chek%40kth.se" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="chek@kth.se">Carl Henrik Ek</a>, <a href="/profile?email=hedvig%40kth.se" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="hedvig@kth.se">Hedvig Kjellstrom</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">8 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_OOuGtqpeK-cLI" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=OOuGtqpeK-cLI">Pushing Stochastic Gradient towards Second-Order Methods -- Backpropagation Learning with Transformations in Nonlinearities</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3476" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by tommivat@gmail.com</span> • <a href="/forum?id=OOuGtqpeK-cLI">Pushing Stochastic Gradient towards Second-Order Methods -- Backpropagation Learning with Transformations in Nonlinearities</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=tommivat%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="tommivat@gmail.com">Tommi Vatanen</a>, <a href="/profile?email=tapani.raiko%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="tapani.raiko@gmail.com">Tapani Raiko</a>, <a href="/profile?email=harri.valpola%40aalto.fi" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="harri.valpola@aalto.fi">Harri Valpola</a>, <a href="/profile?email=ylecun%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="ylecun@gmail.com">Yann LeCun</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_KHMdKiX2lbguE" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=KHMdKiX2lbguE">Boltzmann Machines and Denoising Autoencoders for Image Denoising</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3468" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by kyunghyun.cho@aalto.fi</span> • <a href="/forum?id=KHMdKiX2lbguE">Boltzmann Machines and Denoising Autoencoders for Image Denoising</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=kyunghyun.cho%40aalto.fi" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="kyunghyun.cho@aalto.fi">KyungHyun Cho</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">5 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_BmOABAaTQDmt2" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=BmOABAaTQDmt2">A Semantic Matching Energy Function for Learning with Multi-relational Data</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3485" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by xavier.glorot@gmail.com</span> • <a href="/forum?id=BmOABAaTQDmt2">A Semantic Matching Energy Function for Learning with Multi-relational Data</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=xavier.glorot%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="xavier.glorot@gmail.com">Xavier Glorot</a>, <a href="/profile?email=antoine.bordes%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="antoine.bordes@gmail.com">Antoine Bordes</a>, <a href="/profile?email=jweston%40google.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jweston@google.com">Jason Weston</a>, <a href="/profile?email=yoshua.bengio%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="yoshua.bengio@gmail.com">Yoshua Bengio</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">3 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_V_-8VUqv8h_H3" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=V_-8VUqv8h_H3">The Manifold of Human Emotions</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3214" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by sylund@gmail.com</span> • <a href="/forum?id=V_-8VUqv8h_H3">The Manifold of Human Emotions</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=sylund%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="sylund@gmail.com">Seungyeon Kim</a>, <a href="/profile?email=lifuxin2001%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="lifuxin2001@gmail.com">Fuxin Li</a>, <a href="/profile?email=lebanon%40cc.gatech.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="lebanon@cc.gatech.edu">Guy Lebanon</a>, <a href="/profile?email=irfan%40cc.gatech.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="irfan@cc.gatech.edu">Irfan Essa</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_PRuOK_LY_WPIq" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=PRuOK_LY_WPIq">Matrix Approximation under Local Low-Rank Assumption</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3192" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by joonseok2010@gmail.com</span> • <a href="/forum?id=PRuOK_LY_WPIq">Matrix Approximation under Local Low-Rank Assumption</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=joonseok2010%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="joonseok2010@gmail.com">Joonseok Lee</a>, <a href="/profile?email=sylund%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="sylund@gmail.com">Seungyeon Kim</a>, <a href="/profile?email=lebanon%40cc.gatech.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="lebanon@cc.gatech.edu">Guy Lebanon</a>, <a href="/profile?email=singer%40google.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="singer@google.com">Yoram Singer</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_fm5jfAwPbOfP6" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=fm5jfAwPbOfP6">Linear-Nonlinear-Poisson Neuron Networks Perform Bayesian Inference On Boltzmann Machines</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1210.8442" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by shaoyl85@gmail.com</span> • <a href="/forum?id=fm5jfAwPbOfP6">Linear-Nonlinear-Poisson Neuron Networks Perform Bayesian Inference On Boltzmann Machines</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=shaoyl85%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="shaoyl85@gmail.com">Yuanlong Shao</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">4 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_0OR_OycNMzOF9" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=0OR_OycNMzOF9">Auto-pooling: Learning to Improve Invariance of Image Features from Image Sequences</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.3323" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by tesatory@gmail.com</span> • <a href="/forum?id=0OR_OycNMzOF9">Auto-pooling: Learning to Improve Invariance of Image Features from Image Sequences</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=tesatory%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="tesatory@gmail.com">Sainbayar Sukhbaatar</a>, <a href="/profile?email=mak%40sat.t.u-tokyo.ac.jp" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="mak@sat.t.u-tokyo.ac.jp">Takaki Makino</a>, <a href="/profile?email=aihara%40sat.t.u-tokyo.ac.jp" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="aihara@sat.t.u-tokyo.ac.jp">Kazuyuki Aihara</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">16 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">7 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_gGivgRWZsLgY0" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=gGivgRWZsLgY0">Clustering Learning for Robotic Vision</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1301.2820" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by culurciello@gmail.com</span> • <a href="/forum?id=gGivgRWZsLgY0">Clustering Learning for Robotic Vision</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=culurciello%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="culurciello@gmail.com">Eugenio Culurciello</a>, <a href="/profile?email=jtbates%40purdue.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jtbates@purdue.edu">Jordan Bates</a>, <a href="/profile?email=adundar%40purdue.edu" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="adundar@purdue.edu">Aysegul Dundar</a>, <a href="/profile?email=jcarrasco%40imse.cnm.es" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jcarrasco@imse.cnm.es">Jose Carrasco</a>, <a href="/profile?email=clement.farabet%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="clement.farabet@gmail.com">Clement Farabet</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">15 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">5 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div id="note_UUwuUaQ5qRyWn" class="note panel">
+									<div class="title_pdf_row clearfix">
+										<h2 class="note_content_title"><a href="/forum?id=UUwuUaQ5qRyWn">When Does a Mixture of Products Contain a Product of Mixtures?</a> <a class="note_content_pdf" href="https://arxiv.org/abs/1206.0387" title="Download PDF" target="_blank"><img src="/static/images/pdf_icon_blue.svg"></a> </h2>
+									</div>
+									<div class="title_collapsed">
+										<h2 class="note_content_title"><span>submission by guidomontufar@googlemail.com</span> • <a href="/forum?id=UUwuUaQ5qRyWn">When Does a Mixture of Products Contain a Product of Mixtures?</a></h2>
+									</div>
+									<div class="meta_row"><span class="signatures"><a href="/profile?email=guidomontufar%40googlemail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="guidomontufar@googlemail.com">Guido F. Montufar</a>, <a href="/profile?email=jason.morton%40gmail.com" class="profile-link" data-toggle="tooltip" data-placement="bottom" title="jason.morton@gmail.com">Jason Morton</a></span></div>
+									<div class="clearfix">
+										<div class="meta_row pull-left"><span class="date item">10 Jan 2013</span><span class="item">ICLR 2013 conference submission</span><span class="item">Readers: <span class="readers-icon glyphicon glyphicon-globe"></span> Everyone</span><span class="item">5 Replies</span></div>
+										<div class="meta_row meta_actions"></div>
+									</div>
+									<div class="reply_row clearfix"></div>
+								</div>
+								<div style="height: 50px;"></div>
+								<div class="panel">
+									<h2 style="text-decoration: underline; ">Not selected for presentation at this time</h2>
+								</div>
+							</div>
+						</div>
+					</main>
+				</div>
+			</div>
+		</div> <!-- Footer -->
+		<footer class="sitemap">
+			<div class="container">
+				<div class="row hidden-xs">
+					<div class="col-sm-4">
+						<ul class="list-unstyled">
+							<li><a href="/about">About OpenReview</a></li>
+							<li><a href="/group?id=OpenReview.net/Support">Hosting a Venue</a></li>
+							<li><a href="/venues">All Venues</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul class="list-unstyled">
+							<li><a href="/contact">Contact</a></li>
+							<li><a href="#" data-toggle="modal" data-target="#feedback-modal">Feedback</a></li>
+							<li><a href="https://codeforscience.org/jobs?job=OpenReview-Developer" target="_blank"><strong>Join the Team</strong></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul class="list-unstyled">
+							<li><a href="/terms">Terms of Service</a></li>
+							<li><a href="/privacy">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row visible-xs-block">
+					<div class="col-xs-6">
+						<ul class="list-unstyled">
+							<li><a href="/about">About OpenReview</a></li>
+							<li><a href="/group?id=OpenReview.net/Support">Hosting a Venue</a></li>
+							<li><a href="/venues">All Venues</a></li>
+							<li><a href="https://codeforscience.org/jobs?job=OpenReview-Developer" target="_blank"><strong>Join the Team</strong></a></li>
+						</ul>
+					</div>
+					<div class="col-xs-6">
+						<ul class="list-unstyled">
+							<li><a href="/contact">Contact</a></li>
+							<li><a href="#" data-toggle="modal" data-target="#feedback-modal">Feedback</a></li>
+							<li><a href="/terms">Terms of Service</a></li>
+							<li><a href="/privacy">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<footer class="sponsor">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<p class="text-center"> OpenReview is created by the <a href="http://www.iesl.cs.umass.edu/" target="_blank">Information Extraction and Synthesis Laboratory</a>, College of Information and Computer Science, University of Massachusetts Amherst. We gratefully acknowledge the support of the OpenReview sponsors: Google, Facebook, NSF, the University of Massachusetts Amherst Center for Data Science, and Center for Intelligent Information Retrieval, as well as the Google Cloud Platform for donating the computing and networking services on which OpenReview.net runs. </p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div id="feedback-modal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> <h3 class="modal-title">Send Feedback</h3>
+					</div>
+					<div class="modal-body">
+						<p>Enter your feedback below and we'll get back to you as soon as possible.</p>
+						<form action="/feedback" method="POST">
+							<div class="form-group"> <input type="email" name="from" class="form-control" placeholder="Email"> </div>
+							<div class="form-group"> <input type="text" name="subject" class="form-control" placeholder="Subject"> </div>
+							<div class="form-group"> <textarea name="message" class="form-control feedback-input" rows="5" placeholder="Message" required=""></textarea> </div>
+							<ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content" style="display: none;"></ul>
+						</form>
+					</div>
+					<div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button> <button type="button" class="btn btn-primary">Send</button> </div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="/static/js/vendor/jquery-2.2.4.min.js"><\/script>')
+		</script>
+		<script src="/static/dist/vendor.min.js?v=3.0.1"></script>
+		<script src="/static/dist/templates.min.js?v=3.0.1"></script>
+		<script src="/static/dist/openreview.min.js?v=3.0.1"></script>
+		<script>
+			window.legacyScripts = false;
+		</script>
+		<script>
+			window.user = {"id":"guest_1571858927928","isGuest":true};
+			        $(function() {
+			          var args = {"id":"ICLR.cc/2013"};
+			          var group = {"id":"ICLR.cc/2013","cdate":1496673672891,"ddate":null,"tmdate":1549049775688,"tddate":null,"signatures":["OpenReview.net"],"signatories":["ICLR.cc/2013"],"readers":["everyone"],"nonreaders":[],"writers":["ICLR.cc/2013"],"members":[],"details":{"writable":false}};
+			          var document = null;
+			          var window = null;
+			
+			          $('#group-container').empty();
+			
+			          function httpGet(url, queryOrBody, success, failure) {
+			  controller.get(url, queryOrBody, success, failure);
+			}
+			
+			function $attach(loc, viewFnName, viewFnArgs, append) {
+			  var $container = $(loc);
+			  var $el = view[viewFnName].apply(view, viewFnArgs);
+			  if (append) {
+			    $container.append($el);
+			  } else {
+			    $container.prepend($el);
+			  }
+			}
+			
+			var $containter = $('#group-container');
+			$containter.append([
+			  $('<div id = "header">'),
+			  $('<div id = "invitation">'),
+			  $('<div id = "notes">')
+			]);
+			
+			
+			$attach('#header', 'mkHostHeader', [
+			"ICLR 2013",
+			"International Conference on Learning Representations",
+			"May 02 - 04, 2013, Scottsdale, Arizona, USA",
+			"https://sites.google.com/site/representationlearning2013/"
+			], true);
+			
+			var sm = mkStateManager();
+			
+			var httpGetP = function (url, queryOrBody) {
+			    var df = $.Deferred();
+			    httpGet(url, queryOrBody,
+			        function (result) {
+			            df.resolve(result);
+			        },
+			        function (result) {
+			            df.reject(result);
+			        });
+			    return df.promise();
+			};
+			
+			var notesP = httpGetP('notes', {invitation: 'ICLR.cc/2013/conference/-/submission'}).then(function(result) {
+			        return result.notes;
+			    },
+			    function (error) {
+			        return error
+			    });
+			
+			$.when(notesP).done(function (notes) {
+			
+			    if (notes) {
+			        var $panel = $('#notes');
+			        $panel.empty();
+			
+			        var notesDict = {};
+			
+			        var workshopOralDecisions = [];
+			        var workshopPosterDecisions = [];
+			
+			        var conferenceOralDecisions = [];
+			        var conferencePosterDecisions = [];
+			        var rejectDecisions = [];
+			
+			        _.forEach(notes, function (n) {
+			            notesDict[n.id] = n;
+			
+			            if (n.content.decision == 'conferenceOral-iclr2013-conference') {
+			                conferenceOralDecisions.push(n);
+			            } else if (n.content.decision == 'conferencePoster-iclr2013-conference') {
+			                conferencePosterDecisions.push(n);
+			            } else if (n.content.decision == 'conferenceOral-iclr2013-workshop') {
+			                workshopOralDecisions.push(n);
+			            } else if (n.content.decision == 'conferencePoster-iclr2013-workshop') {
+			                workshopPosterDecisions.push(n);
+			            } else if (n.content.decision == 'reject') {
+			                rejectDecisions.push(n);
+			            }
+			        });
+			
+			        $panel.append($('<div>').append($('<h1>').text('ICLR 2013 Conference Track')));
+			        displayNotes(notesDict, conferenceOralDecisions, $panel, 'Accepted for Oral Presentation', '');
+			        $panel.append($('<div>', {style: 'height: 50px;'}));
+			        displayNotes(notesDict, conferencePosterDecisions, $panel, 'Accepted for Poster Presentation', '');
+			        $panel.append($('<div>', {style: 'height: 50px;'}));
+			
+			        $panel.append($('<div>').append($('<h1>').text('ICLR 2013 Workshop Track')));
+			        displayNotes(notesDict, workshopOralDecisions, $panel, 'Accepted for Oral Presentation', '');
+			        $panel.append($('<div>', {style: 'height: 50px;'}));
+			        displayNotes(notesDict, workshopPosterDecisions, $panel, 'Accepted for Poster Presentation', '');
+			        $panel.append($('<div>', {style: 'height: 50px;'}));
+			        displayNotes(notesDict, rejectDecisions, $panel, 'Not selected for presentation at this time', '');
+			
+			    }
+			
+			});
+			
+			function displayNotes(notes, decisions, $panel, text, summary) {
+			    $panel.append($('<div>', {class: 'panel'}).append($('<h2>', {style: 'text-decoration: underline; '}).text(text)));
+			
+			    _.forEach(decisions, function (decision) {
+			
+			        var forum = notes[decision.forum];
+			        if (forum) {
+			            $attach('#notes', 'mkNotePanel', [forum, {
+			                titleLink: 'HREF',
+			                withReplyCount: true,
+			                withSummary: summary
+			            }], true);
+			        } else {
+			            console.log('Forum not found', decision.forum);
+			        }
+			
+			    });
+			
+			}
+			
+			
+			          
+			        });
+		</script>
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-108703919-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			      function gtag() { dataLayer.push(arguments); }
+			      gtag('js', new Date());
+			      gtag('config', 'UA-108703919-1');
+		</script>
+		<div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
+	</body>
+
+</html>

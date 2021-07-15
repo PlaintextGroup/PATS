@@ -1,0 +1,5 @@
+unidecode==1.1.1
+black==21.5b2
+pandas==1.1.5
+matplotlib==3.3.4
+tqdm==4.61.0

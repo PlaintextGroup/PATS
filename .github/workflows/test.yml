@@ -1,0 +1,25 @@
+name: Test
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Lint with black
+      run: black --diff .
+    - name: Check for vulnerable packages
+      run: pip install safety && safety check
+    - name: Run PATS
+      run: python analyzer.py
+      working-directory: PATS
