@@ -1,3 +1,5 @@
+Note: Plaintext AI Text Searcher (PATS) is now archived, but the source code is still available to view in this repository. Plaintext Group was a nonpartisan, technology innovation policy initiative developed by Schmidt Futures. For more information, see https://www.schmidtfutures.com/our-work/plaintext/.
+
 ![Primary_1](https://user-images.githubusercontent.com/12788782/120546871-37e97900-c3a5-11eb-8ab5-61a33fd391b6.png)
 
 # Plaintext AI Text Searcher (PATS): The AI Conference Paper Index
